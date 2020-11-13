@@ -61,3 +61,14 @@ Las **unidades de medida** más comunes son:
 ```
 - De este modo, tendremos separado el código y el contenido.
 - Esta manera de desarrollar facilita, entre otras cosas, la traducción a otras lenguas de nuestra aplicación.
+
+#### Grupo de vistas (*ViewGroup*)
+
+- Es un objeto invisible empleado para contener otros objetos *View* y *ViewGroup* y permite organizar y controla el layout de una pantalla.
+- Los objetos *ViewGroup* se emplean además para establecer una jerarquía de objetos *View* de manera que podamos crear layouts más complejos.
+---
+
+1
+
+---
+
