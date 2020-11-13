@@ -38,14 +38,15 @@ Las **unidades de medida** más comunes son:
 - Se utilizan para dibujar el contenida en la pantalla del dispositivo Android.
 - Aunque es posible instanciar una View tanto en Kotlin como en Java, es más aconsejable y sencillo de utilizarla a través de un archivo de diseño XML.
 - El archivo de *layout* sería **activity_main.xml** y el código que contiene podría tener la siguiente forma:
----
+
+```xml
 <TextView
     android:id="@+id/hello_world"
     android:layout_width="wrap:content"
     android:layout_height="wrap:content"
     android:text="Hello World!" />
 
----
+```
 
 - La vista que estamos usando es de tipo texto (TextView).
 - Los atributos layout_width y layout_height indican el espacio que queremos usar de la pantalla.
