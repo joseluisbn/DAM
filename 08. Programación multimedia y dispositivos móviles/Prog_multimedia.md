@@ -53,8 +53,11 @@ Las **unidades de medida** más comunes son:
 - El atributo text contiene el texto a representar.
 - El atributo id sirve para referenciar al objeto TextView.
 - Las cadenas de texto que vamos a usar en una aplicación se pueden definir en el fichero *res/values/strings.xml*.
----
-
----
+```xml
+<resources>
+    <string name="Hello_world">Hello, World!</string>
+    <string name="app_name">Hello, World!</string>
+</resources>
+```
 - De este modo, tendremos separado el código y el contenido.
 - Esta manera de desarrollar facilita, entre otras cosas, la traducción a otras lenguas de nuestra aplicación.
