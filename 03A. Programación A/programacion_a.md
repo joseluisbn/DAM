@@ -1,4 +1,66 @@
 ## Programación A
+### UF1: Programación estructurada
+#### 1. Introducción a la programación
+
+El lenguaje de programación es una herramienta para transformar un algoritmo en un programa. Entendiendo algoritmo como una secuencia finita de operaciones que resuelven un problema expuesto. Un programa debe de cumplir una serie de características:
+
+- Deber ser finito: formado por un conjunto limitado de líneas.
+- Debe ser legible: Es importante crear códigos “limpios” y fáciles de leer con tabulaciones y espacios que diferencien las partes del programa.
+- Debe ser modificable: Debe ser sencillo el proceso de actualización o modificación de este ante nuevas necesidades
+- Debe ser eficiente: Debemos crear programas que ocupen poco espacio en memoria y se ejecuten rápidamente
+- Debe ser modulable: Debemos realizar algoritmos que se dividan a su vez en subalgoritmos de forma que se disponga de un grupo principal desde el que llamaremos al resto. Así, incitamos a la reutilización de código.
+- Debe ser estructurado: Engloba a las características anteriores ya que, un programa estructurado será fácil de leer, modificar y estará compuesto de subprogramas que permitirán la reutilización de código.
+
+Para tener una representación gráfica de un algoritmo, utilizamos los diagramas de flujo.
+Un diagrama de flujo es una representación gráfica de un proceso. Cada paso del proceso se representa por un símbolo diferente que contiene una breve descripción de la etapa de proceso.
+
+Debemos usar una serie de símbolos estándar:
+
+---
+
+Características de los diagramas de flujo:
+
+- Los diagramas de flujo deben escribirse de arriba abajo o de izquierda a derecha
+- Debemos evitar el cruce de líneas, para eso se define la forma de conector. El uso de conectores debe producirse cuando no exista otra opción
+- Todas las líneas de flujo deben estar conectadas a algún objeto
+- A la hora de escribir texto en las formas, este debe ser escueto y legible
+- Todos los símbolos de decisión deben tener más de una línea de salida, es decir, deben indicar qué camino seguir en función de la decisión tomada.
+
+El proceso de programación comunica un usuario y una máquina. Para que se pueda realizar esta comunicación debemos de tener:
+
+- Los dos agentes principales, receptor y emisor (usuario y máquina).
+- Canal: para asemejar el ejemplo con el que estamos explicando el proceso de programación, podemos decir que nuestro canal es el teclado.
+- Lenguaje: aquí es donde viene la dificultad, ya que los agentes hablan un lenguaje completamente diferente. Para que la comunicación sea fluida debemos de acercar los lenguajes y, tanto la máquina como el usuario, hacer forzar el entendimiento. 
+
+Para solventar el problema de la comunicación, aparecen lenguajes de programación de dos tipos: alto nivel y bajo nivel. Los lenguajes de alto nivel están más cerca del lenguaje que habla el usuario, mientras que los lenguajes de bajo nivel están más cerca de las estructuras del lenguaje de la máquina.
+
+---
+
+Para facilitar nuestro trabajo, implementaremos nuestro código con lenguajes de alto nivel. Necesitando un proceso de traducción para convertir el programa escrito en lenguaje máquina.
+
+Características del lenguaje de alto nivel:
+
+- Es totalmente independiente a la máquina y, por tanto, muy portable.
+- Muy utilizado en el mercado laboral informático.
+- Amplio juego de instrucciones.
+- Tanto las modificaciones como las actualizaciones son muy fáciles de realizar.
+- Para la tarea de traducción de código necesitamos un compilador y un enlazador con librerías del propio lenguaje de programación elegido.
+
+---
+
+A lo largo de esta unidad formativa hablaremos de la estructura de un programa informático y de sus elementos principales como son las variables, las constantes y los distintos operadores que podemos usar a la hora de implementar un código fuente.
+
+Continuaremos hablando del control que podemos tener sobre un código a la hora de su proceso de compilación. Este control de ejecución es fundamental cuando
+construimos cualquier programa en un lenguaje de alto nivel. En una programación estructurada, las instrucciones deben ejecutarse una detrás de otra, dependiendo de una serie de condiciones que pueden cumplir o no. Estas instrucciones pueden repetirse diferentes veces hasta que lleguen a cumplir alguna condición especificada.
+
+En este capítulo nos vamos a centrar en el lenguaje de programación C# porque:
+
+- Es un lenguaje sencillo y cómodo de utilizar.
+- Es recomendable a la hora de crear instrucciones para cualquier ámbito.
+- Es un lenguaje orientado a objetos.
+- Utiliza el recolector de basura.
+- Permite la unificación de tipos.
+
 ### UF3: Fundamentos de gestión de ficheros
 #### 1.0. Gestión de ficheros
 
