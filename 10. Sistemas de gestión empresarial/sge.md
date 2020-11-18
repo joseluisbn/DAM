@@ -181,3 +181,85 @@ Sus desventajas son:
 - Dificultades de integración de algunos productos.
 - Ante un posible fallo en el sistema, volver atrás es un proceso bastante costoso.
 - Desconfianza de los empleados ante un cambio de metodología.
+
+#### Concepto de CRM (sistemas de gestión de relaciones con clientes)
+
+Los CRM (Customer Relationship Management) se refieren a la respuesta que un sistema de información puede ofrecer a todos los requisitos requeridos por una determinada empresa en relación a sus clientes.
+
+Es preciso señalar que los CRM no son solo un sistema de gestión empresarial, sino que también se refieren a la visión que puede tener un cliente dentro de una empresa. El cliente es la parte central, mientras que todos los procesos van a ir destinados a que este consiga mejorar su relación con la empresa.
+
+Los sistemas CRM incorporan los mecanismos necesarios para establecer relaciones que sean duraderas, y, a su vez, satisfactorias con los distintos clientes.
+
+En este proceso intervienen distintos departamentos de la empresa como pueden ser, el de ventas, marketing y atención al cliente, ya que son los que están en constante contacto con el comprador.
+
+Los sistemas CRM se caracterizan, sobre todo, por tener dos partes bien diferenciadas; una que se va a encargar de la lógica operacional y, otra, que va a tener como función analizar la información disponible (lógica analítica).
+
+Mediante la lógica operacional es posible llegar a los procesos de:
+
+- Automatización de ventas, productos y clientes para tener la información organizada.
+- Automatización de marketing para gestionar las diferentes campañas.
+- Gestión de soporte en la empresa.
+- Gestión de servicio de atención al cliente.
+- Organización del Call Center.
+- Métricas que determinen el funcionamiento del negocio.
+
+Mediante la lógica analítica es posible:
+
+- Analizar la información existente para llevar a cabo las diferentes campañas de marketing.
+- Indicadores que muestran el estado de la empresa.
+- Modificación de estrategias según los cambios realizados.
+
+#### 1.4. Revisión de los CRM actuales
+
+Es posible dividir los CRM actuales en dos categorías:
+
+- Los que están integrados en un sistema ERP: se refieren a aquellos CRM que pertenecen a los mismos propietarios que los ERP, como pueden ser, entre otros, el CRM de SAP, Oracle y Microsoft.
+- Los que son exclusivos: se refieren a los que están formados por todo tipo de proyectos, como pueden ser, OpenSource o sugarCRM. Estos se utilizan cada vez menos, por lo que pueden llegar a desaparecer tarde o temprano.
+
+#### 1.5. Concepto de data warehouse (almacenes de datos)
+
+Data warehouse es un almacén de datos que recopila toda la información correspondiente a una organización o a una empresa determinada. Esta información será de gran utilidad a la hora de tomar decisiones.
+
+Es posible definirlo también como un expediente de una empresa que contiene información transaccional y operacional. Esta información se almacena en una base de datos diseñada específicamente para proporcionar análisis.
+
+Es probable que estos almacenes de datos contengan gran cantidad de información que, en muchos casos, se divide en pequeñas unidades lógicas, denominadas centros comerciales.
+
+Las funciones principales de los Data Warehouse son:
+- Integra los datos de las correspondientes bases de datos distribuidas, facilitando una descripción global, junto con un análisis comprensivo en el almacén de datos.
+- Separa aquellos datos que se utilizan en las operaciones cotidianas en el almacén de datos, con el propósito de publicación y ayuda a la hora de tomar decisiones.
+
+#### 1.6. Revisión de los data warehouse actuales y posiblemente incorporados a los sistemas ERP-CRM
+
+Es posible diferenciar una serie de fases a la hora de realizar la implantación de un data warehouse.
+
+Las distintas fases que forman este proceso tienen como objetivo principal ser la herramienta más utilizada para sacar el máximo rendimiento de la aplicación.
+
+Siguiendo los diferentes pasos de esta metodología, al iniciar el Data Warehouse por una determinada área, es preciso conseguir los resultados más favorables en el menor tiempo posible.
+
+---
+
+A continuación, se detalla la función principal que se desarrolla en cada fase:
+
+- Definición de los objetivos: se detallan los objetivos necesarios para el desarrollo de un proyecto determinado.
+- Definición de requerimientos de información: en la mayoría de proyectos se debe contar con las técnicas más novedosas como son, en este caso, las que referencia data warehouse, encargándose de analizar las distintas necesidades para saber administrar las principales ventajas que este sistema puede aportar.
+- Diseño y modelización: la fase anterior se va a encargar de proporcionar las principales bases para llevar a cabo el diseño y modelización del data warehouse.
+Esta, por su parte, tiene como objetivo principal identificar las distintas fuentes de datos junto con las correspondientes transformaciones para, a partir de aquí, obtener el modelo lógico de datos del data warehouse.
+Este modelo lo forman las diferentes entidades y relaciones que permiten resolver las necesidades específicas referentes al negocio de la organización.
+Después, es posible traducir el modelo lógico de datos al físico para almacenarlo en el data warehouse y poder definir la estructura de almacenamiento.
+- Implementación: a la hora de implantar el data warehouse, es necesario seguir
+una serie de pasos:
+  - Extraer datos del sistema y transformarlos.
+  - Cargar datos ya validados.
+  - Explotación del data warehouse mediante distintas técnicas, como pueden ser, entre otras:
+    - Query & Reporting.
+    - On-line analytical processing (OLAP).
+    - Executive Information System (EIS) o Información de gestión.
+    - Decision Support Systems (DSS).
+    - Visualización de la información.
+    - Data Mining o Minería de Datos.
+Toda la información que se necesita para llevar el control sobre los datos, es
+posible almacenarla en lo que se denominan los metadatos técnicos. Estos
+metadatos deben ser accesibles también por los usuarios finales y administradores
+para poder utilizarlos o modificarlos.
+- Revisión: una vez que se tiene instalado el data warehouse, no ha finalizado la tarea, ya que es posible realizar una revisión del mismo, planteándole una serie de preguntas para ir actualizando y potenciando su función y utilización.
+- Diseño de la estructura de cursos de formación: una vez mantenidas las reuniones necesarias con los distintos usuarios, se puede comenzar a practicar con lo que se ha desarrollado, para ir afianzando los distintos conceptos que permitirán formar a los usuarios.
