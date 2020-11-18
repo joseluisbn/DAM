@@ -136,3 +136,48 @@ A partir de su versión 6, OpenERP ofrece la posibilidad de su distribución a t
 Como se ha comprobado anteriormente, hoy en día, el software de gestión empresarial lo domina el mercado propietario, destacando tres compañías principales, siendo la más conocida SAP. Actualmente, estas compañías siguen desarrollando más productos, cada vez más orientados hacia su entorno en la nube. Igualmente, han ido apareciendo más soluciones libres que comienzan a utilizarse cada vez más.
 
 Es importante señalar, asimismo, una serie de problemas que presenta el mercado de propietarios a los distintos educadores, como puede ser la adquisición de software. En la mayoría de los casos, el software se puede configurar por los consultores empresariales, ya que estos realizan todo el trabajo, dejando poco espacio a los agentes externos. Generalmente, las empresas son las encargadas de instalar, configurar y enseñar el funcionamiento de un paquete, además de proporcionar los distintos mecanismos de aprendizaje del sistema que están controlados por ellos.
+
+**Elección de un software ERP**
+
+A la hora de elegir un ERP, es preciso tener en cuenta una serie de factores, prestando especial atención a:
+
+- Ofrecer soporte a todas las áreas que necesite la empresa.
+- Que sea fácil y rápido en su uso.
+- Que utilice los estándares ya establecidos.
+- Debe contar con un período de migración y adaptación sencillo y rápido.
+- Que proporcione informes y análisis, además de implementar seguridad.
+
+En lo referente a nivel técnico, es necesario observar diferentes elementos, como pueden ser:
+
+- La posibilidad de utilizar hardware y software que posea la empresa.
+- El sistema operativo necesario para poder ejecutarse.
+- Las bases de datos obligatorias que son necesarias a la hora de la implantación de la plataforma.
+- La experiencia y nivel de implantación de la plataforma.
+
+Por último, se debe atender a una serie de cuestiones importantes como pueden ser, el método y tiempo que se necesitan en la formación, el tipo de garantía correspondiente al producto, el ciclo de vida, la existencia de nuevos servicios de soporte y las diferentes posibilidades que existan para el mantenimiento.
+
+Aunque no es tarea fácil seleccionar una plataforma ERP, es conveniente ofrecer una respuesta al planteamiento del software ERP-CRM que se va a llevar a cabo en el desarrollo de esta unidad formativa, de tal manera que se seleccionará un software libre, por todas las ventajas que ya se han detallado.
+
+---
+
+**Ventajes y desventajas de los sistemas ERP**
+
+Las principales ventajas son:
+
+- Posibilidad de que el sistema se adapte a las necesidades del usuario.
+- Consistencia de datos y acceso a la hora de tomar decisiones.
+- Actualización de la información empresarial a tiempo real.
+- Eliminación de datos redundantes.
+- Eficiencia empresarial.
+- Control de la actividad empresarial.
+- Integración de todos los elementos (internos y externos) que tengan relación con la empresa.
+- Disminución del tiempo de vida.
+
+Sus desventajas son:
+
+- Costoso, tanto en tiempo como en dinero.
+- Es necesario tener nuevos aprendizajes.
+- Ante el cambio de una estructura empresarial, es necesario modificar su ERP.
+- Dificultades de integración de algunos productos.
+- Ante un posible fallo en el sistema, volver atrás es un proceso bastante costoso.
+- Desconfianza de los empleados ante un cambio de metodología.
