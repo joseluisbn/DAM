@@ -263,3 +263,31 @@ metadatos deben ser accesibles también por los usuarios finales y administrador
 para poder utilizarlos o modificarlos.
 - Revisión: una vez que se tiene instalado el data warehouse, no ha finalizado la tarea, ya que es posible realizar una revisión del mismo, planteándole una serie de preguntas para ir actualizando y potenciando su función y utilización.
 - Diseño de la estructura de cursos de formación: una vez mantenidas las reuniones necesarias con los distintos usuarios, se puede comenzar a practicar con lo que se ha desarrollado, para ir afianzando los distintos conceptos que permitirán formar a los usuarios.
+
+#### 1.7. Sistemas gestores de bases de datos compatibles con el software
+
+Hasta ahora se han visto distintas herramientas que permiten cumplir las necesidades empresariales de analizar la información recopilada y obtener conocimiento de los datos (ERP o CRM). El principal inconveniente de estos sistemas es el tiempo de respuesta de las transacciones ejecutadas, ya que la información está repartida en diferentes módulos. Esto dificulta el proceso del análisis de la información, así como los reportes.
+
+Como solución a esta problemática, surgieron los Datawarehouse o Almacenes de Datos. Se basan en una base de datos central en la que todas las aplicaciones hacen llamadas a ella. Está implementada para soportar todo tipo de herramientas de análisis.
+
+La principal ventaja de estas herramientas es la organización a la hora de almacenar la información, ya que la llevan a cabo de una forma homogénea y fiable. Realizan un análisis multidimensional para ver, desde distintos puntos de vista, todas las dimensiones del negocio.
+
+A la hora de construir una Data WareHouse es preciso contar con las herramientas que respondan a las necesidades planteadas y detectadas en el sistema.
+
+Por un lado, a este tipo de sistema acceden un pequeño número de usuarios, pero con una gran necesidad de información. Las consultas ejecutadas en dicho almacén de datos son complejas y cuentan con una gran cantidad de información, por esta razón las máquinas donde se aloje el sistema deben contar con unas altas prestaciones en todos sus componentes.
+
+Otra de las características que deben presentar estas máquinas es la escalabilidad para dar soporte a los nuevos elementos que es preciso instalar. Como consecuencia, habrá que apostar por una arquitectura abierta para la estructura del equipo.
+
+Respecto al software que se debe utilizar, el Sistema de Gestión de Base de Datos (SGBD) es otro de los elementos más importantes del sistema. Independientemente de la información almacenada, se deberá hacer uso de un SGBD que utilice una técnica de Base de Datos relacional o multidimensional, de tal forma que permita a las tablas estar relacionadas entre sí, y, por tanto, poder sacar mayor provecho a la información contenida en ellas.
+
+No obstante, la mejor opción son las Bases de Datos Multidimensionales, por la misma razón por la que se eligen las características físicas de las máquinas: escalabilidad, prestaciones y consolidación.
+
+Este tipo de bases de datos post-relacionales abre un mayor abanico de posibilidades y dan soluciones a las limitaciones que presentan las bases de datos relacionales, ya que con menos recursos hardware, son capaces de ejecutar consultas mucho más complejas y permiten trabajar con mayor cantidad de información.
+
+A continuación, se detalla la extracción y manipulación de los datos. Para realizar este tratamiento de la información es imprescindible contar con las herramientas que permitan controlar y automatizar las necesidades de los Data Warehouse.
+
+Estas herramientas deben proporcionar las siguientes funciones:
+- Control en el tiempo de respuesta.
+- Acceso a diferentes tecnologías, tanto a nivel de hardware como de software.
+- Gestión integrada de la extracción, transformación y carga del Data Warehouse.
+- Manejo de excepciones y archivos logs.
