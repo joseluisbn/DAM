@@ -48,3 +48,27 @@ Entre sus principales características, se destacan las siguientes:
 - Integración: los sistemas ERP contienen la mayoría de las áreas de las empresas: comercial, logística, producción, contabilidad, etc.
 - Modularidad: cada módulo del sistema ERP permite gestionar una determinada área de la empresa.
 - Adaptabilidad: mediante la unión de las dos características anteriores, es posible lograr una adaptabilidad a las distintas necesidades de una determinada empresa.
+
+#### 1.1. Concepto de ERP (Planificación de los recursos empresariales)
+
+Aunque su definición es bastante amplia, se puede resumir en la incorporación de un determinado sistema informático en todos los procesos (internos y externos) que
+están relacionados con la empresa.
+
+Estos sistemas permiten ofrecer ayuda a las distintas empresas de forma general, y a la toma de decisiones, en particular.
+
+A lo largo de los años, los ERP han ido evolucionando hasta conseguir ofrecer a las distintas empresas una serie de beneficios, como, por ejemplo, que toda la información de los procesos se organice en tablas estáticas o dinámicas, utilizando una serie de herramientas que le permitan relacionar la información de manera eficiente ante un proceso de análisis y decisión.
+
+Hoy en día, el ERP engloba tanto los procesos externos como internos de la gestión, abarcando las diferentes necesidades de la pequeña (PYME) y gran empresa en productos ya unificados.
+
+Estos ERP necesitan:
+
+- Poder gestionar los procesos de comercio electrónico.
+- Gestionar los diferentes clientes (CRM).
+- Gestionar la cadena de suministro (SCM).
+- Gestionar las relaciones con los proveedores.
+- Inteligencia de negocio (BI).
+- Base de conocimiento.
+- Gestionar las relaciones con los socios.
+- Ciclo de vida de un producto.
+
+Mediante la utilización de todos ellos, se permite hacer más fácil el flujo de información entre las empresas relacionandas, aunmentando de esta forma la colaboración entre todas ellas.
