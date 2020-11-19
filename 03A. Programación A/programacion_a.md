@@ -1,6 +1,6 @@
-## Programación A
-### UF1: Programación estructurada
-#### 1. Introducción a la programación
+# Programación A
+## UF1: Programación estructurada
+### 1. Introducción a la programación
 
 El lenguaje de programación es una herramienta para transformar un algoritmo en un programa. Entendiendo algoritmo como una secuencia finita de operaciones que resuelven un problema expuesto. Un programa debe de cumplir una serie de características:
 
@@ -61,14 +61,14 @@ En este capítulo nos vamos a centrar en el lenguaje de programación C# porque:
 - Utiliza el recolector de basura.
 - Permite la unificación de tipos.
 
-### UF3: Fundamentos de gestión de ficheros
-#### 1.0. Gestión de ficheros
+## UF3: Fundamentos de gestión de ficheros
+### 1.0. Gestión de ficheros
 
 Todo lo que llevamos visto hasta aquí ha sido mediante variables, estructuras de datos, y hemos manipulado la información de la que disponíamos. Esta información, una vez que finaliza la ejecución del software, desaparece de memoria, ya que ha estado almacenada en la memoria principal el tiempo que dura la ejecución del software.
 
 Una vez que llegamos al tema de los ficheros, cambia un poco la forma de trabajar que traíamos, de manera que vamos a utilizar nuevas estructuras o métodos que van a permitir que la información no se volatilice, es decir, que no se borre cuando terminemos el proceso de ejecución.
 
-#### 1.1. Definición y tipos de ficheros
+### 1.1. Definición y tipos de ficheros
 
 Podemos ver los **ficheros** como una parte de un dispositivo no volátil a la que se le asigna un nombre, y que puede contener una cantidad de datos que va a estar limitada, o por la cantidad de espacio del que disponga el dispositivo o por las características del sistema operativo. Entendemos por dispositivos no volátiles aquellos que no pierden la información que poseen cuando apagamos nuestro ordenador.
 
@@ -105,7 +105,7 @@ A la hora de trabajar con ficheros debemos tener en cuenta:
 **Rutas de ficheros y directorios**:
 
 
-#### 1.2. Operaciones sobre ficheros secuenciales
-#### 1.3. Diseño y modulación de las operaciones sobre ficheros
-##### 1.3.1. Fundamentos de los flujos
-##### 1.3.2. Clases de flujos
+### 1.2. Operaciones sobre ficheros secuenciales
+### 1.3. Diseño y modulación de las operaciones sobre ficheros
+#### 1.3.1. Fundamentos de los flujos
+#### 1.3.2. Clases de flujos
