@@ -1,0 +1,65 @@
+# Acceso a datos
+
+## 1. Gestión de ficheros
+
+En los siguientes temas aprenderemos todos los conceptos básicos que hay que tener en cuenta cuando necesitamos tratar con ficheros con lenguaje Java.
+
+Para entender mejor qué trataremos en los siguientes apartados, primero deberemos entender bien los conceptos básicos: ¿qué podemos entender por un fichero?
+
+Un fichero es un archivo que contendrá un conjunto de caracteres o bytes que se almacenarán en el dispositivo en una ruta y con un nombre concretos.
+
+Es el archivo que usará nuestro programa para almacenar, leer, escribir o gestionar información sobre el proceso que se esté ejecutando. Existen diferentes tipos de ficheros, como, por ejemplo:
+
+- Fichero estándar: es un archivo que contiene todo tipo de datos: caracteres, imagen, audio, vídeo, etcétera. Normalmente son ficheros que contienen información de cualquier tipo.
+- Directorios o carpetas: son ficheros que albergan más archivos en su interior. Su principal utilidad es mantener un orden o jerarquía en nuestros sistemas.
+- Ficheros especiales: son todos esos ficheros que usa nuestro sistema operativo y que se utilizan para controlar los dispositivos o periféricos de nuestro ordenador.
+
+En este tema profundizaremos en el tipo de ficheros estándar y en los directorios. Como explicaremos más adelante, este tipo de ficheros nos permitirán realizar diferentes acciones para tratar los ficheros y para mantener un orden y jerarquía con las carpetas.
+
+Podemos destacar dos tipos de ficheros de datos:
+- Los ficheros de bytes: también conocidos como ficheros binarios, son archivos que usan los programas para leer o escribir información.
+- Los ficheros de caracteres: también conocidos como ficheros de texto, nos permitirán leer o escribir la información que contengan.
+
+Un fichero se caracteriza por estar formado por la ruta en la que está almacenado, el nombre y una extensión, siguiendo este orden. Además, tenemos que tener en cuenta que no podrán existir ficheros con el mismo nombre, ruta y extensión. Para que sean
+únicos, el nombre o la extensión en la misma ruta deben ser distintos.
+
+Para tener acceso a un fichero determinado, se utiliza una ruta (o también la podemos nombrar path) que indica la ubicación de ese fichero en nuestro sistema. La ruta está compuesta por diferentes niveles jerárquicos (carpetas) separado por un símbolo barra
+/, Aunque en Windows, para separar los niveles jerárquicos, se utiliza la contrabarra o \. En cambio, en Unix el separador será /. Eclipse admite tanto / como \ cuando definimos la ruta.
+
+Si queremos definir la ruta independientemente del sistema operativo, podemos realizarlo de este modo:
+
+```java
+//Ejemplo con la ruta directa al string
+File archivoNoseguro = new File("carpeta/ejemplo.txt");
+//Ruta que asegura el separador correcto segun plataforma
+File archivo = new File("carpeta"+File.separator+"ejemplo.txt");
+```
+
+Existen dos tipos importantes de rutas que nos serán muy útiles en la gestión de ficheros:
+- Ruta absoluta: se conoce como la ruta desde la carpeta padre: *C:\datos\ejemplo.txt*
+- Ruta relativa: es aquella que coge como referencia el directorio actual para dar la ruta. La diferencia entre la ruta absoluta y la relativa es que no se indica la carpeta padre u origen y solo se da la guía desde la carpeta actual. Se indica con un punto, una barra y el nombre de los diferentes directorios separados por barras. Teniendo en cuenta que la carpeta actual sea accesoDatos, veamos este ejemplo: *./datos/ejemplo.txt*
+
+La extensión del archivo nos permitirá diferenciar qué programa puede utilizar ese fichero. Se considera extensión todo lo que podemos encontrar después del punto que ponemos al final de nombre. Veamos el ejemplo:
+
+- ejemplo.txt
+- ejemplo.docx
+
+El fichero se guardará según la codificación del dispositivo que estemos usando.
+
+Los archivos que trataremos, en muchas ocasiones, contendrán información de texto o caracteres. Cada lengua utiliza un tipo de carácter distinto de otra, por ejemplo, el ruso utiliza un abecedario diferente que el español, por lo que usará caracteres distintos. Los
+caracteres se almacenan en nuestro ordenador como uno o más bytes.
+
+Básicamente, podemos asumir que todos los caracteres están almacenados en ordenadores usando un código especial, es decir, una codificación de caracteres proporciona una clave para descifrar el código. Es un conjunto de asignaciones entre los
+bytes de los ordenadores y los caracteres en el conjunto de caracteres. Sin la clave, cuando el ordenador descifre los caracteres de ese fichero, aparecerán sin descifrar y se verán raros. Por ejemplo, algo así:
+
+W®ûYr|¢Kt8 J¡ÐŸ [êLUC&ÈÙ ÎŠ…™ Éâæj Æ %hªò «  ’ƒF<j    IDATx^Ì½gœUEÒ8
+
+Este sería un ejemplo de mala interpretación de un encoding. Los caracteres no son legibles y no podemos interpretar la información.
+
+Se denomina encoding al sistema utilizado para transformar los caracteres que usa cada lenguaje en un símbolo que un ordenador pueda interpretar.
+
+La codificación de caracteres asigna los caracteres escogidos a bytes específicos en la memoria del ordenador, y luego, para mostrar el texto, lee los bytes nuevamente en caracteres. Principalmente, se basa en crear tablas de equivalencias entre caracteres de
+lenguaje entendible por las personas con su correspondencia al lenguaje que usa un sistema informático.
+
+No es necesario saberse todos los que existen, pero aquí os mostraremos los más importantes:
+
