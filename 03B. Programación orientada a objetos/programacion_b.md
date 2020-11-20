@@ -138,3 +138,24 @@ public class Aula {
  }
 }
 ```
+
+### 2.6. Gestión de memoria. Destrucción de objetos y liberación de memoria.
+
+En algunos lenguajes de programación, a la hora de destruir algún objeto, se cuenta con unas funciones especiales que se van a ejecutar de forma automática cuando se deba eliminar un objeto. Se trata de una función que no devuelve ningún tipo de dato (ni siquiera void), ni recibe ningún tipo de parámetros de entrada a la función. Normalmente, los objetos dejan de existir cuando finaliza su ámbito, antes de terminar su ciclo viral.
+
+También existe la posibilidad del conocido recolector de basura (garbage collector) que, cuando existen elementos referenciados, forma un mecanismo para gestionar la memoria y conseguir que estos se vayan eliminando.
+
+En Java no existen los destructores como tal por ser un tipo de lenguaje que ya se encarga de la eliminación o liberación de memoria que ocupa un objeto determinado a través del recolector de basura.
+
+El recolector de basura en Java, antes de “barrer el objeto no usado”, llama al método finalize() de ese objeto. Esto significa que se ejecuta primero el método finalize() y después el objeto se destruye de la memoria. El método finalize() existe para todos los objetos en Java y se utiliza para realizar algunas operaciones finales u operaciones de limpieza en un objeto antes de que este objeto se elimine de la memoria.
+
+El método finalize() debe tener las siguientes características:
+
+```java
+protected void finalize() throws Throwable{
+ //Cuerpo del destructor
+}
+```
+
+En este método se está utilizando la cláusula throws, que hace referencia al lanzamiento de una excepción; este tema se explica en la UF5, en el punto 2.
+
