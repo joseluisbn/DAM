@@ -108,8 +108,7 @@ En el caso de que queramos usar diferentes encodings, será necesario usar un fi
 
 ---
 
-### 1.1. Clases asociadas a las operaciones de gestión de ficheros (secuenciales,
-aleatorios) y directorios: creación, borrado, copia, movimiento, entre otros
+### 1.1. Clases asociadas a las operaciones de gestión de ficheros (secuenciales, aleatorios) y directorios: creación, borrado, copia, movimiento, entre otros
 
 En este apartado, nos centraremos en la gestión de ficheros y directorios. Cuando se programa con Java, podemos realizar tareas básicas de gestión de ficheros que nos serán útiles para realizar todo tipo de acciones con ese fichero, desde crear hasta leer, borrar, copiar o mover de sitio carpetas o archivos.
 
