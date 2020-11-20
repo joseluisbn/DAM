@@ -107,3 +107,12 @@ Para que se haga efectivo este cambio, tendremos que darle a Apply and Close, y 
 En el caso de que queramos usar diferentes encodings, será necesario usar un fichero binario, es decir, un fichero que almacenará bytes con la información.
 
 ---
+
+### 1.1. Clases asociadas a las operaciones de gestión de ficheros (secuenciales,
+aleatorios) y directorios: creación, borrado, copia, movimiento, entre otros
+
+En este apartado, nos centraremos en la gestión de ficheros y directorios. Cuando se programa con Java, podemos realizar tareas básicas de gestión de ficheros que nos serán útiles para realizar todo tipo de acciones con ese fichero, desde crear hasta leer, borrar, copiar o mover de sitio carpetas o archivos.
+
+Para tratar los diferentes archivos, Java tiene diferentes paquetes que nos pueden ayudar a realizar las operaciones básicas con cualquier tipo de fichero, tal y como veremos a continuación. Los diferentes objetos que veremos en esta sección pertenecen a diferentes paquetes de Java, algunos de la librería propia de Java, pero también hay otros que son necesario importación. Pero antes de complicarnos, mostraremos los más básicos e importantes.
+
+El paquete más utilizado en el lenguaje Java es el paquete java.io. Dentro, podremos encontrar diferentes opciones que nos permitirán diferentes acciones con ficheros: creación, borrado, lectura, escritura, movimiento y copia, entre otras. Este paquete nos permitirá tanto la creación de ficheros como de carpetas.
