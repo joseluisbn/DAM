@@ -159,3 +159,96 @@ protected void finalize() throws Throwable{
 
 En este método se está utilizando la cláusula throws, que hace referencia al lanzamiento de una excepción; este tema se explica en la UF5, en el punto 2.
 
+### 3. Desarrollo de programas organizados en clases.
+
+### 3.1. Concepto de clase. Estructura y componentes.
+
+Las clases en Java van precedidas de la palabra class seguida del nombre de la clase correspondiente y, normalmente, vamos a utilizar el modificador public, quedando de la siguiente forma:
+
+```java
+Modificador_de_acceso class nombre_de_la_clase {
+ //Propiedades;
+ //Métodos;
+}
+```
+
+El comportamiento de las clases es similar al de un struct, donde algunos campos actúan como punteros de una función, definiendo estos punteros de tal forma que poseen un parámetro específico (this) que va a actuar como el puntero de nuestra clase.
+
+De esta forma, las funciones que señalan estos punteros (métodos), van a poder acceder a los diferentes campos de la clase (atributos).
+
+Definimos la clase como un molde ya preparado en el que podemos fijar los componentes de un objeto: los atributos(variables), y las acciones que van a realizar
+estos atributos (métodos).
+
+En la programación orientada a objetos podemos decir que coche es una instancia de la clase de objetos conocida como coches. Todos los coches tienen algunos estados o atributos (color, marca, modelo) y algunos métodos (acelerar, frenar, cambiar velocidad) en común.
+
+Debemos tener en cuenta que el estado de cada coche es independiente al de los demás coches, es decir, podemos tener un coche negro y otro azul, ya que ambos tienen en común la variable color. De tal forma que podremos utilizar esta plantilla para definir todas las variables que sean necesarias y sus métodos correspondientes para los coches. Estas plantillas que usaremos para crear objetos se denominan clases.
+
+La clase es una plantilla que define aquellas variables y métodos comunes para los objetos de un cierto tipo.
+
+Veamos un ejemplo en el que participen todos los conceptos que estamos definiendo.
+
+Partimos de nuestra clase coche, en la que debemos introducir datos que tengan sentido (elementos de la vida cotidiana). Establecemos que un coche se caracteriza, entre otros factores, por:
+- Tener ruedas características.
+- Tener matrícula.
+- Tener cantidad de puertas.
+- Tener un color.
+- Tener una marca.
+- Ser de un determinado modelo.
+
+Aunque si a nuestro taller llega un Seat Ibiza de tres puertas, las características serían:
+- Ruedas tipo X. 4 más una de repuesto.
+- Matrícula FNR 9774.
+- 3 puertas.
+- Negro.
+- Seat.
+- Ibiza.
+
+De esta forma, tenemos la clase coche y el objeto Seat Ibiza.
+
+Cuando creamos una clase, definimos sus atributos y métodos:
+- Atributos: las variables que hacen referencia a las características principales del objeto que tenemos.
+- Métodos: diferentes funciones que pueden realizar los atributos de la clase.
+
+**Estructura y miembros o componentes**
+
+A continuación, vamos a ver un ejemplo que se ha visto en el punto 2.5, durante este punto 3 vamos a detallar la creación de todos los puntos de este ejemplo:
+
+```java
+public class Alumno {
+ //Atributos;
+ //Métodos;
+}
+```
+
+- public → Palabra reservada que se utiliza para indicar la visibilidad de una clase.
+- class → Palabra reservada que se utiliza para indicar el inicio de una clase.
+- Alumno → Nombre que le asignemos a la clase.
+- Atributos → Diferentes características que van a definir la clase.
+- Métodos → Conjunto de operaciones que van a realizar los atributos que formen parte de la clase.
+
+Los miembros o componentes que forman parte de una clase (atributos y métodos) se pueden declarar de varias formas:
+
+**Públicos (public)**
+
+Engloba aquellos elementos a los que se puede acceder desde fuera de la clase.
+
+Si no se especifica que un miembro es público, nos estaremos refiriendo a que este solo va a ser accesible (o visible) por otros miembros de la clase.
+
+Mientras que, si lo definimos como público, estamos señalando que otros objetos puedan realizar llamadas a estos miembros.
+
+**Privados (private)**
+
+Aquellos componentes de carácter privado solamente pueden ser utilizados por otros miembros de la clase, pero nunca por otras donde se instancien.
+
+Por defecto, cuando definimos un método, si no especificamos nada se considera privado.
+
+También existen otros modificadores que se pueden utilizar en determinadas ocasiones, como:
+- Protected: Lo utilizamos cuando trabajamos con vaerias clases que heredan las unas de las otras, de tal forma que, aquellos miembros que actúen de forma privada, se suelen declarar como protected. De este modo puede seguir siendo privado, aunque permite que lo utilicen las clases que hereden de ella.
+- Package: Podemos utilizarlo cuando tenemos una clase que no tiene modificador y, además, es visible en todo el paquete. De esta forma, aunque la clase no tenga modificador, puede actuar de forma similar sin utilizar package.
+
+A continuación, aparece un listado de palabras reservadas (key words o reserved words) del lenguaje de programación Java. Estas palabras no se pueden utilizar como identificadores en los programas escritos en Java.
+
+Las palabras reservadas const y goto no se utilizan actualmente. Las palabras true, false y nullse tratan como si fueran palabras reservadas, sin embargo,son constantes literales, no se pueden usar como identificadores.
+
+---
+
