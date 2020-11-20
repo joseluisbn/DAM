@@ -278,3 +278,52 @@ public class Alumnos {
 }
 ```
 
+## 3.3. Creación de métodos.
+
+Los métodos son las diferentes funciones de una clase y pueden acceder a todos los atributos que esta tenga. Vamos a implementar estos métodos dentro de la propia clase, excepto cuando los métodos sean abstractos (abstract), que se definen en clases derivadas utilizando la palabra extends.
+
+```java
+[Modifficador_de_acceso] tipo_devuelto nombre_metodo(parámetros) {
+ //sentencias;
+}
+```
+
+Donde:
+
+- tipo_devuelto: es el tipo de dato que devuelve el método. Para ello, debe aparecer la instrucción return en el código. En el caso en el que la función no devuelva ningún valor, utilizaremos la palabra void.
+- nombre_metodo: nombre con el que vamos a llamar al método.
+- parámetros: distintos valores que se le pueden pasar a la función para que se puedan utilizar.
+- sentencias: distintas operaciones que debe realizar el método.
+
+En Java, podemos tener los siguientes tipos de métodos:
+
+- static: se puede utilizar directamente desde la propia clase en vez de instanciar esta. De la misma forma, podemos también crear atributos estáticos. Cuando utilizamos un método tipo Static, utilizamos las variables estáticas definidas en la clase.
+- abstract: será más sencillo de comprender después de ver el significado de la herencia. De todas formas, señalaremos que los métodos abstractos no se van a declarar en la clase principal, pero sí en las demás que hereden de esta.
+- final: estos métodos no ofrecen la posibilidad de sobrescribirlos.
+- native: métodos implementados en otros lenguajes pero que deseamos añadir a nuestro programa. Podremos hacerlo incorporando la cabecera de la función en cuestión, y sustituyendo el cuerpo del programa por “;” (punto y coma).
+- Synchronized: utilizado en aplicaciones multi-hilo.
+
+Vamos a ver un ejemplo siguiendo con la clase Alumnos, la cual vamos a desarrollar durante este apartado.
+
+```java
+//Clase alumnos que nos servirá para crear objetos tipo alumno
+public class Alumnos {
+ //Atributos
+ private String nombre;
+ private String curso;
+ //Métodos GET y SET
+ public String getNombre() {return nombre;}
+ public void setNombre(String nombre) {this.nombre = nombre;}
+ public String getCurso() {return curso;}
+ public void setCurso(String nombre) {this.curso = curso;}
+ //Métodos creados por el programador
+ public double evaluar(double nota) {
+ nota = nota * 0.7;
+ return nota;
+ }
+}
+```
+
+Hemos creado los métodos get y set, estos métodos son funcionalidades del programa hechas por el programador, son muy comunes en Java ya que, estas devolverán los valores de los atributos o nos permitirán modificarlos, los métodos get sirven para mostrar los valores de los atributos y los métodos set sirven para insertar o modificar los valores de los atributos.
+
+También hemos creado un método que va a realizar una funcionalidad propia de esta clase, como podría ser evaluar a los alumnos, según la nota que reciba este realizará cálculos internos y devolverá el valor del ejercicio en la nota final.
