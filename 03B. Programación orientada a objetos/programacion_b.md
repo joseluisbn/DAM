@@ -248,7 +248,33 @@ También existen otros modificadores que se pueden utilizar en determinadas ocas
 
 A continuación, aparece un listado de palabras reservadas (key words o reserved words) del lenguaje de programación Java. Estas palabras no se pueden utilizar como identificadores en los programas escritos en Java.
 
-Las palabras reservadas const y goto no se utilizan actualmente. Las palabras true, false y nullse tratan como si fueran palabras reservadas, sin embargo,son constantes literales, no se pueden usar como identificadores.
+Las palabras reservadas const y goto no se utilizan actualmente. Las palabras true, false y nullse tratan como si fueran palabras reservadas, sin embargo, son constantes literales, no se pueden usar como identificadores.
 
 ---
+
+### 3.2. Creación de atributos.
+
+Gracias a los atributos podemos recoger características específicas de un objeto determinado mediante el uso de variables.
+
+Se expresan de la siguiente forma:
+
+```java
+//Sintaxis de los atributos
+[Modifficador_de_acceso] Tipo_dato nombre_atributo;
+```
+
+Donde:
+- Modificador_de_acceso: se utiliza para definir el nivel de ocultación o visibilidad de los miembros de la clase (atributos y métodos), estos pueden ser default, protected, private o public como los más utilizados también tenemos otros valores como final, static, volatile y transient.
+- Tipo_dato: un atributo puede ser de cualquier tipo de datos que existan, como int, double, char o algunos más complejos, como estructuras, tablas o incluso objetos.
+- Nombre_atributo: identificador que vamos a utilizar para esa variable.
+
+A continuación, vamos a ver un ejemplo que se ha visto ya en el punto 2.5 donde detallaremos la creación de los atributos.
+
+```java
+public class Alumnos {
+ //Atributos
+ private String nombre;
+ private String curso;
+}
+```
 
