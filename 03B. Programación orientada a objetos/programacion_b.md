@@ -55,3 +55,86 @@ A continuación, vamos a ver un ejemplo relacionado con la vida cotidiana en el 
 Recordemos que un objeto va a utilizar estos atributos en forma de variables, y los métodos van a ser funciones que se van a encargar de realizar las diferentes acciones.
 
 En nuestro ejemplo tendríamos variables en las que almacenar el color, la marca y el modelo, junto con un conjunto de funciones que van a desarrollar las acciones de acelerar, frenar y cambiar de velocidad.
+
+```java
+//Clase coche que va a servir para crear objetos coche public class coche {
+ String color;
+ String marca;
+ String modelo;
+ public coche(String color, String marca, String modelo){
+ this.color = color;
+ this.marca = marca;
+ this.modelo = modelo;
+ }
+ public void acelerar() {//código del método}
+ public void frenar() {//código del método}
+ public void cambiar_velocidad(){//código del método}
+}
+//Clase donde vamos a crear objetos tipo coche
+public class garaje {
+ public static void main(String[] args) {
+ //Declaración de objetos con sus atributos
+ coche Coche1 = new coche("Azul", "Nissan", "Almera");
+ coche Coche2 = new coche("Negro", "Seat", "Ibiza");
+ coche Coche3 = new coche("Blanco", "Renault", "Megane");
+ coche Coche4 = new coche("Gris", "BMW", "Z3");
+ coche Coche5 = new coche("Rojo", "Ferrari", "Testa rosa");
+ //Acciones que pueden realizar los objetos
+ Coche1.acelerar();
+ Coche2.frenar();
+ Coche3.cambiar_velocidad();
+ }
+}
+```
+
+### 2.4. Utilización de métodos. Métodos estáticos. Constructores.
+
+Los métodos son las funciones propias que tiene una clase, capaces de acceder a todos los atributos que tenga definidos. La forma de acceder a los diferentes métodos se debe escribir dentro de la clase en cuestión, excepto cuando los métodos son abstractos, que en cuyo caso se debe indicar mediante la palabra abstract. Los métodos se deben definir en las clases derivadas haciendo uso de la palabra extends.
+
+**Constructores**
+
+Los constructores deben tener el mismo nombre que el de la clase a la que pertenezcan, y se ejecutan de forma automática una vez que se crea un ejemplar. Se pueden crear tantos constructores como se desee, siempre y cuando los argumentos que reciba sean distintos.
+
+El compilador va a seleccionar el constructor correcto de forma automática, en función de los parámetros que tenga cada uno de los constructores.
+
+** Métodos de acceso **
+
+La función principal de estos métodos es habilitar las tareas de lectura y de modificación de los atributos de la clase. Se utilizan, entre otras cosas, para reforzar la encapsulación al permitir que el usuario pueda añadir información a la clase o extraer información de ella sin que se necesiten conocer detalles más específicos de la implementación. Cualquier cambio que se realice en la implementación de los métodos no afectan a las clases clientes.
+
+*Static*
+
+Es una palabra reservada que distingue entre atributos y métodos.
+
+Los atributos cualificados con la palabra static son atributos de la clase. Es decir, nos referimos a que este atributo se va a almacenar en una zona de memoria propia de la clase, y va a compartir su valor con todos los ejemplares de la clase en cuestión. Además, ya que es parte de la clase, debemos crear un ejemplar de esta, que es la que vamos a utilizar para poder acceder al atributo al que nos estamos refiriendo.
+
+Los métodos cualificados con static son propios de la clase y se va a reservar un espacio para ellos cuando arrancamos el programa. Tienen acceso a los atributos static de la clase, pero no a aquellos atributos de ejemplar. Para emplearnos no se necesita crear un ejemplar determinado de la clase.
+
+### 2.5. Utilización de propiedades.
+
+Para poder utilizar los métodos de una clase, lo primero que debemos hacer es crearnos una clase que sea el esquema, donde definamos tanto los atributos como la declaración e implementación de los métodos. A continuación, en cualquier parte de la función, definimos un objeto de tipo clase creada anteriormente.
+
+Este tipo en cuestión tiene la posibilidad de poder controlar tanto los atributos como los métodos que el ámbito le permita.
+
+Para poder utilizar tanto los atributos como los métodos definidos en la clase, debemos utilizar el carácter punto.
+
+A continuación, vemos un ejemplo de la creación de un objeto y la llamada a sus métodos, los conceptos de este ejemplo se detallan más adelante.
+
+```java
+//Clase alumnos que nos servirá para crear objetos tipo alumno
+public class Alumnos {
+ //Atributos
+ //Constructor
+ //Métodos
+ public void evaluar() {//código del método}
+}
+-------------------------------------------------------------------
+//Clase Aula donde utilizaremos los objetos alumnos
+public class Aula {
+ public static void main(String[] args) {
+ //Creación de objetos Alumno
+ Alumnos alumno_1 = new Alumnos("Antonio", "DAW");
+ //Sintaxis de utilización de los métodos del objeto
+ alumno_1.evaluar();
+ }
+}
+```
