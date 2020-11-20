@@ -63,3 +63,47 @@ lenguaje entendible por las personas con su correspondencia al lenguaje que usa 
 
 No es necesario saberse todos los que existen, pero aquí os mostraremos los más importantes:
 
+**ASCII**
+---
+Es el conjunto de caracteres creado por la American National Standard Code for Information (ANSI), en 1967. Codifica caracteres, letras y símbolos que usamos día a día.
+
+**ISO-8859**
+
+Se trata de otro tipo de encoding bastante conocido que se caracteriza por incluir letras, símbolos y caracteres, pero además también los acentos y los símbolos de interrogación y exclamación. Este tipo de codificación utiliza 8 bits, por tanto, tiene una capacidad de 256 caracteres, lo que la hace más amplia que ASCII. Incluye los 128 caracteres de ASCII, pero se añaden símbolos matemáticos y letras griegas, entre otros. Con el tiempo, este encoding se ha quedado corto en cuanto a contemplar los diferentes alfabetos de distintos idiomas. Por este motivo, se han ido creando diferentes especializaciones de esta codificación. Podemos encontrar también estos otros:
+
+- ISO 8859-1 (Latin-1), para la zona de Europa occidental.
+- ISO 8859-2 (Latin-2), para la zona de Europa occidental y Centroeuropa.
+- ISO 8859-3 (Latin-3), para la zona de Europa occidental y Europa del sur.
+- ISO 8859-4 (Latin-4), para la zona de Europa occidental y países bálticos (lituano, estonio y lapón).
+- ISO 8859-5, para el alfabeto cirílico.
+- ISO 8859-6, para el alfabeto árabe.
+- ISO 8859-7, para el alfabeto griego.
+- ISO 8859-8, para el alfabeto hebreo.
+- ISO 8859-9 (Latin-5), para la zona de Europa occidental con los caracteres del alfabeto turco.
+- ISO 8859-10 (Latin-6), para la zona de Europa occidental, incluye los caracteres del alfabeto nórdico, lapón y esquimal.
+- ISO 8859-11, incorpora caracteres del alfabeto tailandés.
+- ISO 8859-13 (Latin-7), incorpora caracteres para los idiomas bálticos y el polaco.
+- ISO 8859-14 (Latin-8), incorpora caracteres para los idiomas celtas.
+- ISO 8859-15 (Latin-9), añade el símbolo del euro.
+- ISO 8859-16, incorpora caracteres para los idiomas polaco, checo, eslovaco, húngaro, albano, rumano, alemán e italiano.
+
+**Unicode**
+
+Es una norma de codificación creada en 1991 para unificar los tipos de codificación.
+Como hemos visto, existen multitud de variantes de codificación para abarcar diferentes idiomas. La creación de este encoding pretendía organizar en un mismo estándar los diferentes caracteres dentro de una misma codificación, para poder abarcar diferentes idiomas tanto de alfabetos europeos como de chinos, japoneses, coreanos o lenguas ya extinguidas con alfabetos diferentes. Para realizar las tablas de equivalencias, Unicode asigna un identificador numérico a cada carácter, pero también irá acompañado de información como la direccionalidad, la capitalización y otros atributos. Nuestro ordenador, según su arquitectura, utilizará diferentes bloques de 8, 16 o 32 bits para interpretar y representar los números. Estos tres diferentes bloques han creado diferentes codificaciones:
+
+- UTF-8
+- UTF-16.
+- UTF-32
+
+Hoy en día, la codificación más usada es la codificación de caracteres UTF-8.
+
+Tanto los editores de texto, como los IDE (programa para desarrollar nuestra aplicación) normalmente dan la posibilidad de configurar qué tipo de codificación queremos usar.
+
+Por ejemplo, en Eclipse esta configuración se puede encontrar dirigiéndonos a Window > Preferences > General > Workspace. Se nos abrirá una ventana y abajo a la derecha podremos escoger la codificación, tal y como se muestra en esta captura:
+
+Para que se haga efectivo este cambio, tendremos que darle a Apply and Close, y todos los ficheros que creemos a partir de este momento serán con este tipo de codificación.
+
+En el caso de que queramos usar diferentes encodings, será necesario usar un fichero binario, es decir, un fichero que almacenará bytes con la información.
+
+---
