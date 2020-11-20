@@ -327,3 +327,73 @@ public class Alumnos {
 Hemos creado los métodos get y set, estos métodos son funcionalidades del programa hechas por el programador, son muy comunes en Java ya que, estas devolverán los valores de los atributos o nos permitirán modificarlos, los métodos get sirven para mostrar los valores de los atributos y los métodos set sirven para insertar o modificar los valores de los atributos.
 
 También hemos creado un método que va a realizar una funcionalidad propia de esta clase, como podría ser evaluar a los alumnos, según la nota que reciba este realizará cálculos internos y devolverá el valor del ejercicio en la nota final.
+
+### 3.4. Sobrecarga de métodos
+
+La sobrecarga de métodos consiste en crear métodos en la misma clase y con el mismo nombre pero que estos tengan distintos parámetros de entrada. La sobrecarga de métodos permite asignar más funcionalidad.
+
+Por ejemplo, veamos diferentes posibilidades que podrían existir para una función denominada visualizar:
+
+```java
+public void visualizar () {
+ //código del método visualizar sin parámetros
+}
+public void visualizar (Objeto X) {
+ //código del método visualizar con un parámetro
+}
+public void visualizar (Objeto X, int num1) {
+ //código del método visualizar con dos parámetros
+}
+```
+
+Podemos comprobar que existen tres funciones que se llaman de la misma forma pero que, cada una de ellas, tiene diferentes parámetros.
+
+A la hora de realizar la llamada a la función no va a existir ambigüedad:
+
+```java
+visualizar (); //estamos haciendo referencia a la primera, que
+no tiene parámetros.
+visualizar (dato); //Si dato es de tipo objeto, nos estaremos
+refiriendo a la segunda.
+visualizar (dato, 5); // Nos referimos a la tercera opción
+```
+
+Podemos ver, de forma clara, que las tres llamadas se diferencian perfectamente entre sí, el paso de parámetros es el adecuado.
+
+### 3.5. Creación de constructores.
+
+Una de las formas que tenemos de identificar a un constructor de una clase es que debe llamarse igual que esta. El constructor se va a ejecutar siempre de forma automática al crearse una instancia de la clase.
+
+Existe la posibilidad de tener varios constructores, cada uno de ellos, con diferentes parámetros.
+
+Siguiendo con el ejemplo de los alumnos vamos a ver cómo crear los constructores para esta clase:
+
+```java
+public class Alumnos {
+ //Atributos
+ private String nombre;
+ private String curso;
+ //Constructor vacío
+ public Alumnos() {
+ this.nombre = "Ilerna";
+ this.curso = "Online";
+ }
+ //Constructor con parámetros
+ public Alumnos(String nombre, String curso) {
+ this.nombre = nombre;
+ this.curso = curso;
+ }
+ //Métodos
+}
+```
+
+En este ejemplo hemos creado dos constructores: uno sin parámetros y otro que recibe parámetros.
+
+La llamada al constructor sin parámetros devolverá un valor por defecto del objeto; en el caso de llamar al constructor con parámetros, le podremos indicar los valores que deseemos a este objeto.
+
+### 3.6. Creación de destructores y/o métodos de finalización
+
+Como hemos indicado en apartados anteriores, Java no utiliza destructores como tal por ser un tipo de lenguaje que se encarga de la eliminación o liberación de memoria que puede ocupar un objeto determinado a través de la recolección de basura.
+
+Como se comentó con anterioridad, el recolector de basura en Java, antes de “barrer el objeto no usado”, llama al método finalize() de ese objeto. Este método puede ser implementado por nosotros para realizar acciones antes de la eliminación del objeto.
+
