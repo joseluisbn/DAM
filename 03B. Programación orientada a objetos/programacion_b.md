@@ -397,3 +397,56 @@ Como hemos indicado en apartados anteriores, Java no utiliza destructores como t
 
 Como se comentó con anterioridad, el recolector de basura en Java, antes de “barrer el objeto no usado”, llama al método finalize() de ese objeto. Este método puede ser implementado por nosotros para realizar acciones antes de la eliminación del objeto.
 
+### 3.7. Uso de clases y objetos. Visibilidad
+
+Como ya hemos visto en apartados anteriores, la definición de las clases y de los objetos sigue una estructura implementada en un programa en Java.
+
+La sintaxis que debemos seguir a la hora de instanciar un objeto:
+
+```java
+//Declaración
+nombre_clase nombre_variable;
+//Creación
+nombre_variable = new nombre_clase ();
+//Declaración creación
+nombre_clase nombre_variable = new nombre_clase ();
+```
+
+De la misma forma que se utiliza en otros lenguajes de programación, debemos hacer uso de la palabra reservada new para poder reservar un espacio en memoria, de tal forma que, si solo declarásemos el objeto, no podríamos utilizarlo. Esta instrucción comienza una expresión para instanciar una clase, la cual crea un objeto del tipo especificado a la derecha del new.
+
+Una vez instanciado el objeto, la forma de acceder a los diferentes miembros de la clase va a ser utilizando el operador punto. En el lenguaje Java vamos a utilizar el operador this para poder referenciar a la propia clase junto con sus métodos y atributos.
+
+Si necesitamos crear arrays de objetos debemos inicializar cada objeto de la casilla que le corresponda en la tabla de la clase para que, cuando llegue el momento de utilizar ese objeto que se encuentra almacenado en un array, antes debe haber sido creado.
+
+```java
+//Declaración creación del array
+Clase [] nombre_array = new Clase [MAX];
+//Creación objetos que se necesiten
+for (int i=0; i<MAX; i++) {
+ nombre_array [i] = new Clase ();
+}
+//Creación de un objeto determinado para que exista antes de ser
+utilizado
+nombre_array [pos] = new Clase ();
+```
+
+El método main proporciona el mecanismo para controlar la aplicación. Cuando se ejecuta una clase Java, el sistema localiza y ejecuta el método main de esa clase.
+
+A continuación, tenemos el ejemplo de la clase Aula donde vemos cómo crear los objetos tipo alumno y cómo utilizar los métodos que hemos generado.
+
+```java
+//Clase Aula donde utilizaremos los objetos alumnos
+public class Aula {
+ public static void main(String[] args) {
+ double nota[] = new double[2];
+ //Creación de objetos Alumno
+ Alumnos Alumno_1 = new Alumnos("Antonio", "DAW");
+ Alumnos Alumno_2 = new Alumnos("Laura", "DAM");
+ //Sintaxis de utilización de los métodos del objeto
+ nota[0] = Alumno_1.evaluar(6.5);
+ nota[1] = Alumno_2.evaluar(8);
+ }
+}
+```
+
+## 3.8. Conjuntos y librerías de clases
