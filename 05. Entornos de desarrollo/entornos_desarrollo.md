@@ -176,3 +176,5 @@ Podemos clasificar los lenguajes de programación basándonos en los siguientes 
   - Lenguajes estructurados.
   - Lenguajes orientados a objetos.
 
+** Según su nivel de abstracción**
+
