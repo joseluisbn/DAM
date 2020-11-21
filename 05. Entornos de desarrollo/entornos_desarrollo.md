@@ -148,7 +148,7 @@ Una de las desventajas de usar este tipo de lenguajes que se basan en una máqui
 
 Para poder instalar la Java VM tendremos que acceder a la siguiente url: http://www.oracle.com/technetwork/java/javase/downloads/index.html, pulsar en el botón download donde aparece JRE (Java Runtime Environment) y descargar el fichero que nos interese según el sistema operativo que usemos. Una vez descargado, la instalación es fácil, ya que solo tendremos que ir siguiendo los pasos indicados. Cuando finalice la instalación puede que debamos reiniciar el equipo.
 
-#### 1.4. Tipos de lenguajes de programación. Clasificación y características de los lenguajes más difundidos
+### 1.4. Tipos de lenguajes de programación. Clasificación y características de los lenguajes más difundidos
 
 Como hemos definido anteriormente, un programa informático es un conjunto de instrucciones escritas en un lenguaje de programación. Asimismo, lenguaje de programación hace referencia al conjunto de caracteres, reglas y acciones combinadas y consecutivas que un equipo debe ejecutar.
 
@@ -157,3 +157,22 @@ Constará de los siguientes elementos:
 - Alfabeto o vocabulario: conjunto de símbolos permitidos.
 - Sintaxis: reglas para realizar correctamente construcciones con los símbolos.
 - Semántica: reglas que determinan el significado de construcción del lenguaje.
+
+#### 1.4.1. Clasificación y características
+
+Podemos clasificar los lenguajes de programación basándonos en los siguientes criterios:
+
+- Según su nivel de abstracción:
+  - Lenguajes de bajo nivel.
+  - Lenguajes de nivel medio.
+  - Lenguajes de alto nivel.
+- Según la forma de ejecución:
+  - Lenguajes compilados.
+  - Lenguajes interpretados.
+- Según el paradigma de programación:
+  - Lenguajes imperativos.
+  - Lenguajes funcionales.
+  - Lenguajes lógicos.
+  - Lenguajes estructurados.
+  - Lenguajes orientados a objetos.
+
