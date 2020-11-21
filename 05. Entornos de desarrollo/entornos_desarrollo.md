@@ -68,3 +68,18 @@ componentes que conforman la CPU:
 
 ---
 
+A continuación, vamos a ver los diferentes registros que posee la UC:
+
+- Contador de programa (CP): contendrá la dirección de la siguiente instrucción para realizar, su valor será actualizado por la CPU después de capturar una instrucción.
+- Registro de Instrucción (RI): es el que contiene el código de la instrucción, se analiza dicho código. Consta de dos partes: el código de la operación y la dirección de memoria en la que opera.
+- Registro de dirección de memoria (RDM): tiene asignada una dirección correspondiente a una posición de memoria que va a almacenar la información mediante el bus de direcciones.
+- Registro de intercambio de memoria (RIM): recibe o envía, según si es una operación de lectura o escritura, la información o dato contenidos en la posición apuntada por el RDM.
+- Decodificador de instrucción (DI): extrae y analiza el código de la instrucción contenida en el RI y, además, genera las señales para que se ejecute correctamente la acción.
+- El Reloj: marca el ritmo del DI y nos proporciona unos impulsos eléctricos con intervalos constantes a la vez que marca los tiempos para ejecutar las instrucciones.
+- El secuenciador: son órdenes que se sincronizan con el reloj para que ejecuten correctamente y de forma ordenada la instrucción.
+
+Cuando ejecutamos una instrucción podemos distinguir dos fases:
+- 1. Fase de búsqueda: se localiza la instrucción en la memoria principal y se envía a la Unidad de Control para poder procesarla.
+- 2. Fase de ejecución: se ejecutan las acciones de las instrucciones.
+
+Para que podamos realizar operaciones de lectura y escritura en una celda de memoria se utilizan el RDM, el RIM y el DI. El decodificador de instrucción es el encargado de conectar la celda RDM con el registro de intercambio RIM, el cual posibilita que la transferencia de datos se realice en un sentido u otro según sea de lectura o escritura.
