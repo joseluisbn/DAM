@@ -79,8 +79,8 @@ A continuación, vamos a ver los diferentes registros que posee la UC:
 - El secuenciador: son órdenes que se sincronizan con el reloj para que ejecuten correctamente y de forma ordenada la instrucción.
 
 Cuando ejecutamos una instrucción podemos distinguir dos fases:
-- 1. Fase de búsqueda: se localiza la instrucción en la memoria principal y se envía a la Unidad de Control para poder procesarla.
-- 2. Fase de ejecución: se ejecutan las acciones de las instrucciones.
+1. Fase de búsqueda: se localiza la instrucción en la memoria principal y se envía a la Unidad de Control para poder procesarla.
+2. Fase de ejecución: se ejecutan las acciones de las instrucciones.
 
 Para que podamos realizar operaciones de lectura y escritura en una celda de memoria se utilizan el RDM, el RIM y el DI. El decodificador de instrucción es el encargado de conectar la celda RDM con el registro de intercambio RIM, el cual posibilita que la transferencia de datos se realice en un sentido u otro según sea de lectura o escritura.
 
@@ -147,3 +147,13 @@ Entre las tareas que puede realizar la máquina virtual Java pueden estar:
 Una de las desventajas de usar este tipo de lenguajes que se basan en una máquina virtual puede ser que son más lentos que los lenguajes ya compilados, debido a la capa intermedia. No obstante, cabe destacar que no una desventaja demasiado crítica.
 
 Para poder instalar la Java VM tendremos que acceder a la siguiente url: http://www.oracle.com/technetwork/java/javase/downloads/index.html, pulsar en el botón download donde aparece JRE (Java Runtime Environment) y descargar el fichero que nos interese según el sistema operativo que usemos. Una vez descargado, la instalación es fácil, ya que solo tendremos que ir siguiendo los pasos indicados. Cuando finalice la instalación puede que debamos reiniciar el equipo.
+
+#### 1.4. Tipos de lenguajes de programación. Clasificación y características de los lenguajes más difundidos
+
+Como hemos definido anteriormente, un programa informático es un conjunto de instrucciones escritas en un lenguaje de programación. Asimismo, lenguaje de programación hace referencia al conjunto de caracteres, reglas y acciones combinadas y consecutivas que un equipo debe ejecutar.
+
+Constará de los siguientes elementos:
+
+- Alfabeto o vocabulario: conjunto de símbolos permitidos.
+- Sintaxis: reglas para realizar correctamente construcciones con los símbolos.
+- Semántica: reglas que determinan el significado de construcción del lenguaje.
