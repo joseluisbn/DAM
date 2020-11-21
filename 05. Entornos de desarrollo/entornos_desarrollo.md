@@ -83,3 +83,36 @@ Cuando ejecutamos una instrucción podemos distinguir dos fases:
 - 2. Fase de ejecución: se ejecutan las acciones de las instrucciones.
 
 Para que podamos realizar operaciones de lectura y escritura en una celda de memoria se utilizan el RDM, el RIM y el DI. El decodificador de instrucción es el encargado de conectar la celda RDM con el registro de intercambio RIM, el cual posibilita que la transferencia de datos se realice en un sentido u otro según sea de lectura o escritura.
+
+### 1.3. Código fuente, código objeto y código ejecutable; máquinas virtuales
+
+En la etapa de diseño construimos las herramientas de software capaces de generar un código fuente en lenguaje de programación. Estas pueden ser los diagramas de
+flujo o el pseudocódigo.
+
+La etapa de codificación es la encargada de generar el código fuente y pasa por diferentes estados.
+
+#### 1.3.1. Tipos de código
+
+Cuando escribimos un código pasa por distintos estados hasta que se ejecuta:
+
+- Código fuente: es el código realizado por los programadores usando algún editor de texto o herramienta de programación. Posee un lenguaje de alto nivel y para escribirlo se parte de los diagramas de flujo o pseudocódigos. No se puede ejecutar directamente en el ordenador.
+- Código objeto: es el código que se crea tras realizar la compilación del código fuente. Este código no es entendido ni por el ordenador ni por nosotros. Es una representación intermedia de bajo nivel.
+- Código ejecutable: este código se obtiene tras unir el código objeto con varias librerías para que así pueda ser ejecutado por el ordenador.
+
+#### 1.3.2. Compilación
+
+La compilación es el proceso a través del cual se convierte un programa en lenguaje máquina a partir de otro programa de computadora escrito en otro lenguaje. La compilación se realiza a través de dos programas: el compilador y el enlazador. Si en el compilador se detecta algún tipo de error no se generará el código objeto y tendremos que modificar el código fuente para volver a pasarlo por el compilador.
+
+---
+
+Dentro del compilador tendremos varias fases en las que se realizan distintas operaciones:
+
+- Análisis léxico: se lee el código obteniendo unidades de caracteres llamados tokens. Ejemplo: la instrucción resta = 2 – 1, genera 5 tokens: resta, =, 2, -, 1.
+- Análisis sintáctico: recibe el código fuente en forma de tokens y ejecuta el análisis para determinar la estructura del programa, se comprueba si cumplen las reglas sintácticas.
+- Análisis semántico: revisa que las declaraciones sean correctas, los tipos de todas las expresiones, si las operaciones se pueden realizar, si los arrays son del tamaño correcto, etc.
+- Generación de código intermedio: después de analizarlo todo, se crea una representación similar al código fuente para facilitar la tarea de traducir al código objeto.
+- Optimización de código: se mejora el código intermedio anterior para que sea más fácil y rápido a la hora de interpretarlo la máquina.
+- Generación de código: se genera el código objeto.
+
+El enlazador insertará, en el código objetos, las librerías necesarias para que se pueda producir un programa ejecutable. Si se hacen referencia a otros ficheros que contengan las librerías especificadas en el código objeto, se combina con dicho código y se crea el fichero ejecutable.
+
