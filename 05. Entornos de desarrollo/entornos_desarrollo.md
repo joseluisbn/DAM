@@ -116,3 +116,34 @@ Dentro del compilador tendremos varias fases en las que se realizan distintas op
 
 El enlazador insertará, en el código objetos, las librerías necesarias para que se pueda producir un programa ejecutable. Si se hacen referencia a otros ficheros que contengan las librerías especificadas en el código objeto, se combina con dicho código y se crea el fichero ejecutable.
 
+#### 1.3.3. Máquinas Virtuales
+
+Una máquina virtual es un tipo de software capaz de ejecutar programas como si fuese una máquina real. Se clasifican en dos categorías:
+
+- Máquinas virtuales de sistema. Nos permiten virtualizar máquinas con distintos sistemas operativos en cada una. Un ejemplo son los programas VMware Workstation o Virtual Box que podremos usar para probar nuevos sistemas operativos o ejecutar programas.
+- Máquinas virtuales de proceso. Se ejecutan como un proceso normal dentro de un SO y solo soporta un proceso. Se inician cuando lanzamos el proceso y se detienen cuando este finaliza. El objetivo es proporcionar un entorno de ejecución independiente del hardware y del sistema operativo y permitir que el programa sea ejecutado de la misma forma en cualquier plataforma. Ejemplo de ello es la máquina virtual de Java.
+
+Las máquinas virtuales requieren de grandes recursos por lo que hay que tener cuidado y ejecutarlas en ordenadores capaces de soportar los procesos que requieren dichas máquinas para que no nos funcionen lentas o se colapsen.
+
+**La máquina virtual de Java**
+
+Los programas que se compilan en lenguaje Java son capaces de funcionar en cualquier plataforma (UNIX, Mac, Windows, Solaris, etc.). Esto se debe a que el código no lo ejecuta el procesador del ordenador sino la propia Máquina Virtual de Java (JVM).
+
+---
+
+El funcionamiento básico de la máquina virtual es el siguiente:
+
+1. El código fuente estará escrito en archivos de texto planos con la extensión .java.
+2. El compilador javac generará uno o varios archivos siempre que no se produzcan errores y tendrán la extensión .class.
+3. Este fichero .class contendrá un lenguaje intermedio entre el ordenador y el SO y se llamará bytecode.
+4. La Java VM coge y traduce el bytecode en código binario para que el procesador de nuestro ordenador sea capaz de reconocerlo- Los ficheros .class podrán ser ejecutados en múltiples plataformas.
+
+Entre las tareas que puede realizar la máquina virtual Java pueden estar:
+
+- La reserva de espacio para objetos creados y liberar aquella memoria que no se usa.
+- Comunicación con el sistema en el que se ejecuta la aplicación para varias funciones.
+- Observar que se cumplen las normas de seguridad para las aplicaciones Java.
+
+Una de las desventajas de usar este tipo de lenguajes que se basan en una máquina virtual puede ser que son más lentos que los lenguajes ya compilados, debido a la capa intermedia. No obstante, cabe destacar que no una desventaja demasiado crítica.
+
+Para poder instalar la Java VM tendremos que acceder a la siguiente url: http://www.oracle.com/technetwork/java/javase/downloads/index.html, pulsar en el botón download donde aparece JRE (Java Runtime Environment) y descargar el fichero que nos interese según el sistema operativo que usemos. Una vez descargado, la instalación es fácil, ya que solo tendremos que ir siguiendo los pasos indicados. Cuando finalice la instalación puede que debamos reiniciar el equipo.
