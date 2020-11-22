@@ -235,3 +235,27 @@ Para refactorizar seleccionamos el elemento y pulsamos el botón derecho del rat
   - Utilizar la palabra new seguida de la definición entre llaves.
   - Usar la palabra new seguida del nombre de la clase que hereda (sin extends) y la definición de la clase entre llaves.
   - Utilizar la palabra new seguida del nombre de la interface (sin implements) y la definición de la clase anónima entre llaves.
+
+### 2.2. Control de versiones. Estructura de las herramientas de control de versiones.
+
+El control de versiones es la capacidad de poder recordar todos los cambios que se han realizado tanto en la estructura de directorios como en el contenido de los archivos. Puede ser muy útil para recuperar carpetas, archivos o algún proyecto en un momento dado del desarrollo. Es necesario saber qué cambios se hacen, quién los hace y cuándo se realizan.
+
+**Terminología**
+
+Veamos algunos términos útiles en relación al manejo del control de versiones:
+
+− Repositorio. Lugar donde se almacenan los datos y los cambios realizados.
+− Revisión o versión. Una revisión es una versión concreta de los datos almacenados. La última versión se identifica como la cabeza o HEAD.
+− Etiquetar o Rotular (tag). Las etiquetas se crean para localizar o recuperar en cualquier momento una versión concreta del desarrollo.
+− Tronco (trunk). Línea principal del desarrollo del proyecto.
+− Rama o ramificar (branch). Copias de carpetas, archivos o proyectos. Se pueden crear ramas para la creación de nuevas funcionalidades o comprobación de errores.
+− Desplegar (Checkout). Copia del proyecto, archivos y carpetas en el repositorio del equipo local.
+− Confirmar (commit o check-in). Se realiza cuando se confirman los cambios realizados en el local para integrarlos al repositorio.
+− Exportación (export). Es similar al Checkout, pero no se vincula la copia con el repositorio.
+− Importación (import). Subida de carpetas y archivos al repositorio.
+− Actualizar (update). Se realiza cuando se desea integrar los cambios realizados en el repositorio de la copia del trabajo local.
+− Fusión (merge). Se unen cambios realizados sobre uno o varios archivos en una única revisión. Se suele realizar cuando existen varias ramas y es necesario unir los cambios realizados.
+− Conflicto. Suele ocurrir cuando un usuario hace un Checkout de un archivo y otro usuario no actualiza y realiza cambios sobre el mismo archivo. Cuando envía los cambios realizados existe un conflicto entre ambos archivos, por lo que se deberán realizar los cambios o elegir uno de ellos.
+− Resolver conflicto. Actuación del usuario para atender varios conflictos.
+
+Para trabajar con el control de versiones habrá que crear primero una copia local con Checkout, realizar las modificaciones y, por último, subir las modificaciones con commit. Si ya está vinculada la copia habrá que hacer Update para que se haga sobre la última versión.
