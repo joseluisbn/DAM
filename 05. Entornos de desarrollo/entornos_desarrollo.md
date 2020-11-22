@@ -268,8 +268,8 @@ La subversión es especialmente importante cuando un proyecto lo realizan varias
 
 Así, la estructura con sus funciones quedará:
 
-− Trunk (tronco): se guardan las carpetas del proyecto. Aquí estará la versión básica, o sea, la línea principal.
-− Tags (etiquetas): copia del proyecto, carpeta o archivo para obtener una versión que no se modifique. Serán copias del tronco y es útil para crear versiones ya finalizadas.
+- Trunk (tronco): se guardan las carpetas del proyecto. Aquí estará la versión básica, o sea, la línea principal.
+- Tags (etiquetas): copia del proyecto, carpeta o archivo para obtener una versión que no se modifique. Serán copias del tronco y es útil para crear versiones ya finalizadas.
 − Branches (ramas): desarrolla versiones que serán publicadas. Es una copia del tronco, que será modificada para conseguir un producto final distinto al original. Serán modificaciones de versiones cerradas.
 
 ---
@@ -293,3 +293,34 @@ Podremos crear todos los repositorios que queramos y administrarlos desde el nav
 #### 2.2.2.1. Operaciones con Tortoise
 
 Para probar esta herramienta podremos usar archivos y carpetas de nuestro disco duro y tanto desde dentro del repositorio como desde fuera. Dentro del navegador y desde el menú contextual de TortoiseSVN se podrán seleccionar las operaciones a realizar.
+
+## Documentación. Uso de comentarios. Alternativas
+
+La documentación es el texto escrito que acompaña a los proyectos. Es un requisito importante en un proyecto comercial, ya que el cliente querrá que se documente las distintas fases del proyecto. 
+
+Podemos distinguir entre los siguientes tipos de documentación:
+− Documentación de las especificaciones: sirve para comprobar que tanto las ideas del desarrollador como las del cliente son las mismas, ya que sino el proyecto no será aceptable. Según la norma IEEE 830, que recoge varias recomendaciones para la documentación de software, esta documentación deberá contener:
+  - Introducción: se explican los fines y objetivos del software.
+  - Descripción de la información: descripción detallada, incluyendo hardware y software.
+  - Descripción funcional: detalla cada función del sistema.
+  - Descripción del comportamiento: explica cómo se comporta el software ante sucesos externos e internos.
+  - Criterios de validación: documento sobre el límite de rendimientos, los tipos de pruebas, la respuesta esperada del software y las consideraciones especiales.
+- Documentación del diseño: en este documento se describe toda la estructura interna del programa, formas de implementación, contenido de clases, métodos, objetos, etc.
+- Documentación del código fuente: durante el desarrollo del proyecto se debe ir comentando en el código fuente cada parte, para tener una mayor claridad de lo que se quiere conseguir en cada sección.
+- Documentación de usuario final: documentación que se entrega al cliente en la que se describe cómo usar las aplicaciones del proyecto.
+
+**Documentación del código fuente**
+
+La documentación del código del programa también es fundamental para que todo el equipo pueda realizar funciones de actualización y reparación de errores de
+manera mucho más sencilla.
+
+Esta debe describir lo que se está haciendo y por qué. Hay 2 reglas que no se deben
+olvidar:
+- Todos los programas poseen errores y es cuestión de tiempo que se detecten.
+- Todos los programas sufren modificaciones a lo largo de su vida.
+
+Al realizar las modificaciones es necesario que el código esté bien documentado para que otro programador ajeno localice los cambios que quiere realizar.
+
+Al documentarlo, habrá que explicar lo que realiza una clase o un método y por qué y para qué lo hace.
+
+Para documentar proyectos existen muchas herramientas como pueden ser PHPDoc, phpDocumentor, Javdoc o JSDoc, el javadoc para JavaScript. Nosotros usaremos Javadoc.
