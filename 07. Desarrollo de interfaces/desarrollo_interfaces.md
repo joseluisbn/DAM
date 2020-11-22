@@ -125,3 +125,63 @@ Teniendo en cuenta el lenguaje Java en cualquiera de las dos herramientas, los I
 En la siguiente imagen es posible ver la vista de diseño a la que podemos arrastrar los elementos deseados:
 
 ---
+
+## 1.6. Clases, propiedades, métodos.
+
+Una clase es una plantilla que se utiliza para crear objetos de datos según un modelo predefinido. Las clases son utilizadas para representar entidades o conceptos. Cada clase es un modelo que define un conjunto de variables (el estado) y métodos que permiten operar con dichos datos (comportamiento).
+
+Un objeto creado a partir de la clase se denomina instancia de la clase.
+
+Las clases nos permiten abstraer los datos y sus operaciones a modo de una caja negra. Una clase puede tener una representación (metaobjeto) que proporciona apoyo en tiempo de ejecución para la manipulación de los metadatos relacionados con la clase.
+
+Las clases se componen de elementos de varios tipos:
+
+- Campos de datos: se utilizan para contener datos que reflejan el estado de la clase. Los datos pueden estar almacenados en variables o estructuras más complejas (como structs). Habitualmente, las variables son privadas al objeto (principio de ocultación) y su acceso se realiza mediante propiedades o métodos.
+- Métodos: implementan la funcionalidad asociada al objeto. Podemos acceder a las variables de la clase de forma implícita. Cuando se realiza una acción sobre un objeto, se dice que se le manda un mensaje invocando a un método que realizará la acción.
+- Propiedades: son un tipo especial de métodos. Debido a que las variables suelen ser privadas para controlar el acceso y mantener la coherencia, surge la necesidad de permitir realizar consultas o modificar su valor mediante los métodos GetVariable y SetVariable. Java o C# añaden la construcción de propiedad.
+
+Un ejemplo de clase en Java:
+
+```java
+public class Coche {
+ String marca;
+ String modelo;
+ Int potencia;
+
+ // Constructor, se llamará cuando se cree la clase
+ public Coche () {
+ marca = 'Ford';
+ modelo = 'Focus';
+ potencia = 150;
+ }
+
+ // Métodos para insertar valores, conocidos como setters
+ public void setMarca(String marca) {
+ this.marca = marca;
+ }
+ public void setPotencia(int potencia) {
+ this.potencia = potencia;
+}
+...
+// Métodos para obtener valores, conocidos como getters
+public String getMarca() {
+ return marca;
+}
+
+public int getPotencia() {
+ return potencia;
+}
+...
+}
+```
+En este ejemplo, se ha creado la clase denominada Coche. El espacio que comprenden la apertura y el cierre de la clase, es decir, el contenido que se encuentra entre las llaves (símbolos { y }), se denomina cuerpo de la clase.
+
+Todos los objetos de tipo Coche tendrán los mismos atributos: una marca (cadena de caracteres), un modelo (cadena de caracteres) y una potencia (valor entero 0, 1, 2, etcétera). Los atributos principales los definiremos normalmente una vez que se realiza la apertura de la clase, fuera de los constructores o métodos que haya.
+
+Se ha definido que cualquier Coche que se cree tenga los siguientes atributos: marca “Ford”, modelo “Focus” y una potencia de 150. Dicha sintaxis se utiliza para el constructor public Coche{…}.
+
+Por otro lado, se han establecido unos métodos que sirven para recibir valores (setMarca, setPotencia) y quedar asignado el valor recibido en los métodos. Y métodos que permiten devolver un valor (getMarca, getPotencia) cuando se haga referencia a ellos.
+
+Para crear objetos Coche se debe asignar a una variable el valor new Coche(). De esta forma, es posible crear 5 objetos: coche1, coche2, coche3, coche4 y coche5. Cada objeto Coche tiene tres atributos: marca, modelo y potencia. En total disponemos de 15 atributos (5 coches x 3 atributos = 15 atributos).
+
+Un objeto es una instancia de una clase, es por este motivo que a los atributos definidos en Coche se los denomina variables de instancia. También son conocidos como campos de la clase. Cada clase tiene sus campos específicos, por ejemplo, para la clase Persona sus campos pueden ser: nombre, apellidos, DNI, altura y peso.
