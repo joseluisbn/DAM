@@ -213,3 +213,25 @@ En Eclipse disponemos de distintas formas de refactorizar. En función de donde 
 ---
 
 **Métodos de refactorización**
+
+Son prácticas para refactorizar el código. A través de distintas herramientas plantearemos elementos para refactorizar y nos mostrarán las posibles soluciones en las que podremos observar el resultado antes y después de la refactorización.
+
+También se les llama patrones de refactorización o catálogos de refactorización.
+
+Para refactorizar seleccionamos el elemento y pulsamos el botón derecho del ratón, elegimos Refactor y seleccionamos método de refactorización. Los elementos más comunes serán los siguientes:
+
+- Rename. Cambia el nombre de cualquier identificador de Java. Es de las opciones más utilizadas y, una vez realizada, se modifican las referencias a ese identificador.
+- Move. Se mueve la clase de un paquete a otro, se moverá el archivo .java y se cambiarán todas las referencias.
+- Extract Constant. Convierte en una constante un número o una cadena. Se mostrará el estado antes y después de refactorizar. El objetivo es modificar el valor del literal en un único lugar.
+- Extract Local Variable. Se asigna una expresión a una variable local. La misma expresión a otro método no se modifica.
+- Convert Local Variable to Field. Convierte una variable local en un atributo privado de la clase. Tras la refactorización, todos los usos de la variable local se sustituyen por el atributo.
+- Extract Method. Convierte un bloque de código en un método. No debe llevar llaves abiertas. Este patrón es muy útil cuando detectamos bad smells en métodos muy largos o en bloques de código que se repiten.
+- Change Method Signature. Permite cambiar la firma de un método, es decir, el nombre y los parámetros que tiene.
+- Inline. Nos ajusta una referencia a una variable o método con la línea en la que se utiliza y conseguir, así, una única línea de código.
+- Member Type to Top Level. Permite convertir una clase anidada en una clase de nivel superior con su propio archivo de java. Si es estática se realizará inmediatamente y, si no lo es, nos pedirá el nombre de la clase.
+- Extract Interface. Nos va a permitir escoger los métodos de una clase para crear una Interface. Una Interface es una plantilla que define los métodos pero no los desarrolla. Serán las clases de la interface la encargada de desarrollarlos.
+- Extract Superclass. Permite extraer una superclase. Si ya utilizaba una, la extraída será la nueva superclase. Se podrán seleccionar los métodos y atributos que van a formar parte de la nueva superclase.
+- Convert Anonymous Class to Nested. Permite convertir una clase anónima a una clase anidada de la clase que la contiene. Una clase anónima se caracteriza por:
+  - Utilizar la palabra new seguida de la definición entre llaves.
+  - Usar la palabra new seguida del nombre de la clase que hereda (sin extends) y la definición de la clase entre llaves.
+  - Utilizar la palabra new seguida del nombre de la interface (sin implements) y la definición de la clase anónima entre llaves.
