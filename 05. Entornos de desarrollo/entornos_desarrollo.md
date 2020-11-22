@@ -178,3 +178,17 @@ Podemos clasificar los lenguajes de programación basándonos en los siguientes 
 
 ** Según su nivel de abstracción**
 
+## 2. Documentación y optimización
+
+En esta segunda parte de la unidad trataremos el control de versiones y para qué se utiliza en la creación de proyectos de software. Usaremos herramientas cliente y servidor y aprenderemos a documentar las clases Java usando Javadoc. Por último, abordaremos el concepto de refactorización y por qué es necesario refactorizar.
+
+## 2.1. Refactorización. Concepto. Limitaciones. Patrones de refacción más usuales.
+
+La refactorización nos va a permitir optimizar un código que se ha escrito previamente, realizando cambios en la estructura interna sin que afecten al comportamiento final del producto.
+
+La refactorización tiene como objetivo limpiar el código para que se entienda mejor y se pueda modificar de forma más fácil, lo que nos va a permitir una mejor lectura y comprensión de lo que se realiza. Esta modificación no alterará su ejecución ni los resultados.
+
+### 2.1.1. Cuándo refactorizar. Malos olores (bad smells)
+
+La refactorización la deberemos ir haciendo a medida que desarrollamos el software. En 2003, Mario G. Piattini y Félix Òscar García analizaron los síntomas que indican la necesidad de refactorizar. Por su parte, el ingeniero de software británico Martin Fowler y otros expertos diagnosticaron los bad smells (malos olores), es decir, pequeños indicios que indican que el sistema no funciona como es debido. Los síntomas para refactorizar el código son los siguientes:
+
