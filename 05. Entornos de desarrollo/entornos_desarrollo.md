@@ -192,3 +192,24 @@ La refactorización tiene como objetivo limpiar el código para que se entienda 
 
 La refactorización la deberemos ir haciendo a medida que desarrollamos el software. En 2003, Mario G. Piattini y Félix Òscar García analizaron los síntomas que indican la necesidad de refactorizar. Por su parte, el ingeniero de software británico Martin Fowler y otros expertos diagnosticaron los bad smells (malos olores), es decir, pequeños indicios que indican que el sistema no funciona como es debido. Los síntomas para refactorizar el código son los siguientes:
 
+− Código duplicado (Duplicated code). Esta será la principal razón para realizar la refactorización. Si encontramos algún código repetido deberemos unificarlos.
+− Métodos muy largos (Long method). Los métodos largos normalmente pueden estar compuestos de métodos más pequeños por lo que deberemos dividirlos para que, además, puedan reutilizarse.
+− Clases muy grandes (Large class). Si una clase es grande tendrá muchas responsabilidades al tener demasiados métodos y atributos. Por ello, deberemos crear clases más pequeñas y que estén bien delimitadas.
+− Lista de parámetros extensa (Long parameter list). Las funciones deben tener el mínimo de parámetros posible o, del contrario, tendremos un problema de encapsulación de datos. Si un método requiere de muchos parámetros deberemos crear una clase objeto con esa cantidad de datos.
+− Cambio divergente (Divergent change). Una clase se puede modificar por diferentes motivos. Éstos no tienen por qué estar relacionados y cabe la posibilidad de poder eliminar o dividir dicha clase en el caso, por ejemplo, de que esté realizando demasiadas tareas.
+− Cirugía a tiro pistola (Shotgun surgery). Cambios adicionales realizados después de modificar una clase para compatibilizar el cambio.
+− Envidia de funcionalidad (Feature envy). Ocurre cuando un método usa más elementos de otra clase que de la suya propia. Se resolverá pasando ese método a la clase que usa más.
+− Clase de solo datos (Data class). Clase que solo tiene atributos y métodos de acceso. No debería ser lo habitual.
+− Legado rechazado (Refused bequest). Subclases que usan características de superclase, lo que pude inducir a un error en la jerarquía de clases.
+
+El proceso de refactorización posee algunas ventajas entre las que están la facilidad de mantenimiento en el diseño del sistema y el incremento de la facilidad en la lectura y en el código fuente.
+
+Las bases de datos y las interfaces son áreas conflictivas para la refactorización. El cambio de base de datos tendría como consecuencia la migración de la estructura y de los datos.
+
+### 2.1.2. Refactorización en Eclipse
+
+En Eclipse disponemos de distintas formas de refactorizar. En función de donde lo hagamos tendremos un menú contextual u otro. Para ello, deberemos ir a la opción Refactor del menú contextual.
+
+---
+
+**Métodos de refactorización**
