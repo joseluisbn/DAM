@@ -185,3 +185,39 @@ Por otro lado, se han establecido unos métodos que sirven para recibir valores 
 Para crear objetos Coche se debe asignar a una variable el valor new Coche(). De esta forma, es posible crear 5 objetos: coche1, coche2, coche3, coche4 y coche5. Cada objeto Coche tiene tres atributos: marca, modelo y potencia. En total disponemos de 15 atributos (5 coches x 3 atributos = 15 atributos).
 
 Un objeto es una instancia de una clase, es por este motivo que a los atributos definidos en Coche se los denomina variables de instancia. También son conocidos como campos de la clase. Cada clase tiene sus campos específicos, por ejemplo, para la clase Persona sus campos pueden ser: nombre, apellidos, DNI, altura y peso.
+
+## Generación de interfaces a partir de documentos XML
+
+Un lenguaje de marcas o lenguaje de marcado es una forma de codificar un documento mediante etiquetas o marcas que contienen información adicional sobre la estructura del texto o su presentación.
+
+### 2.1. Lenguajes de descripción de interfaces basadas en XML. Ámbito de aplicación.
+
+Los lenguajes de descripción están basados en XML tienen dos ventajas principales:
+
+- Fácil aprendizaje.
+- Permiten definir una interfaz separada de la lógica y contenido de la aplicación.
+
+### 2.2. XAML (Extensible Application Markup Language)
+
+Este lenguaje está basado en XML y permite realizar una descripción gráfica de las interfaces de los distintos usuarios (desde el punto de vista gráfico).
+
+XAML es un lenguaje que se puede aplicar al desarrollo de interfaces para escritorio y, además, suele utilizarse para web. Existen una serie de editores que permiten incorporar herramientas de edición y analizadores sintácticos, como pueden ser Visual Studio y Blend, entre otros.
+
+Uno de los principales objetivos que se pretende en el diseño de interfaces que están basadas en XAML es separar totalmente las capas de presentación de la capa lógica para conseguir evitar que se mezclen aquellos elementos que pertenezcan a distintas capas. Esto podría afectar a la distribución modular de la aplicación y al acoplamiento de esta.
+
+XAML es un lenguaje basado en XML para cerrar e inicializar objetos .NET con relaciones jerárquicas.
+
+A la hora de tener que ilustrar la estructura de una interfaz basada en XAML, se diseña una pequeña interfaz que dispone de un botón en ella. Es por esto por lo que se necesitaría crear un nuevo proyecto en el editor Visual Studio haciendo uso del lenguaje de programación C#, por ejemplo.
+
+A continuación, aparecerá una ventana inicial del proyecto en la que se puede apreciar en una ventana el trozo de código XAML y en otra la interfaz resultante.
+
+Se debe comprobar que el elemento más importante es la etiqueta <Window>, que va a ser el elemento raíz y debe finalizar con </Window>.
+Detrás de esta etiqueta ya no se puede generar código adicional.
+
+Dentro de la etiqueta <Window> es preciso declarar los distintos espacios de nombres junto con sus correspondientes referencias.
+  
+Estos espacios de nombres deben asociar los elementos descritos en el documento con los determinados controles de WPF (Window Presentation Foundation) que están en el espacio de nombres System > Windows > Controls del .Net Framework.
+
+Entre las principales características de XAML se puede señalar que cada elemento gráfico se define mediante una etiqueta de apertura y otra de cierre, además de por un conjunto de atributos que definirán el aspecto y comportamiento de este.
+
+XAML cuenta con bastantes ventajas respecto a sus competidores, sobre todo al permitir desarrollar distintas interfaces mediante su asociación con .Net. En este lenguaje, tanto las etiquetas como los atributos se corresponden de forma directa con otros elementos que pertenecen al lenguaje .Net.
