@@ -324,3 +324,36 @@ Al realizar las modificaciones es necesario que el código esté bien documentad
 Al documentarlo, habrá que explicar lo que realiza una clase o un método y por qué y para qué lo hace.
 
 Para documentar proyectos existen muchas herramientas como pueden ser PHPDoc, phpDocumentor, Javdoc o JSDoc, el javadoc para JavaScript. Nosotros usaremos Javadoc.
+
+### 2.3.1. Uso de Javadoc en Eclipse
+
+Javadoc es una herramienta de Java que sirve para extraer y generar documentación básica para el programador a partir del código fuente en formato HTML. Tendremos que escribir los comentarios siguiendo las recomendaciones de Javadoc, y el código y la documentación se encontrarán dentro del mismo fichero.
+
+Los tipos de comentario para que genere la documentación son:
+- Comentarios en línea: comienzan con los caracteres “//” y terminan en la misma línea.
+- Comentarios tipo C: comienzan con “/*” y terminan con “*/”. Pueden contener varias líneas.
+- Comentarios de documentación Javadoc: se colocan entre delimitadores /**…*/, podrán agrupar varias líneas y cada línea irá precedida por un *.
+
+Deberá colocarse antes de la declaracion de una clase, un campo, un método o constructor. Podrá contener etiquetas HTML y los comentarios están formados por dos partes: una descripción seguida de un bloque de tags.
+
+**Uso de etiquetas de documentación**
+
+Las etiquetas de Javadoc van precedidas por @ y las más utilizadas son:
+
+- @author: autor de la clase. Solo para clases.
+- @version: versión de la clase. Solo para clases.
+- @see: referencia a otra clase.
+- @param: descripción del parámetro. Una etiqueta por cada parámetro.
+- @return: descripción de lo que se devuelve. Solo si no es void.
+- @throws: descripción de la excepción que se puede propagar. Habrá una etiqueta throws por cada tipo de excepción.
+- @since: número de la versión de la que existe el método.
+
+**Generar la documentación**
+
+Casi todos los entornos de desarrollo incluyen un botón para poder configurar Javadoc. Para hacerlo desde Eclipse, abrimos el menú Project y elegimos el botón Generate Javadoc. En la siguiente ventana nos pedirá la siguiente información:
+- En Javadoc command se indicará dónde se encuentra el fichero ejecutable de Javadoc, el javadoc.exe. Pulsamos en Configure para buscarlo dentro de la carpeta del JDK y elegimos la carpeta bin.
+- En los cuadros inferiores elegiremos el proyecto y las clases a documentar.
+- Elegimos la privacidad de los elementos. Con Private se documentarán todos los miembros públicos, privados y protegidos.
+- Para finalizar, se indica la carpeta de destino en la que se almacenará el código HTML.
+
+Pulsar next, en la siguiente ventana poner el título del documento html que se genera, y elegir las opciones para la generación de las páginas HTML. Como mínimo se seleccionará la barra de navegación y el índice.
