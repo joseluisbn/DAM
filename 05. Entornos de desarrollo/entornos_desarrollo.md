@@ -259,3 +259,37 @@ Veamos algunos términos útiles en relación al manejo del control de versiones
 − Resolver conflicto. Actuación del usuario para atender varios conflictos.
 
 Para trabajar con el control de versiones habrá que crear primero una copia local con Checkout, realizar las modificaciones y, por último, subir las modificaciones con commit. Si ya está vinculada la copia habrá que hacer Update para que se haga sobre la última versión.
+
+### 2.2.1. Subversión. Ciclo de vida de subversión
+
+Durante el desarrollo de un proyecto, es fundamental el uso de una herramienta multiplataforma de código abierto que garantice el control de versiones proceso conocido como subversión. Esta herramienta usa una base de datos central llamada repositorio que contendrá archivos cuyas versiones e historias son controladas. Este repositorio actuará como servidor de archivos y recordará cada cambio realizado.
+
+La subversión es especialmente importante cuando un proyecto lo realizan varias personas, pues será básico llevar un control y un orden para el correcto desarrollo de este. El proyecto tendrá que verse como un árbol con su tronco (trunk), que será la línea principal; sus ramas (branches), las cuales añaden nuevas funciones o corrigen errores; y, sus etiquetas (tags), que marcan situaciones importantes o versiones acabadas.
+
+Así, la estructura con sus funciones quedará:
+
+− Trunk (tronco): se guardan las carpetas del proyecto. Aquí estará la versión básica, o sea, la línea principal.
+− Tags (etiquetas): copia del proyecto, carpeta o archivo para obtener una versión que no se modifique. Serán copias del tronco y es útil para crear versiones ya finalizadas.
+− Branches (ramas): desarrolla versiones que serán publicadas. Es una copia del tronco, que será modificada para conseguir un producto final distinto al original. Serán modificaciones de versiones cerradas.
+
+---
+
+### 2.2.2. Cliente TortoiseSVN
+
+TortoiseSVN es un cliente gratuito de código abierto para el sistema de control de versiones Subversion. Cuando se instala aparece integrado en la shell de Windows. Podemos descargarlo en la siguiente URL: http://tortoisesvn.net/downloads.html
+
+Estará disponible para 32 y 64 bits, y también existirá el instalador del idioma. En esta unidad trabajaremos con la versión 1.8.4. Primero instalaremos la herramienta y después el idioma.
+
+El proceso de instalación es muy sencillo. Solo debemos aceptar los términos de la licencia, indicamos la carpeta donde se instalará y pulsamos en Instalar.
+
+Seguidamente instalamos el idioma. Para configurarlo, pulsamos el botón derecho del ratón en el escritorio, seleccionamos TortoiseSVN/Settings y el cuadro que nos aparece en General seleccionamos el idioma en Language. Seleccionamos español y comprobamos que las opciones que nos aparecen están en español.
+
+Ahora vamos a ver cómo se crea un repositorio en el PC para controlar los archivos y documentos que se almacenan en él.
+
+Para crearlo debemos crear una carpeta en nuestro disco duro, la seleccionamos y haciendo clic derecho elegimos la opción TortoiseSVN y accedemos a la opción Crear repositorio aquí. A continuación, hacemos clic en el botón Crear estructura de carpetas (se creará la estructura branches, tags y trunks) y pulsaremos Navegador de repositorios para que nos muestre el navegador. La revisión creada será la 1 e irá aumentando conforme hagamos cambios en el repositorio. Para acceder a las demás revisiones pulsamos en el botón HEAD.
+
+Podremos crear todos los repositorios que queramos y administrarlos desde el navegador. Se creará la estructura de carpetas trunk-tags-branches. Esa estructura variará dependiendo de la organización que queramos, ya que podremos organizarlo por ramas o por proyectos.
+
+#### 2.2.2.1. Operaciones con Tortoise
+
+Para probar esta herramienta podremos usar archivos y carpetas de nuestro disco duro y tanto desde dentro del repositorio como desde fuera. Dentro del navegador y desde el menú contextual de TortoiseSVN se podrán seleccionar las operaciones a realizar.
