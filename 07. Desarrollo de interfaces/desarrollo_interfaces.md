@@ -221,3 +221,12 @@ Estos espacios de nombres deben asociar los elementos descritos en el documento 
 Entre las principales características de XAML se puede señalar que cada elemento gráfico se define mediante una etiqueta de apertura y otra de cierre, además de por un conjunto de atributos que definirán el aspecto y comportamiento de este.
 
 XAML cuenta con bastantes ventajas respecto a sus competidores, sobre todo al permitir desarrollar distintas interfaces mediante su asociación con .Net. En este lenguaje, tanto las etiquetas como los atributos se corresponden de forma directa con otros elementos que pertenecen al lenguaje .Net.
+
+**Descripción de la sintaxis en XAML**
+
+Las etiquetas XAML definen los distintos elementos pertenecientes a la interfaz y cuentan con una serie de atributos:
+- Atributo Name: único identificador del elemento. Bastante útil cuando se precisa hacer referencias en el código (x:Name).
+- Atributo Key: puede contar con un identificador para los distintos elementos definidos en el diccionario (x:Key).
+- {Binding}: se refiere al elemento que está definido dentro de un valor de un atributo, permitiendo definir un enlace a una fuente de datos, un fichero, una base de datos, etcétera.
+- {StaticResource}: similar al anterior, pero, en este caso, hace referencia a un elemento que está definido en el diccionario de recursos.
+- {Null}: representa el valor nulo. 
