@@ -82,3 +82,17 @@ Tanto si concebimos el sistema informático como un único equipo, como si pensa
 En ocasiones, pese a que a priori la conectividad no sea posible, contamos con la opción de usar adaptadores. Así, por ejemplo, si deseamos habilitar una red inalámbrica y los ordenadores no cuentan con tarjetas de red wifi en su placa madre, podemos adquirir adaptadores de red extraíbles e insertarlos en sus respectivos puertos USB.
 
 En definitiva, todo sistema informático estará compuesto de hardware (recursos físicos) y de software (recursos lógicos). Si queremos entender la definición de sistema informático en un sentido más amplio, a todo ello deberemos añadir a los usuarios (recursos humanos) y, por supuesto, la información.
+
+1.2. Tipos y topologías de red
+
+Una red de ordenadores es un conjunto de equipos interconectados entre sí que permiten compartir recursos e información. Para ello es necesario que los ordenadores dispongan de una tarjeta de red, cables de conexión, dispositivos periféricos y un software adecuado.
+
+Es posible diferenciar varios tipos de redes según su extensión:
+
+- LAN. Red de área local (Local Area Network) en la que uno o varios ordenadores están conectados entre sí, generalmente dentro de un mismo edificio. Permite compartir dispositivos de hardware, archivos, etc.
+- MAN. Red de área metropolitana (Metropolitan Area Network) ubicada en una misma área geográfica, normalmente dentro de una ciudad. Utiliza dos buses unidireccionales independientes.
+- WAN. Red de área amplia (World Area Network) que se expande por diversas áreas del mundo. Utiliza fibra óptica o satélites.
+- PAN. Red de área personal (Personal Area Network) únicamente para uso personal. Apenas cubre unos metros como, por ejemplo, una conexión Bluetooth.
+- WLAN. Red LAN inalámbrica (Wireless Local Area Network) que transmite información de forma inalámbrica.
+
+Independientemente del tipo de red que se decida utilizar, debemos saber que toda red presenta una topología diferente. Es decir, un diseño específico en los planos físico y lógicos. Dado que toda red es, en esencia, un conjunto de equipos (nodos) interconectados, la manera en la que se establezcan las conexiones entre estos definirá su topología.
