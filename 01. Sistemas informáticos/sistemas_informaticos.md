@@ -41,3 +41,44 @@ Para dar sentido a todos los componentes anteriores, necesitamos añadir los com
 - Aplicaciones
 
 Si nos fijamos en la arquitectura interna del sistema informático, debemos atender a los siguientes conceptos:
+
+**Unidad Central de Proceso (CPU)**
+
+Es un elemento esencial de cualquier ordenador ya que tiene como misión ejecutar las instrucciones de un programa. La CPU también se conoce con el nombre de procesador central.
+
+Físicamente está formada por circuitos de naturaleza electrónica, que en un ordenador se encuentran integrados en una pastilla o chip denominado microprocesador. Está compuesto por la Unidad de control, la ALU y los buses de entrada y salida de datos.
+
+**Unidad de control (UC)**
+
+Es la parte pensante del sistema informático. Su tarea fundamental es recibir información para interpretarla y procesarla mediante las órdenes que envía al resto de componentes del sistema.
+
+**Unidad aritmético-lógica (ALU)**
+
+Es un circuito digital que calcula operaciones aritméticas, como la suma, la resta o la multiplicación, y operaciones lógicas, como las comparaciones, and u or. Conforma uno de los tres bloques en los que se divide la CPU.
+
+**Memoria principal**
+
+También se conoce como memoria central o memoria RAM. Es un componente necesario para que se pueda procesar la información. Para que un programa pueda ser procesado por la CPU, primero tiene que almacenarse en la memoria principal.
+
+**Buses**
+
+Es una vía de comunicación que conecta dos o más dispositivos. Se trata de un medio de transmisión compartido. Al bus se conectan múltiples dispositivos y una señal transmitida por cualquiera de ellos puede ser recibida por el resto de las unidades conectadas.
+
+Funciones de un bus:
+
+- Soportar la información a transmitir.
+- Garantizar la correcta comunicación entre los elementos que comparten el bus.
+
+**Ciclo de instrucción**
+
+Es el conjunto de pasos que se realizan al procesar una instrucción de un programa. Está formado por la fase de búsqueda y la fase de ejecución.
+
+El ordenador admitirá muchos otros periféricos físicos y si necesitamos ampliarlo a nivel de hardware será indispensable que conozcamos su arquitectura y su conectividad. Asimismo, las características del hardware condicionarán qué software se ejecutará correctamente en él y, por tanto, la elección del sistema operativo y las aplicaciones.
+
+También se deberá tener en cuenta las características técnicas de la red que estemos empleando y su tipo de cableado.
+
+Tanto si concebimos el sistema informático como un único equipo, como si pensamos en él como un conjunto de equipos en red, la conectividad es un término clave en la disciplina que nos ocupa. Dicho término hace referencia a la capacidad de los equipos y dispositivos para conectarse entre sí.
+
+En ocasiones, pese a que a priori la conectividad no sea posible, contamos con la opción de usar adaptadores. Así, por ejemplo, si deseamos habilitar una red inalámbrica y los ordenadores no cuentan con tarjetas de red wifi en su placa madre, podemos adquirir adaptadores de red extraíbles e insertarlos en sus respectivos puertos USB.
+
+En definitiva, todo sistema informático estará compuesto de hardware (recursos físicos) y de software (recursos lógicos). Si queremos entender la definición de sistema informático en un sentido más amplio, a todo ello deberemos añadir a los usuarios (recursos humanos) y, por supuesto, la información.
