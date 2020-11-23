@@ -148,3 +148,38 @@ Gracias a él obtenemos una estructura lógica de la información grabada en las
 Permiten que el sistema interactúe con los diversos dispositivos de hardware del equipo. Por ejemplo, si conectamos al sistema un disco duro Serial ATA será imprescindible contar con el driver correspondiente para poder trabajar con él.
 
 Toda esta gestión se llevará a cabo, naturalmente, a partir de las órdenes que el sistema operativo recibe. Para introducirlas podemos usar una interfaz gráfica o bien un intérprete de comandos tipo DOS.
+
+### 1.5. Funciones del sistema operativo
+
+Si nos remitimos al apartado anterior y lo examinamos con detenimiento, deduciremos cuáles son las principales funciones del sistema. A modo de resumen convendremos que son las siguientes:
+
+**Administración de procesos**
+
+Cuando existen varios programas a la espera para ser procesados, el sistema operativo debe decidir el orden de procesamiento de estos, así como asignar los recursos necesarios para su proceso.
+
+**Administración de recursos**
+
+El sistema operativo tiene la capacidad de distribuir de forma adecuada y en el momento oportuno los diferentes recursos (memoria, dispositivos, etc.) entre los diversos programas que se encuentran en proceso. Para hacerse cargo de este proceso lleva un registro que le permite conocer qué recursos están disponibles y cuáles están siendo utilizados, por cuánto tiempo y por quién, etc.
+
+**Control de operaciones de entrada y de salida**
+
+Mediante esta actividad el sistema operativo decide qué proceso hará uso del recurso, durante cuánto tiempo y en qué momento.
+
+**Administración de la memoria**
+
+Supervisa qué áreas de memoria están en uso y cuáles están libres. Además, determina cuánta memoria asignará a un proceso y en qué momento. También libera la memoria cuando ya no es requerida para el proceso.
+
+**Recuperación de errores**
+
+El sistema operativo contiene rutinas que intentan evitar perder el control de una tarea cuando se suscitan errores en la transferencia de información hacia y desde los dispositivos de entrada y salida. Estas tareas son las siguientes:
+- Gestión y asignación de la memoria y la CPU (en la siguiente imagen)
+- Gestión de las unidades de almacenamiento de la información
+- Gestión de las operaciones de entrada/salida
+- Mediación entre el hardware y el software a través de los drivers
+
+**Gestión de usuarios y permisos**
+Aplica una serie de permisos a los usuarios que les permiten acceder al sistema y así poder evitar acciones que afecten al trabajo que está realizando otro usuario.
+
+**Control de seguridad**
+
+Es necesario tener en cuenta la seguridad, tanto para el software como para los usuarios, así como también para la información que se encuentra almacenada en el sistema.
