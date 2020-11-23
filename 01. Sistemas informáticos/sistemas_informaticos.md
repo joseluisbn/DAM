@@ -96,3 +96,25 @@ Es posible diferenciar varios tipos de redes según su extensión:
 - WLAN. Red LAN inalámbrica (Wireless Local Area Network) que transmite información de forma inalámbrica.
 
 Independientemente del tipo de red que se decida utilizar, debemos saber que toda red presenta una topología diferente. Es decir, un diseño específico en los planos físico y lógicos. Dado que toda red es, en esencia, un conjunto de equipos (nodos) interconectados, la manera en la que se establezcan las conexiones entre estos definirá su topología.
+
+### 1.3. Mapa físico y lógico de una red
+
+A la hora de crear una red o de modificar la que tenemos habilitada es muy importante que hayamos documentado su estructura.
+
+Dicha documentación deberá llevarse a cabo en dos frentes.
+
+**Mapa físico**
+
+Es una representación gráfica de una red en el mundo real. ¿En qué planta se encuentra cada ordenador? ¿En qué lugar de la oficina está ubicado? Todo ello deberá tenerse en cuenta para garantizar que la señal de red llegue a cada equipo de la mejor forma posible.
+
+Habitualmente, los mapas físicos se realizan de forma manual por los técnicos, aunque en la actualidad existen diferentes aplicaciones propias de las marcas de los equipos que utilicemos en la red (). Estas nos ofrecen la posibilidad de subir los mapas como archivos en determinados formatos para mostrar la representación de este mapa en un ordenador y poder interactuar con los diferentes componentes o consultar información sobre los equipos de esta.
+
+**Mapa lógico**
+
+Documentación que hace referencia a los aspectos internos de la red. Es necesario saber qué dirección IP tiene asignada cada ordenador, a qué subred pertenece, etc.
+
+Este mapa es una representación mucho más técnica que la anterior, que nos facilita el mantenimiento de la red y la incorporación de nuevos nodos en esta. Al igual que en el caso anterior, los proveedores de este tipo de hardware nos ofrecen entornos preparados para mostrar esta información.
+
+Los diferentes entornos de los sistemas operativos más utilizados hoy en día proporcionan diferentes aplicaciones preinstaladas que nos ayudan a obtener la información necesaria de los equipos. Nos referimos, por ejemplo, a la dirección IP, DECHP, DNS, etc.
+
+De todos modos, cuando se comprueba estos temas de forma masiva en redes muy grandes, se suele utilizar la consola de comandos, ya que es más liviana y nos ofrece toda la información necesaria con los comandos adecuados.
