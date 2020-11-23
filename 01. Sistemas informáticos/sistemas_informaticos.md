@@ -118,3 +118,33 @@ Este mapa es una representación mucho más técnica que la anterior, que nos fa
 Los diferentes entornos de los sistemas operativos más utilizados hoy en día proporcionan diferentes aplicaciones preinstaladas que nos ayudan a obtener la información necesaria de los equipos. Nos referimos, por ejemplo, a la dirección IP, DECHP, DNS, etc.
 
 De todos modos, cuando se comprueba estos temas de forma masiva en redes muy grandes, se suele utilizar la consola de comandos, ya que es más liviana y nos ofrece toda la información necesaria con los comandos adecuados.
+
+### 1.4. Arquitectura de un sistema operativo 
+
+A lo largo de las últimas décadas, los sistemas operativos han ido evolucionando de forma notable. Además, las consolas de tipo texto como DOS han dejado paso a interfaces más modernas de tipo gráfico como Windows o Mac OS X.
+
+En la práctica podemos distinguir en la arquitectura de todos ellos los siguientes elementos clave:
+
+**Núcleo del sistema**
+
+Se trata del componente del sistema que está ejecutándose permanentemente en la memoria. Es la parte que se encarga de gestionar los recursos del ordenador.
+
+Entre las tareas que realiza, cabe destacar la de asignar CPU y memoria a los procesos.
+
+**La API del núcleo**
+
+Las siglas API corresponden a Interfaz de Programación de Aplicaciones. La API comprende el conjunto de servicios que ofrece el sistema operativo a las aplicaciones. Estos pueden llamar al sistema operativo para valerse de él.
+
+Así, por ejemplo, mediante dichas llamadas el sistema puede efectuar operaciones básicas como abrir archivos, modificarlos, cerrarlos, etc.
+
+También puede ejecutar instrucciones de entrada y salida para operaciones relacionadas con gráficos y sonido, comunicaciones, etc.
+
+**El sistema de archivos**
+
+Gracias a él obtenemos una estructura lógica de la información grabada en las unidades de disco y podemos trabajar con directorios y archivos. Dada la importancia de este sistema, es frecuente que forme parte del kernel o núcleo.
+
+**Controladores o drivers**
+
+Permiten que el sistema interactúe con los diversos dispositivos de hardware del equipo. Por ejemplo, si conectamos al sistema un disco duro Serial ATA será imprescindible contar con el driver correspondiente para poder trabajar con él.
+
+Toda esta gestión se llevará a cabo, naturalmente, a partir de las órdenes que el sistema operativo recibe. Para introducirlas podemos usar una interfaz gráfica o bien un intérprete de comandos tipo DOS.
