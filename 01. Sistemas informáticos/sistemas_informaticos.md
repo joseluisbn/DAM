@@ -35,3 +35,9 @@ En el caso de los componentes físicos (hardware) podemos encontrar diferentes t
 - Periféricos de entrada y salida (monitor, teclado, etcétera).
 
 En sistemas operativos como Windows podemos acceder a diferentes herramientas como el Administrador de dispositivos, el cual nos muestra una lista de todos los componentes hardware que nos podemos encontrar conectados a nuestro ordenador. Desde aquí se nos ofrece la opción de actualizar o instalar drivers, útil para el estado de determinados de periféricos externos como tarjetas de red o tarjetas gráficas de alto rendimiento que no estén totalmente configuradas en un estado inicial del sistema.
+
+Para dar sentido a todos los componentes anteriores, necesitamos añadir los componentes lógicos o programas (software):
+- Sistema operativo
+- Aplicaciones
+
+Si nos fijamos en la arquitectura interna del sistema informático, debemos atender a los siguientes conceptos:
