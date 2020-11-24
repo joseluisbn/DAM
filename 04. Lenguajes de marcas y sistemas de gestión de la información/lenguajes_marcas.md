@@ -18,7 +18,7 @@ De esta forma, conseguimos que los documentos lleguen a ser independientes del s
 
 **Compacidad**
 
-Permite mezclar las instrucciones de marcado con el propio contenido, por ejemplo, <h2>Contenido</h2>.
+Permite mezclar las instrucciones de marcado con el propio contenido, por ejemplo, \<h2>Contenido</h2>\.
 
 El código que aparece entre corchetes es lo que denominamos como instrucciones de marcado o etiquetas. Haciendo referencia al ejemplo, podemos apreciar que la etiqueta es una etiqueta de presentación que nos indica que el texto seleccionado se corresponde con el formato asignado a la cabecera nº 2.
 
