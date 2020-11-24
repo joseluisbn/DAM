@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de HTML y CSS</title>
+    <!--Añadimos en el head el enlace a nuestro hoja de estilo-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!--
+        Esto son comentarios. Son útiles para separar tus secciones o para explicar alguna línea de código que no entiendas.
+    -->
+
+    <!-- style 1-->
+    <h1>Curso de HTML y CSS</h1>
+    <h1>Esto es un encabezado</h1>
+    <h2>Esto es un miniencabezado</h2>
+    
+    <a href="http://www.google.com">Esto es un enlace</a> <!--Poner otro ejemplo con el destino del enlace, si es un enlace interno, dejarlo en la misma pestaña y si es externo, en otra pestaña u otra ventana-->
+
+    <!--
+        Ahora vamos a confeccionar una lista.
+    -->
+
+    <ul>
+        <li>cosa 1</li>
+        <li>cosa 2</li>
+        <li>cosa 3</li>
+    </ul>
+
+    Como puedes ver, aparecen unas viñetas. Podemos cambiarlas por otras con la etiqueta "list-style-type"
+
+    <ul style="list-style-type:square">
+        <li>cosa con estilo 1</li>
+        <li>cosa con estilo 2</li>
+        <li>cosa con estilo 3</li>
+    </ul>
+
+    Sin embargo, estas listas no siguen un orden en concreto que refleje una secuencia. Para eso está la lista ordenada (ol):
+
+    <ol>
+        <li>cosa primera</li>
+        <li>cosa segunda</li>
+        <li>cosa tercera</li>
+    </ol>
+
+    Por defecto usará los números. Sin embargo, podemos utilizar otras viñetas, como la secuencia por letras (a,b,c), números romanos, etc. utilizando "type".<div class="">
+
+        <ol type="I">
+            <li>cosa primera</li>
+            <li>cosa segunda</li>
+            <li>cosa tercera</li>
+        </ol>
+
+    Podemos hacer listas descriptivas con la etiqueta "dt":
+
+        <dl>
+            <dt>cosa 1</dt>
+            <dd>descripción 1</dd>
+            <dt>cosa 2</dt>
+            <dd>descripción 2</dd>
+            <dt>cosa 3</dt>
+            <dd>descripción 3</dd>
+        </dl>
+
+    Bastantes sencillo, ¿verdad? HTML por sí solo es un poco primitivo, pero combinándolo con CSS y JavaScript se pueden hacer Websites más <b>vistosas</b>.
+    <br>
+    <br>
+    Vamos a añadir alguna foto para que nuestra web tenga dibujitos, porque es como todo, un libro sin dibujos no mola.
+
+    <img alt="gatete" src="/img/octocat.jpg" width="300px" height="300x">
+
+    <h1>Aquí vamos a empezar a meter estilos independientes</h1>
+    <h2>O al menos, se intentará</h2>
+
+    <!--Style 2. Asignamos una ID para cada parámetro. Le hemos asignado la etiqueta de párrafo, pero funcionaría con cualquiera (por ejemplo, h1)-->
+
+    <p id="p1">Esto es una estilo 1</p>
+    <p id="p2">Esto es una estilo 2</p>
+
+    <!--utilizaremos la etiqueta div para dividir elementos en nuestra web-->
+
+    <div class="colordiv">Esto es un elemento div</div>
+
+</body>
+</html>
