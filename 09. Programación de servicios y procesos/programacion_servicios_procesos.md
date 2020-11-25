@@ -33,3 +33,16 @@ En resumen, durante el desarrollo de un producto software, se deben tener en cue
 - Comprobar que todas las llamadas al sistema se han realizado con éxito y detener la aplicación si no ha sido así.
 - Utilizar las rutas absolutas de los ficheros que se necesiten.
 - No abrir nunca terminales desde una aplicación, ni otro software que no sea fiable.
+
+#### 1.2. Criptografía de clave pública y clave privada
+
+La criptografía es el conjunto de técnicas que cifran información, con el objetivo de que un usuario no sea capaz de entender el contenido, y, por lo tanto, conseguir confidencialidad en el mensaje.
+
+Para conseguir esta confidencialidad, es necesario transformar el mensaje mediante un algoritmo matemático. La criptología no solo se encarga de cifrar el mensaje, sino también de descifrarlo para que el receptor sea capaz de entenderlo.
+
+Antes de conocer los distintos algoritmos que existen, es necesario conocer algunos conceptos importantes:
+
+- Texto legible: es el mensaje original.
+- Texto cifrado: es el resultado de aplicar uno de los siguientes algoritmos sobre un texto legible.
+
+Existen diferentes tipos de algoritmos:
