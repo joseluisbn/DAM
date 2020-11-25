@@ -24,3 +24,12 @@ En muchas ocasiones, los propios navegadores web avisan de que no se debe confia
 Otro de los puntos clave en la programación segura es la reutilización de código, una práctica común y muy aconsejada, pero siempre teniendo en cuenta que ese código ha sido revisado y no cuenta con problemas de seguridad.
 
 También se considera práctica de programación segura eliminar el código obsoleto para que no interceda con el código bueno, ya que, en las revisiones posteriores, podría llevar a confusión. Por último, se considera fundamental utilizar herramientas de software para detectar fallos en el código.
+
+En resumen, durante el desarrollo de un producto software, se deben tener en cuenta los siguientes aspectos:
+
+- Los usuarios son los mismos que intentarán vulnerar la aplicación.
+- Los archivos que se utilicen en la aplicación deben ser de solo lectura, para evitar que un usuario los modifique.
+- Toda información sensible guardada en la base de datos, o que se transmita por la red, debe ir siempre cifrada.
+- Comprobar que todas las llamadas al sistema se han realizado con éxito y detener la aplicación si no ha sido así.
+- Utilizar las rutas absolutas de los ficheros que se necesiten.
+- No abrir nunca terminales desde una aplicación, ni otro software que no sea fiable.
