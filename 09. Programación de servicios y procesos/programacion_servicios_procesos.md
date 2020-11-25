@@ -46,3 +46,7 @@ Antes de conocer los distintos algoritmos que existen, es necesario conocer algu
 - Texto cifrado: es el resultado de aplicar uno de los siguientes algoritmos sobre un texto legible.
 
 Existen diferentes tipos de algoritmos:
+
+**Cifrado Cesar**
+
+Cifrado en el que se realiza una sustitución de cada letra por otra. El desplazamiento será el mismo para todas las letras del mensaje. Es un cifrado muy simple, pero bastante vulnerable. Los atacantes pueden conocer el mensaje mediante estadísticas. 
