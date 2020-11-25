@@ -50,3 +50,7 @@ Existen diferentes tipos de algoritmos:
 **Cifrado Cesar**
 
 Cifrado en el que se realiza una sustitución de cada letra por otra. El desplazamiento será el mismo para todas las letras del mensaje. Es un cifrado muy simple, pero bastante vulnerable. Los atacantes pueden conocer el mensaje mediante estadísticas. 
+
+**Funciones hash o funciones de una sola vía**
+
+Una función hash en una función que, dada cualquier cadena de caracteres, los convierte en otra cadena de longitud fija.
