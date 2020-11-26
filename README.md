@@ -1,6 +1,6 @@
 # DAM
 
-*****:construction:(Repositorio en construcción):construction:*****
+*****:construction:Repositorio en construcción:construction:*****
 
 Temario y material de apoyo para el CFGS de **Desarrollo de aplicaciones multiplataforma (DAM)** de acuerdo con el [BOE](https://www.boe.es/eli/es/o/2010/07/13/edu2000) (Ref. 
     BOE-A-2010-11888)
