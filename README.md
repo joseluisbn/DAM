@@ -2,8 +2,7 @@
 
 *****:construction:Repositorio en construcción:construction:*****
 
-Temario y material de apoyo para el CFGS de **Desarrollo de aplicaciones multiplataforma (DAM)** de acuerdo con el [BOE](https://www.boe.es/eli/es/o/2010/07/13/edu2000) (Ref. 
-    BOE-A-2010-11888)
+Temario y material de apoyo para el CFGS de **Desarrollo de aplicaciones multiplataforma (DAM)** de acuerdo con el [BOE](https://www.boe.es/eli/es/o/2010/07/13/edu2000) (Ref. BOE-A-2010-11888).
     
 | Código | Módulo |                          Materia                         | Wiki | PDF |
 |:------:|--------|:--------------------------------------------------------:|:----:|:---:|
@@ -21,11 +20,13 @@ Temario y material de apoyo para el CFGS de **Desarrollo de aplicaciones multipl
 | 0491   | 10     | Sistemas de Gestión Empresarial                          |      |:floppy_disk:|
 
 ### Qué encontrarás en este repositorio
+
 - Contenidos mínimos del temario oficial.
 - Código de ejemplo.
 - Recursos web y bibliográficos.
 
 ### Notas
+
 - Se excluyen del repositorio las materias Formación y orientación laboral (FOL) y Empresa e iniciativa emprendedora (EIE).
 - Puedes abrir una *issue* para realizar propuestas.
 - Ver wiki para poder contrubir.
