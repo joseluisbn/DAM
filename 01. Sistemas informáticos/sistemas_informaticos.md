@@ -2,7 +2,7 @@
 
 ## 1. Instalación software libre y propietario
 
-Entendemos por sistema informático aquel sistema que almacena y procesa información interrelacionando el hardware y el software de un ordenador.
+Entendemos por **sistema informático** aquel sistema que almacena y procesa información interrelacionando el hardware y el software de un ordenador.
 
 El hecho de utilizar un software libre implica que los usuarios podrán modificar, copiar, ejecutar e incluso mejorar dicho programa. Para cubrir las necesidades que se nos plantean en el ámbito de la informática es preciso tener en cuenta algunos factores que podemos resumir en dos:
 
@@ -20,7 +20,7 @@ El sistema informático se compone de una parte central que procesa la informaci
 
 Para que un ordenador funcione de forma correcta debe estar formado por dos tipos de elementos: los componentes lógicos o programas (software) y, por otro lado, los componentes físicos y electrónicos (hardware).
 
-En el caso de los componentes físicos (hardware) podemos encontrar diferentes tipos, dependiendo del rendimiento que necesitemos para nuestro equipo. Aunque en este caso, comentaremos los fundamentales.
+En el caso de los **componentes físicos** (hardware) podemos encontrar diferentes tipos, dependiendo del rendimiento que necesitemos para nuestro equipo. Aunque en este caso, comentaremos los fundamentales.
 
 - Caja, torre o chasis: recinto donde se alojan los principales componentes que forman un ordenador y se encarga de su protección. Este recinto suele ser metálico o de plástico.
 - Fuente de alimentación: es un transformador de corriente eléctrica alterna que procede del sistema eléctrico en corriente continua con un voltaje apropiado que permite el funcionamiento de los distintos componentes que forman el ordenador.
