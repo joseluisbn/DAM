@@ -126,7 +126,7 @@ En la siguiente imagen es posible ver la vista de diseño a la que podemos arras
 
 ---
 
-## 1.6. Clases, propiedades, métodos.
+## 1.6. Clases, propiedades, métodos
 
 Una clase es una plantilla que se utiliza para crear objetos de datos según un modelo predefinido. Las clases son utilizadas para representar entidades o conceptos. Cada clase es un modelo que define un conjunto de variables (el estado) y métodos que permiten operar con dichos datos (comportamiento).
 
