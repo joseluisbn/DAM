@@ -1,6 +1,6 @@
-## Sistemas de gestión empresarial
+# Sistemas de gestión empresarial
 
-### UF1: Sistemas ERP-CRM. Implantación
+## UF1: Sistemas ERP-CRM. Implantación
 
 Los sistemas de gestión empresarial abarcan una gran cantidad de procesos y diferentes técnicas que se han ido desarrollando con el paso de los años.
 
@@ -10,7 +10,7 @@ cuenta en una empresa. Son los conocimientos mínimos que se deben adquirir para
 Cuando se habla de la gestión empresarial, no se pretenden obtener valores exactos sobre algo determinado, sino poder obtener una visión global de una empresa, junto con sus componentes principales y procesos. Supone conseguir entender de forma
 correcta el funcionamiento de la empresa como un conjunto y saber tomas las decisiones más acertadas en cada momento, sobre todo, cuando hay decidir qué sistema de gestión empresarial se debe implantar.
 
-#### 1. Identificación de sistemas ERP-CRM
+### 1. Identificación de sistemas ERP-CRM
 
 La gestión empresarial es la actividad empresarial que, mediante un conjunto de individuos especializados, como pueden ser: gerentes, consultores, productores, etc. pretende conseguir mejorar la productividad y la competitividad de una determinada empresa.
 
@@ -49,7 +49,7 @@ Entre sus principales características, se destacan las siguientes:
 - Modularidad: cada módulo del sistema ERP permite gestionar una determinada área de la empresa.
 - Adaptabilidad: mediante la unión de las dos características anteriores, es posible lograr una adaptabilidad a las distintas necesidades de una determinada empresa.
 
-#### 1.1. Concepto de ERP (Planificación de los recursos empresariales)
+### 1.1. Concepto de ERP (Planificación de los recursos empresariales)
 
 Aunque su definición es bastante amplia, se puede resumir en la incorporación de un determinado sistema informático en todos los procesos (internos y externos) que
 están relacionados con la empresa.
@@ -73,7 +73,7 @@ Estos ERP necesitan:
 
 Mediante la utilización de todos ellos, se permite hacer más fácil el flujo de información entre las empresas relacionandas, aunmentando de esta forma la colaboración entre todas ellas.
 
-#### 1.2. Revisión de los ERP actuales
+### 1.2. Revisión de los ERP actuales
 
 Existen un gran número de soluciones ERP en el mercado, del tal manera que sería imposible hacer referencia a todas ellas. En esta unidad formativa se exponen aquellas soluciones más comunes que es posible encontrar en todo el mundo.
 
@@ -182,7 +182,7 @@ Sus desventajas son:
 - Ante un posible fallo en el sistema, volver atrás es un proceso bastante costoso.
 - Desconfianza de los empleados ante un cambio de metodología.
 
-#### Concepto de CRM (sistemas de gestión de relaciones con clientes)
+### Concepto de CRM (sistemas de gestión de relaciones con clientes)
 
 Los CRM (Customer Relationship Management) se refieren a la respuesta que un sistema de información puede ofrecer a todos los requisitos requeridos por una determinada empresa en relación a sus clientes.
 
@@ -209,14 +209,14 @@ Mediante la lógica analítica es posible:
 - Indicadores que muestran el estado de la empresa.
 - Modificación de estrategias según los cambios realizados.
 
-#### 1.4. Revisión de los CRM actuales
+### 1.4. Revisión de los CRM actuales
 
 Es posible dividir los CRM actuales en dos categorías:
 
 - Los que están integrados en un sistema ERP: se refieren a aquellos CRM que pertenecen a los mismos propietarios que los ERP, como pueden ser, entre otros, el CRM de SAP, Oracle y Microsoft.
 - Los que son exclusivos: se refieren a los que están formados por todo tipo de proyectos, como pueden ser, OpenSource o sugarCRM. Estos se utilizan cada vez menos, por lo que pueden llegar a desaparecer tarde o temprano.
 
-#### 1.5. Concepto de data warehouse (almacenes de datos)
+### 1.5. Concepto de data warehouse (almacenes de datos)
 
 Data warehouse es un almacén de datos que recopila toda la información correspondiente a una organización o a una empresa determinada. Esta información será de gran utilidad a la hora de tomar decisiones.
 
@@ -228,7 +228,7 @@ Las funciones principales de los Data Warehouse son:
 - Integra los datos de las correspondientes bases de datos distribuidas, facilitando una descripción global, junto con un análisis comprensivo en el almacén de datos.
 - Separa aquellos datos que se utilizan en las operaciones cotidianas en el almacén de datos, con el propósito de publicación y ayuda a la hora de tomar decisiones.
 
-#### 1.6. Revisión de los data warehouse actuales y posiblemente incorporados a los sistemas ERP-CRM
+### 1.6. Revisión de los data warehouse actuales y posiblemente incorporados a los sistemas ERP-CRM
 
 Es posible diferenciar una serie de fases a la hora de realizar la implantación de un data warehouse.
 
@@ -264,7 +264,7 @@ para poder utilizarlos o modificarlos.
 - Revisión: una vez que se tiene instalado el data warehouse, no ha finalizado la tarea, ya que es posible realizar una revisión del mismo, planteándole una serie de preguntas para ir actualizando y potenciando su función y utilización.
 - Diseño de la estructura de cursos de formación: una vez mantenidas las reuniones necesarias con los distintos usuarios, se puede comenzar a practicar con lo que se ha desarrollado, para ir afianzando los distintos conceptos que permitirán formar a los usuarios.
 
-#### 1.7. Sistemas gestores de bases de datos compatibles con el software
+### 1.7. Sistemas gestores de bases de datos compatibles con el software
 
 Hasta ahora se han visto distintas herramientas que permiten cumplir las necesidades empresariales de analizar la información recopilada y obtener conocimiento de los datos (ERP o CRM). El principal inconveniente de estos sistemas es el tiempo de respuesta de las transacciones ejecutadas, ya que la información está repartida en diferentes módulos. Esto dificulta el proceso del análisis de la información, así como los reportes.
 
