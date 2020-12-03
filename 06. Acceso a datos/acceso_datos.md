@@ -6,19 +6,19 @@ En los siguientes temas aprenderemos todos los conceptos básicos que hay que te
 
 Para entender mejor qué trataremos en los siguientes apartados, primero deberemos entender bien los conceptos básicos: ¿qué podemos entender por un fichero?
 
-Un fichero es un archivo que contendrá un conjunto de caracteres o bytes que se almacenarán en el dispositivo en una ruta y con un nombre concretos.
+Un **fichero** es un archivo que contendrá un conjunto de caracteres o bytes que se almacenarán en el dispositivo en una ruta y con un nombre concretos.
 
 Es el archivo que usará nuestro programa para almacenar, leer, escribir o gestionar información sobre el proceso que se esté ejecutando. Existen diferentes tipos de ficheros, como, por ejemplo:
 
-- Fichero estándar: es un archivo que contiene todo tipo de datos: caracteres, imagen, audio, vídeo, etcétera. Normalmente son ficheros que contienen información de cualquier tipo.
-- Directorios o carpetas: son ficheros que albergan más archivos en su interior. Su principal utilidad es mantener un orden o jerarquía en nuestros sistemas.
-- Ficheros especiales: son todos esos ficheros que usa nuestro sistema operativo y que se utilizan para controlar los dispositivos o periféricos de nuestro ordenador.
+- **Fichero estándar**: es un archivo que contiene todo tipo de datos: caracteres, imagen, audio, vídeo, etcétera. Normalmente son ficheros que contienen información de cualquier tipo.
+- **Directorios o carpetas**: son ficheros que albergan más archivos en su interior. Su principal utilidad es mantener un orden o jerarquía en nuestros sistemas.
+- **Ficheros especiales**: son todos esos ficheros que usa nuestro sistema operativo y que se utilizan para controlar los dispositivos o periféricos de nuestro ordenador.
 
 En este tema profundizaremos en el tipo de ficheros estándar y en los directorios. Como explicaremos más adelante, este tipo de ficheros nos permitirán realizar diferentes acciones para tratar los ficheros y para mantener un orden y jerarquía con las carpetas.
 
 Podemos destacar dos tipos de ficheros de datos:
-- Los ficheros de bytes: también conocidos como ficheros binarios, son archivos que usan los programas para leer o escribir información.
-- Los ficheros de caracteres: también conocidos como ficheros de texto, nos permitirán leer o escribir la información que contengan.
+- Los **ficheros de bytes**: también conocidos como ficheros binarios, son archivos que usan los programas para leer o escribir información.
+- Los **ficheros de caracteres**: también conocidos como ficheros de texto, nos permitirán leer o escribir la información que contengan.
 
 Un fichero se caracteriza por estar formado por la ruta en la que está almacenado, el nombre y una extensión, siguiendo este orden. Además, tenemos que tener en cuenta que no podrán existir ficheros con el mismo nombre, ruta y extensión. Para que sean
 únicos, el nombre o la extensión en la misma ruta deben ser distintos.
