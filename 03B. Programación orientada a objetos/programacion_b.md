@@ -16,13 +16,13 @@ repetitivas, etc. La principal diferencia la podemos apreciar entre las distinta
 
 A continuación vamos a ver las características principales que diferencian el lenguaje Java de los demás:
 
-- Independencia de la plataforma. Podemos desarrollar diferentes aplicaciones que pueden ser ejecutadas bajo cualquier tipo de hardware o sistema operativo. Inicialmente, se va a generar un bytecode que, después, va a ser traducido por la máquina en el lugar en el que se ejecute el programa.
-- Fácil de aprender. Java es el lenguaje de programación más utilizado hoy en día en los entornos educativos, ya que viene provisto de unas herramientas que permiten configurarlo con un entorno cómodo y fácil de manejar.
-- Basado en estándares. A través del proceso Java Community se pueden ir definiendo nuevas versiones y características.
-- Se utiliza a nivel mundial. Java es una plataforma libre que dispone de un gran número de desarrolladores que cuentan, entre otras cosas, con una gran cantidad de información, librerías y herramientas.
-- Entornos runtime consistentes. Su función es intermediar entre el sistema operativo y Java. Está formado por la máquina virtual de Java, las bibliotecas, y otros elementos también necesarios para poder ejecutar la aplicación deseada.
-- Optimizado para controlar dispositivos. Ofrece un soporte para aquellos dispositivos integrados.
-- Recolector de basura. Su función principal es eliminar de forma automática aquellos objetos que no hacen referencia a ningún espacio determinado de memoria.
+- **Independencia de la plataforma**. Podemos desarrollar diferentes aplicaciones que pueden ser ejecutadas bajo cualquier tipo de hardware o sistema operativo. Inicialmente, se va a generar un bytecode que, después, va a ser traducido por la máquina en el lugar en el que se ejecute el programa.
+- **Fácil de aprender**. Java es el lenguaje de programación más utilizado hoy en día en los entornos educativos, ya que viene provisto de unas herramientas que permiten configurarlo con un entorno cómodo y fácil de manejar.
+- **Basado en estándares**. A través del proceso Java Community se pueden ir definiendo nuevas versiones y características.
+- **Se utiliza a nivel mundial**. Java es una plataforma libre que dispone de un gran número de desarrolladores que cuentan, entre otras cosas, con una gran cantidad de información, librerías y herramientas.
+- **Entornos runtime consistentes**. Su función es intermediar entre el sistema operativo y Java. Está formado por la máquina virtual de Java, las bibliotecas, y otros elementos también necesarios para poder ejecutar la aplicación deseada.
+- **Optimizado para controlar dispositivos**. Ofrece un soporte para aquellos dispositivos integrados.
+- **Recolector de basura**. Su función principal es eliminar de forma automática aquellos objetos que no hacen referencia a ningún espacio determinado de memoria.
 
 ### Introducción a la programación orientada a objetos
 
@@ -97,7 +97,7 @@ Los constructores deben tener el mismo nombre que el de la clase a la que perten
 
 El compilador va a seleccionar el constructor correcto de forma automática, en función de los parámetros que tenga cada uno de los constructores.
 
-** Métodos de acceso **
+**Métodos de acceso**
 
 La función principal de estos métodos es habilitar las tareas de lectura y de modificación de los atributos de la clase. Se utilizan, entre otras cosas, para reforzar la encapsulación al permitir que el usuario pueda añadir información a la clase o extraer información de ella sin que se necesiten conocer detalles más específicos de la implementación. Cualquier cambio que se realice en la implementación de los métodos no afectan a las clases clientes.
 
