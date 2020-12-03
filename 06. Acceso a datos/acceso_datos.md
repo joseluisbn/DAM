@@ -36,10 +36,10 @@ File archivo = new File("carpeta"+File.separator+"ejemplo.txt");
 ```
 
 Existen dos tipos importantes de rutas que nos serán muy útiles en la gestión de ficheros:
-- Ruta absoluta: se conoce como la ruta desde la carpeta padre: *C:\datos\ejemplo.txt*
-- Ruta relativa: es aquella que coge como referencia el directorio actual para dar la ruta. La diferencia entre la ruta absoluta y la relativa es que no se indica la carpeta padre u origen y solo se da la guía desde la carpeta actual. Se indica con un punto, una barra y el nombre de los diferentes directorios separados por barras. Teniendo en cuenta que la carpeta actual sea accesoDatos, veamos este ejemplo: *./datos/ejemplo.txt*
+- **Ruta absoluta**: se conoce como la ruta desde la carpeta padre: *C:\datos\ejemplo.txt*
+- **Ruta relativa**: es aquella que coge como referencia el directorio actual para dar la ruta. La diferencia entre la ruta absoluta y la relativa es que no se indica la carpeta padre u origen y solo se da la guía desde la carpeta actual. Se indica con un punto, una barra y el nombre de los diferentes directorios separados por barras. Teniendo en cuenta que la carpeta actual sea accesoDatos, veamos este ejemplo: *./datos/ejemplo.txt*
 
-La extensión del archivo nos permitirá diferenciar qué programa puede utilizar ese fichero. Se considera extensión todo lo que podemos encontrar después del punto que ponemos al final de nombre. Veamos el ejemplo:
+La **extensión** del archivo nos permitirá diferenciar qué programa puede utilizar ese fichero. Se considera extensión todo lo que podemos encontrar después del punto que ponemos al final de nombre. Veamos el ejemplo:
 
 - ejemplo.txt
 - ejemplo.docx
