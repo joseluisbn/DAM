@@ -2,7 +2,7 @@
 
 ## 1. Confección de interfaces de usuario
 
-Existen una serie de aplicaciones en el mercado que se utilizan para llevar a cabo la confección de interfaces. Dichas aplicaciones también reciben el nombre de IDE (entorno de desarrollo integrado).
+Existen una serie de aplicaciones en el mercado que se utilizan para llevar a cabo la confección de interfaces. Dichas aplicaciones también reciben el nombre de **IDE** (entorno de desarrollo integrado).
 
 Entre sus principales características se encuentran las de codificación, compilación, depuración y testeo de los diferentes programas.
 
