@@ -32,7 +32,7 @@ public class Main {
                 raf.writeDouble(precio[i]);
 
             }
-
+            // cerramos el fichero
             raf.close();
 
         } catch (FileNotFoundException e) {
