@@ -7,10 +7,10 @@ repetitivas, etc. La principal diferencia la podemos apreciar entre las distinta
 
 ### 1.0. Lenguaje de programación Java
 
-- Es un lenguaje interpretado. El código que diseña se denomina bytecode y se puede interpretar a través de una máquina virtual. Esta máquina está escrita en el código nativo de la plataforma (en la cual se ejecuta el programa), y se basa en aquellos servicios que ofrece el sistema operativo (que van a permitir atender las solicitudes que necesite dicho programa).
-- Es un lenguaje multiplataforma. El compilador de Java produce un código binario de tipo universal, es decir, se puede ejecutar en cualquier tipo de máquina virtual que admita la versión utilizada. Java es un tipo de lenguaje denominado Write once (escribir una sola vez), run anywhere (ejecutar en cualquier parte).
-- Es un lenguaje orientado a objetos. El lenguaje Java es uno de los que más se acerca al concepto de una programación orientada a objetos. Los principales módulos de programación son las clases, y no permite que existan funciones independientes. Cualquier variable o método que se utilice en Java tiene que pertenecer a una clase.
-- Posee una gran biblioteca de clases. Java cuenta con una gran colección de clases agrupadas en los diferentes directorios. Estas clases sirven al usuario para realizar alguna tarea determinada sin necesidad de tenerla que implementar.
+- Es un lenguaje **interpretado**. El código que diseña se denomina bytecode y se puede interpretar a través de una máquina virtual. Esta máquina está escrita en el código nativo de la plataforma (en la cual se ejecuta el programa), y se basa en aquellos servicios que ofrece el sistema operativo (que van a permitir atender las solicitudes que necesite dicho programa).
+- Es un lenguaje **multiplataforma**. El compilador de Java produce un código binario de tipo universal, es decir, se puede ejecutar en cualquier tipo de máquina virtual que admita la versión utilizada. Java es un tipo de lenguaje denominado Write once (escribir una sola vez), run anywhere (ejecutar en cualquier parte).
+- Es un lenguaje **orientado a objetos**. El lenguaje Java es uno de los que más se acerca al concepto de una programación orientada a objetos. Los principales módulos de programación son las clases, y no permite que existan funciones independientes. Cualquier variable o método que se utilice en Java tiene que pertenecer a una clase.
+- Posee una **gran biblioteca de clases**. Java cuenta con una gran colección de clases agrupadas en los diferentes directorios. Estas clases sirven al usuario para realizar alguna tarea determinada sin necesidad de tenerla que implementar.
 
 ### 1.1. Características
 
