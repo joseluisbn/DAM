@@ -2,14 +2,14 @@
 ## UF1: Programación estructurada
 ### 1. Introducción a la programación
 
-El lenguaje de programación es una herramienta para transformar un algoritmo en un programa. Entendiendo algoritmo como una secuencia finita de operaciones que resuelven un problema expuesto. Un programa debe de cumplir una serie de características:
+El **lenguaje de programación** es una herramienta para transformar un algoritmo en un programa. Entendiendo algoritmo como una secuencia finita de operaciones que resuelven un problema expuesto. Un programa debe de cumplir una serie de características:
 
-- Deber ser finito: formado por un conjunto limitado de líneas.
-- Debe ser legible: Es importante crear códigos “limpios” y fáciles de leer con tabulaciones y espacios que diferencien las partes del programa.
-- Debe ser modificable: Debe ser sencillo el proceso de actualización o modificación de este ante nuevas necesidades
-- Debe ser eficiente: Debemos crear programas que ocupen poco espacio en memoria y se ejecuten rápidamente
-- Debe ser modulable: Debemos realizar algoritmos que se dividan a su vez en subalgoritmos de forma que se disponga de un grupo principal desde el que llamaremos al resto. Así, incitamos a la reutilización de código.
-- Debe ser estructurado: Engloba a las características anteriores ya que, un programa estructurado será fácil de leer, modificar y estará compuesto de subprogramas que permitirán la reutilización de código.
+- Deber ser **finito**: formado por un conjunto limitado de líneas.
+- Debe ser **legible**: Es importante crear códigos “limpios” y fáciles de leer con tabulaciones y espacios que diferencien las partes del programa.
+- Debe ser **modificable**: Debe ser sencillo el proceso de actualización o modificación de este ante nuevas necesidades
+- Debe ser **eficiente**: Debemos crear programas que ocupen poco espacio en memoria y se ejecuten rápidamente
+- Debe ser **modulable**: Debemos realizar algoritmos que se dividan a su vez en subalgoritmos de forma que se disponga de un grupo principal desde el que llamaremos al resto. Así, incitamos a la reutilización de código.
+- Debe ser **estructurado**: Engloba a las características anteriores ya que, un programa estructurado será fácil de leer, modificar y estará compuesto de subprogramas que permitirán la reutilización de código.
 
 Para tener una representación gráfica de un algoritmo, utilizamos los diagramas de flujo.
 Un diagrama de flujo es una representación gráfica de un proceso. Cada paso del proceso se representa por un símbolo diferente que contiene una breve descripción de la etapa de proceso.
@@ -103,7 +103,6 @@ A la hora de trabajar con ficheros debemos tener en cuenta:
 - Evitan conflictos con sus nombres, ya que cada programa instala sus ficheros en directorios diferentes. Por tanto, en una misma máquina pueden existir dos ficheros identificados por el mismo nombre, ya que como van a tener distinta ruta, lo vamos a poder diferenciar. Como se puede comprobar, la relación entre ficheros y directorio es muy cercana, en C# se establece entre tipos y espacio de nombres.
 
 **Rutas de ficheros y directorios**:
-
 
 ### 1.2. Operaciones sobre ficheros secuenciales
 ### 1.3. Diseño y modulación de las operaciones sobre ficheros
