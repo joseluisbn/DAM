@@ -2,8 +2,6 @@
 
 ## 1. Gestión de ficheros
 
-En los siguientes temas aprenderemos todos los conceptos básicos que hay que tener en cuenta cuando necesitamos tratar con ficheros con lenguaje Java.
-
 Para entender mejor qué trataremos en los siguientes apartados, primero deberemos entender bien los conceptos básicos: ¿qué podemos entender por un fichero?
 
 Un **fichero** es un archivo que contendrá un conjunto de caracteres o bytes que se almacenarán en el dispositivo en una ruta y con un nombre concretos.
