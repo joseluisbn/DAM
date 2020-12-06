@@ -97,6 +97,31 @@ La algoritmia es un conjunto ordenado y finito de operaciones que permite encont
 
 Es fundamental que logremos desarrollar y utilizar nuestra mente en forma de algoritmo, ya que, como la vida misma, la programación consiste en buscar la solución óptima para un problema determinado. Todo esto se consigue mediante el diseño, creación e implementación de un algoritmo. 
 
+#### 3.3. Ciclo de vida
+
+La imagen representa el ciclo de vida de un programa informático, de manera que las flechas indican el orden de realización de cada etapa. 
+
+- Análisis de requisitos: a partir de las necesidades del usuario o del programa planteado, se decide qué es lo que hay que hacer para llegar a conseguir una solución óptima, y se genera un documento de requisitos. El contenido de comunicación de esta etapa es muy intenso, ya que el objetivo es eliminar la ambigüedad en la medida de lo posible.
+- Diseño de la arquitectura: se hace un estudio para ver los distintos componentes que van a formar parte de nuestro programa (módulos, subsistemas, etc.) y se genera un documento de diseño. Esta fase se va a revisar todas las veces que sea necesario hasta que estemos seguros de cuál va a ser la mejor solución.
+- Etapa de implementación o codificación: en esta etapa vamos a pasar a codificar las aplicaciones que hemos elegido en la etapa anterior, empleando el lenguaje de programación con el que estemos trabajando. El resultado que vamos a obtener va a ser el código fuente.
+- Pruebas de integración: hay que realizar ensayos del funcionamiento, combinando todos los módulos de la aplicación. Así, haciendo funcionar la aplicación completa, comprobamos que cumple lo establecido en el diseño.
+- Pruebas de validación: el último paso de la integración se basa en realizar nuevas pruebas de la aplicación en su conjunto. El objetivo es cerciorarse de que se cumple lo establecido en el documento de requisitos y que cubre las necesidades de los usuarios que ya habíamos previsto.
+- Fase de mantenimiento: revisar todo el proceso anterior e ir
+actualizando o modificando los cambios oportunos en las etapas
+anteriores.
+
+#### 3.4. Prueba de programas
+
+Una vez implementado y compilado el código de nuestro algoritmo, debemos ponerlo en marcha y comenzar la etapa de testing, plan de prueba o prueba de programa.
+
+Se prueba un programa para demostrar la existencia de un defecto: algorítmico, de sintaxis, de precisión, de documentación, de sobrecarga, de capacidad, de rendimiento, de sincronización, de recuperación, de hardware y software y de estándares.
+
+Este proceso de prueba de programa se lleva a cabo de manera automática o manual, persiguiendo los siguientes objetivos:
+- Comprobación de los requisitos funcionales y no funcionales del programa.
+- Probar todo tipo de casos para detectar algún tipo de anomalía en su ejecución.
+
+El plan de prueba consta de varias etapas, ya que, después de implementar el código, si existiera algún tipo de fallo en el programa, tendríamos que volver a empezar con el nuevo código modificado. 
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
