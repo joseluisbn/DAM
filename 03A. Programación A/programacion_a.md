@@ -120,7 +120,31 @@ Este proceso de prueba de programa se lleva a cabo de manera automática o manua
 - Comprobación de los requisitos funcionales y no funcionales del programa.
 - Probar todo tipo de casos para detectar algún tipo de anomalía en su ejecución.
 
-El plan de prueba consta de varias etapas, ya que, después de implementar el código, si existiera algún tipo de fallo en el programa, tendríamos que volver a empezar con el nuevo código modificado. 
+El plan de prueba consta de varias etapas, ya que, después de implementar el código, si existiera algún tipo de fallo en el programa, tendríamos que volver a empezar con el nuevo código modificado.
+
+#### 3.5. Tipos de datos: simples y compuestos
+
+C# es un lenguaje de programación en el que cada variable, constante, atributo o valor que devuelve una función se encuentra establecido en un rango de elementos ya definidos.
+
+Podemos diferenciar entre:
+- Tipos simples:
+
+A la hora de seleccionar un determinado tipo, debemos considerar el rango de valores que puede tomar, las operaciones a realizar y el espacio necesario
+para almacenar datos.
+
+Debemos tener en cuenta que el tipo de datos simple no está compuesto por otros tipos, y que contiene un valor único.
+- Tipos simples predefinidos: entre sus propiedades más importantes podemos destacar que son indivisibles, tienen existencia propia y permiten operadores relacionales.
+
+Se utilizan sin necesidad de ser definidos previamente.
+En pseudolenguaje, son los siguientes:
+- Natural: números naturales (N): byte, uint, ushort, ulong.
+- Entero: números enteros (Z): sbyte, int, long, short.
+- Real: números reales (R): decimal, float, double.
+- Carácter: caracteres (C): char.
+- Lógico: booleanos (B): bool.
+
+- Tipos simples definidos por el usuario
+- Tipos enumerados: ofrecen la posibilidad de definir nuevos tipos simples. Estos tipos se declaran en el apartado "tipos" de un programa de la siguiente forma:
 
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
