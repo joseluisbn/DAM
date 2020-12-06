@@ -75,6 +75,28 @@ En esta época fue cuando Edsger Dijkstra comprobó que todo programa se puede e
 
 Utilizando estas tres estructuras, se pueden crear programas informáticos, a pesar de que los lenguajes ofrecen un repertorio de instrucciones bastante mayor. 
 
+#### 3.1. Fundamentos de programación
+
+Cuando hablamos de programar, debemos tener una idea general de a qué nos referimos. En este caso, podemos definir el concepto de programar como decirle a una máquina qué debe realizar en el menor tiempo posible.
+
+Ahora bien, para llegar a buen fin, es conveniente especificar la estructura y el comportamiento de un determinado programa, probar que realiza la tarea que le ha sido asignada de forma correcta y que ofrece un buen rendimiento.
+
+El programa se encarga de transformar la entrada en salida:
+
+---
+
+Por su parte, el algoritmo es la secuencia de los pasos y las distintas operaciones que debe realizar el programa para conseguir resolver un problema planteado. Dicho programa debe implementar el algoritmo en un lenguaje de programación especificado previamente.
+
+En resumen, podemos señalar que la programación es una etapa en todo el proceso de desarrollo que existe a la hora de resolver un problema.
+
+#### 3.2. Introducción a la algoritmia
+
+Las personas estamos acostumbradas a obedecer una serie de órdenes secuenciales y lógicas. Lo mismo pasa con los ordenadores, que realizan diferentes tareas siguiendo una serie de pasos lógicos, ya que están programados (mediante algoritmos) para solucionar distintos problemas en un lenguaje de programación determinado.
+
+La algoritmia es un conjunto ordenado y finito de operaciones que permite encontrar la solución a un problema cualquiera.
+
+Es fundamental que logremos desarrollar y utilizar nuestra mente en forma de algoritmo, ya que, como la vida misma, la programación consiste en buscar la solución óptima para un problema determinado. Todo esto se consigue mediante el diseño, creación e implementación de un algoritmo. 
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
