@@ -61,6 +61,20 @@ En este capítulo nos vamos a centrar en el lenguaje de programación C# porque:
 - Utiliza el recolector de basura.
 - Permite la unificación de tipos.
 
+### 3. Programación estructurada
+
+La programación estructurada es la manera que tenemos de escribir o diseñar un programa de una forma clara y concisa. Vamos a hacerlo siempre siguiendo tres estructuras básicas: secuencial, condicional e iterativa.
+
+A finales de los años setenta surgió una nueva forma de desarrollar los programas que, además de conseguir el correcto funcionamiento de estos, también facilitó su comprensión gracias a la forma en la que estaban escritos. Estos programas resultaron ser más fiables y eficientes.
+
+En esta época fue cuando Edsger Dijkstra comprobó que todo programa se puede escribir utilizando únicamente tres instrucciones de control:
+
+- Secuencia de instrucciones.
+- Instrucción condicional.
+- Iteración o bucle de instrucciones.
+
+Utilizando estas tres estructuras, se pueden crear programas informáticos, a pesar de que los lenguajes ofrecen un repertorio de instrucciones bastante mayor. 
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
