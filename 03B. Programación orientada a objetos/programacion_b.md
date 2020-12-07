@@ -42,7 +42,7 @@ Sus propiedades más importantes las podemos dividir en:
 
 ### 2.2. Definición de objetos y características
 
-Definimos los objetos como un conjunto de datos (características o atributos) y métodos (comportamientos) que se pueden realizar. Es fundamental tener claro que estos dos conceptos (atributos y métodos), están ligados formando una misma unidad conceptual y operacional.
+Definimos los **objetos** como un conjunto de datos (características o atributos) y métodos (comportamientos) que se pueden realizar. Es fundamental tener claro que estos dos conceptos (atributos y métodos), están ligados formando una misma unidad conceptual y operacional.
 
 Debemos señalar también que estos objetos son casos específicos de unas entidades denominadas clases, en las que se pueden definir las características que tienen en común estos objetos. Los objetos podríamos definirlos como un contenedor de datos, mientras que una clase actúa como un molde en la construcción de objetos.
 
