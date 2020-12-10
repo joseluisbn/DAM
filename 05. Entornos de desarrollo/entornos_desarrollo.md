@@ -35,17 +35,17 @@ Según esta clasificación, distinguimos tres tipos de software:
 
 #### 1.1.3. Licencias de software. Software libre y propietario.
 
-Una licencia es un contrato entre el desarrollador de un software y el usuario final. En él se especifican los derechos y deberes de ambas partes. Es el desarrollador el que especifica qué tipo de licencia distribuye.
+Una **licencia** es un contrato entre el desarrollador de un software y el usuario final. En él se especifican los derechos y deberes de ambas partes. Es el desarrollador el que especifica qué tipo de licencia distribuye.
 
 Existen tres tipos de licencias:
 
-- Software libre: el autor de la licencia concede libertades al usuario, entre ellas están:
+- **Software libre**: el autor de la licencia concede libertades al usuario, entre ellas están:
   − Libertad para usar el programa con cualquier fin.
   − Libertad para saber cómo funciona el programa y adaptar el código a nuestras propias necesidades.
   − Libertad para poder compartir copias a otros usuarios.
   − Libertad para poder mejorar el programa y publicar las modificaciones realizadas.
-- Software propietario: este software no nos permitirá acceder al código fuente del programa y de forma general nos prohibirá la redistribución, la reprogramación, la copia o el uso simultáneo en varios equipos. Pueden darse dos variantes vistas anteriormente: freeware y shareware.
-- Software de dominio público: este software no pertenece a ningún propietario y carece de licencia, por lo que todo el mundo lo puede utilizar. Incluso podremos realizar una oferta para adquirirlo bajo el código fuente de dominio público.
+- **Software propietario**: este software no nos permitirá acceder al código fuente del programa y de forma general nos prohibirá la redistribución, la reprogramación, la copia o el uso simultáneo en varios equipos. Pueden darse dos variantes vistas anteriormente: freeware y shareware.
+- **Software de dominio público**: este software no pertenece a ningún propietario y carece de licencia, por lo que todo el mundo lo puede utilizar. Incluso podremos realizar una oferta para adquirirlo bajo el código fuente de dominio público.
 
 La licencia que más se usa en el software libre es la licencia GPL (GNU General Public License – Licencia Pública General) que nos dejará usar y cambiar el programa, con el único requisito que se hagan públicas las modificaciones realizadas.
 
