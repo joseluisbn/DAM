@@ -8,7 +8,7 @@ A continuación, vamos a definir las principales características de los lenguaj
 
 **Texto plano**
 
-Los archivos de texto plano se refieren a los que están formados solo por caracteres de texto, no pueden contener imágenes, sonido, archivos comprimidos ni otros tipos.
+Los archivos de **texto plano** se refieren a los que están formados solo por caracteres de texto, no pueden contener imágenes, sonido, archivos comprimidos ni otros tipos.
 
 Los caracteres se codifican mediante la utilización de diferentes códigos dependiendo del idioma o del alfabeto necesario, como pueden ser: ASCII, UTF-8, ISO- 8859-15.
 
