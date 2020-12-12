@@ -12,9 +12,9 @@ Esta aplicación cuenta con diferentes versiones bajo licencia, aunque también 
 
 Estas últimas cuentan con menos funcionalidades y están más limitadas que las versiones con licencia, aunque disponen de un gran número de herramientas capaces de cubrir las distintas demandas del usuario particular.
 
-**Creación de un proyecto**
+**Creación de un proyecto en Visual Studio**
 
-La creación de proyectos no es una tarea muy complicada en Visual Studio y, además, es un proceso bastante intuitivo. Desde que aparece la primera ventana ya es posible tener acceso a la creación de un proyecto y a todas sus opciones del menú Archivo.
+Desde que aparece la primera ventana ya es posible tener acceso a la creación de un proyecto y a todas sus opciones del menú Archivo.
 
 Cuando se selecciona la opción Nuevo Proyecto, aparecerán una serie de plantillas de creación de proyectos clasificadas por su ámbito y por el lenguaje de programación que utilizan.
 
