@@ -13,8 +13,8 @@
 ## Intefaz gráfica en Android Studio
 
 Las **unidades de medida** más comunes son:
-- Match_parent: igual que el padre que lo contiene.
-- Wrap:_content: ajustar al contenido.
+- *Match_parent*: igual que el padre que lo contiene.
+- *Wrap:_content*: ajustar al contenido.
 
 **Tamaños fijos**:
 - dp: píxeles independientes de la densidad. Toma como base una pantella de 160dpi.
@@ -24,13 +24,13 @@ Las **unidades de medida** más comunes son:
 - mm, in: (milímetros, pulgadas) basado en las dimensiones físicas de la pantalla.
 
 ### Componentes de una aplicación
-- Vista (view):
+- Vista (*view*):
 - Layout
-- Actividad (Activity)
+- Actividad (*Activity*)
 - Servicio
-- Intención (Intent)
-- Receptor de anuncios (Broadcast receiver)
-- Proveedor de contenido (Content provider)
+- Intención (*Intent*)
+- Receptor de anuncios (*Broadcast receiver*)
+- Proveedor de contenido (*Content provider*)
 
 #### Vista (*view*)
 
