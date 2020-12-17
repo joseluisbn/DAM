@@ -2,10 +2,6 @@
 
 ## 1. Desarrollo de software
 
-En esta primera parte de la unidad vamos a aprender a reconocer elementos y herramientas que se usan para desarrollar un programa informático, así como las características y fases que tiene que pasar hasta su puesta en funcionamiento.
-
-Empezaremos a ver qué es el software del ordenador y el significado y los componentes de un programa, así como el ciclo de vida de dicho software. También veremos los distintos tipos de lenguajes de programación que podremos utilizar, sus características y las distintas clasificaciones. Por último, abordaremos las fases que deberemos pasar para desarrollar la aplicación y estudiaremos cómo es el código fuente.
-
 ### 1.1. El software del ordenador
 
 Antes de comenzar con la definición de software es necesario aclarar la diferencia entre hardware y software. El ordenador está compuesto por dos partes: la parte física, que llamamos hardware, y que está compuesta por el teclado, el ratón, el
