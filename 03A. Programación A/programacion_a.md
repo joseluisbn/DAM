@@ -11,8 +11,9 @@ El **lenguaje de programación** es una herramienta para transformar un algoritm
 - Debe ser **modulable**: Debemos realizar algoritmos que se dividan a su vez en subalgoritmos de forma que se disponga de un grupo principal desde el que llamaremos al resto. Así, incitamos a la reutilización de código.
 - Debe ser **estructurado**: Engloba a las características anteriores ya que, un programa estructurado será fácil de leer, modificar y estará compuesto de subprogramas que permitirán la reutilización de código.
 
-Para tener una representación gráfica de un algoritmo, utilizamos los diagramas de flujo.
-Un diagrama de flujo es una representación gráfica de un proceso. Cada paso del proceso se representa por un símbolo diferente que contiene una breve descripción de la etapa de proceso.
+Para tener una representación gráfica de un algoritmo utilizamos los diagramas de flujo.
+
+Un **diagrama de flujo** es una representación gráfica de un proceso. Cada paso del proceso se representa por un símbolo diferente que contiene una breve descripción de la etapa de proceso.
 
 Debemos usar una serie de símbolos estándar:
 
