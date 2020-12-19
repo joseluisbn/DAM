@@ -4,7 +4,7 @@
 
 ### 1. Reconocimiento de las características de los lenguajes de marcas
 
-A continuación, vamos a definir las principales características de los lenguajes de marcas:
+Estas son las principales características de los lenguajes de marcas:
 
 **Texto plano**
 
