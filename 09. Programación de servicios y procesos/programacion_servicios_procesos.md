@@ -6,7 +6,7 @@
 
 #### 1.1. Prácticas de programación segura
 
-A la hora de desarrollar programas, es necesario tener presente que un código limpio aportará seguridad a la aplicación.
+A la hora de desarrollar programas, un código limpio aportará seguridad a la aplicación.
 
 Para ello es preciso:
 
