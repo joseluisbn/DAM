@@ -2,7 +2,7 @@
 
 ## UF1: Sistemas ERP-CRM. Implantación
 
-Los sistemas de gestión empresarial abarcan una gran cantidad de procesos y diferentes técnicas que se han ido desarrollando con el paso de los años.
+Los **sistemas de gestión empresarial** abarcan una gran cantidad de procesos y diferentes técnicas que se han ido desarrollando con el paso de los años.
 
 Esta unidad formativa se centra principalmente en la introducción a la gestión. Además, se enumeran y repasan aquellos conceptos básicos que se deben tener en
 cuenta en una empresa. Son los conocimientos mínimos que se deben adquirir para comprender el funcionamiento de la misma.
