@@ -4,9 +4,6 @@
 
 Los **sistemas de gestión empresarial** abarcan una gran cantidad de procesos y diferentes técnicas que se han ido desarrollando con el paso de los años.
 
-Esta unidad formativa se centra principalmente en la introducción a la gestión. Además, se enumeran y repasan aquellos conceptos básicos que se deben tener en
-cuenta en una empresa. Son los conocimientos mínimos que se deben adquirir para comprender el funcionamiento de la misma.
-
 Cuando se habla de la gestión empresarial, no se pretenden obtener valores exactos sobre algo determinado, sino poder obtener una visión global de una empresa, junto con sus componentes principales y procesos. Supone conseguir entender de forma
 correcta el funcionamiento de la empresa como un conjunto y saber tomas las decisiones más acertadas en cada momento, sobre todo, cuando hay decidir qué sistema de gestión empresarial se debe implantar.
 
