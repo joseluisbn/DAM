@@ -36,7 +36,7 @@ En resumen, durante el desarrollo de un producto software, se deben tener en cue
 
 #### 1.2. Criptografía de clave pública y clave privada
 
-La criptografía es el conjunto de técnicas que cifran información, con el objetivo de que un usuario no sea capaz de entender el contenido, y, por lo tanto, conseguir confidencialidad en el mensaje.
+La **criptografía** es el conjunto de técnicas que cifran información, con el objetivo de que un usuario no sea capaz de entender el contenido, y, por lo tanto, conseguir confidencialidad en el mensaje.
 
 Para conseguir esta confidencialidad, es necesario transformar el mensaje mediante un algoritmo matemático. La criptología no solo se encarga de cifrar el mensaje, sino también de descifrarlo para que el receptor sea capaz de entenderlo.
 
@@ -53,4 +53,4 @@ Cifrado en el que se realiza una sustitución de cada letra por otra. El desplaz
 
 **Funciones hash o funciones de una sola vía**
 
-Una función hash en una función que, dada cualquier cadena de caracteres, los convierte en otra cadena de longitud fija.
+Una función **hash** en una función que, dada cualquier cadena de caracteres, los convierte en otra cadena de longitud fija.
