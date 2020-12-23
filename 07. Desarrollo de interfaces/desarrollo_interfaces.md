@@ -16,7 +16,7 @@ Estas últimas cuentan con menos funcionalidades y están más limitadas que las
 
 Desde que aparece la primera ventana ya es posible tener acceso a la creación de un proyecto y a todas sus opciones del menú Archivo.
 
-Cuando se selecciona la opción Nuevo Proyecto, aparecerán una serie de plantillas de creación de proyectos clasificadas por su ámbito y por el lenguaje de programación que utilizan.
+Cuando se selecciona la opción *Nuevo Proyecto*, aparecerán una serie de plantillas de creación de proyectos clasificadas por su ámbito y por el lenguaje de programación que utilizan.
 
 **Área de trabajo**
 
