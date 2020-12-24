@@ -4,14 +4,13 @@
 
 Los **sistemas de gestión empresarial** abarcan una gran cantidad de procesos y diferentes técnicas que se han ido desarrollando con el paso de los años.
 
-Cuando se habla de la gestión empresarial, no se pretenden obtener valores exactos sobre algo determinado, sino poder obtener una visión global de una empresa, junto con sus componentes principales y procesos. Supone conseguir entender de forma
-correcta el funcionamiento de la empresa como un conjunto y saber tomas las decisiones más acertadas en cada momento, sobre todo, cuando hay decidir qué sistema de gestión empresarial se debe implantar.
+Cuando se habla de la gestión empresarial, no se pretenden obtener valores exactos sobre algo determinado, sino poder obtener una visión global de una empresa, junto con sus componentes principales y procesos. Supone conseguir entender de forma correcta el funcionamiento de la empresa como un conjunto y saber tomas las decisiones más acertadas en cada momento, sobre todo, cuando hay decidir qué sistema de gestión empresarial se debe implantar.
 
 ### 1. Identificación de sistemas ERP-CRM
 
 La gestión empresarial es la actividad empresarial que, mediante un conjunto de individuos especializados, como pueden ser: gerentes, consultores, productores, etc. pretende conseguir mejorar la productividad y la competitividad de una determinada empresa.
 
-Entre sus principales características es posible indicar algunas de las más importantes:
+Entre sus principales características algunas de las más importantes son:
 
 - Una empresa existirá siempre que obtenga beneficio.
 - La empresa debe realizar una buena gestión de los recursos disponibles para ser competitiva.
