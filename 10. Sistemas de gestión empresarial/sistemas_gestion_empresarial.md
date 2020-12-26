@@ -8,7 +8,7 @@ Cuando se habla de la gestión empresarial, no se pretenden obtener valores exac
 
 ### 1. Identificación de sistemas ERP-CRM
 
-La gestión empresarial es la actividad empresarial que, mediante un conjunto de individuos especializados, como pueden ser: gerentes, consultores, productores, etc. pretende conseguir mejorar la productividad y la competitividad de una determinada empresa.
+La gestión empresarial es la actividad empresarial que, mediante un conjunto de individuos especializados (gerentes, consultores, productores, etc.), pretende conseguir mejorar la productividad y la competitividad de una determinada empresa.
 
 Entre sus principales características algunas de las más importantes son:
 
