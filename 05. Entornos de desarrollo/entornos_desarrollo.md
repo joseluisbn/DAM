@@ -4,8 +4,7 @@
 
 ### 1.1. El software del ordenador
 
-Antes de comenzar con la definición de software es necesario aclarar la diferencia entre hardware y software. El ordenador está compuesto por dos partes: la parte física, que llamamos hardware, y que está compuesta por el teclado, el ratón, el
-monitor, los discos duros o la placa base, entre otros elementos. En definitiva, lo forman todos aquellos componentes que podemos ver y tocar. En cambio, el ordenador posee otra parte lógica llamada software, encargada de dar instrucciones al hardware y hacer ejecutar la computadora.
+Antes de comenzar con la definición de software, es necesario aclarar la diferencia entre hardware y software. El ordenador está compuesto por dos partes: la parte física, que llamamos hardware, y que está compuesta por el teclado, el ratón, el monitor, los discos duros o la placa base, entre otros elementos. En definitiva, lo forman todos aquellos componentes que podemos ver y tocar. En cambio, el ordenador posee otra parte lógica llamada software, encargada de dar instrucciones al hardware y hacer ejecutar la computadora.
 
 En este apartado veremos conceptos básicos para el desarrollo del software.
 
