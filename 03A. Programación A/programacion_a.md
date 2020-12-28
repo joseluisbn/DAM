@@ -2,7 +2,7 @@
 ## UF1: Programación estructurada
 ### 1. Introducción a la programación
 
-El **lenguaje de programación** es una herramienta para transformar un algoritmo en un programa. Entendiendo algoritmo como una secuencia finita de operaciones que resuelven un problema expuesto. Un programa debe de cumplir una serie de características:
+El **lenguaje de programación** es una herramienta para transformar un algoritmo en un programa. Entendiendo **algoritmo** como una secuencia finita de operaciones que resuelven un problema expuesto. Un programa debe de cumplir una serie de características:
 
 - Deber ser **finito**: formado por un conjunto limitado de líneas.
 - Debe ser **legible**: Es importante crear códigos “limpios” y fáciles de leer con tabulaciones y espacios que diferencien las partes del programa.
