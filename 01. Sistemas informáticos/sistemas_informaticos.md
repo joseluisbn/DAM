@@ -8,11 +8,11 @@ El hecho de utilizar un software libre implica que los usuarios podrán modifica
 
 **Conocer en profundidad el hardware**
 
-Antes de escoger el software que vamos a emplear, debemos tener muy presente en qué equipos vamos a instalar el sistema operativo y las aplicaciones. Sus características técnicas, su conectividad y sus prestaciones serán elementos clave para la elección. Si los equipos están en red, además, debemos tener muy clara la estructura que utilizaremos para alcanzar el máximo rendimiento.
+Antes de escoger el software que vamos a emplear, debemos tener muy presente en qué equipos vamos a instalar el sistema operativo y las aplicaciones. Sus características técnicas, su conectividad y sus prestaciones serán elementos clave para la elección. Si los equipos están en red, además, debemos tener muy clara la estructura que utilizaremos para obtener el máximo rendimiento.
 
 **Conocer en profundidad el software**
 
-Debemos conocer el tipo de programa que se necesita, sus funcionalidades y la licencia bajo la que se distribuye, así como otros aspectos que detallaremos a continuación.
+Debemos conocer el tipo de programa que se necesita, sus funcionalidades y la licencia bajo la que se distribuye, etc.
 
 ### 1.1. Estructura y componentes de un sistema informático. Periféricos y adaptadores para la conexión de dispositivos
 
