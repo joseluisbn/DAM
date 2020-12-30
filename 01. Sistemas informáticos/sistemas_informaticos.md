@@ -81,11 +81,11 @@ Tanto si concebimos el sistema informático como un único equipo, como si pensa
 
 En ocasiones, pese a que a priori la conectividad no sea posible, contamos con la opción de usar adaptadores. Así, por ejemplo, si deseamos habilitar una red inalámbrica y los ordenadores no cuentan con tarjetas de red wifi en su placa madre, podemos adquirir adaptadores de red extraíbles e insertarlos en sus respectivos puertos USB.
 
-En definitiva, todo sistema informático estará compuesto de hardware (recursos físicos) y de software (recursos lógicos). Si queremos entender la definición de sistema informático en un sentido más amplio, a todo ello deberemos añadir a los usuarios (recursos humanos) y, por supuesto, la información.
+En definitiva, todo sistema informático estará compuesto de hardware (recursos físicos) y de software (recursos lógicos). Si queremos entender la definición de sistema informático en un sentido más amplio, a todo ello deberemos añadir a los usuarios (recursos humanos) y, por supuesto, la **información**.
 
 ### 1.2. Tipos y topologías de red
 
-Una red de ordenadores es un conjunto de equipos interconectados entre sí que permiten compartir recursos e información. Para ello es necesario que los ordenadores dispongan de una tarjeta de red, cables de conexión, dispositivos periféricos y un software adecuado.
+Una **red de ordenadores** es un conjunto de equipos interconectados entre sí que permiten compartir recursos e información. Para ello es necesario que los ordenadores dispongan de una tarjeta de red, cables de conexión, dispositivos periféricos y un software adecuado.
 
 Es posible diferenciar varios tipos de redes según su extensión:
 
