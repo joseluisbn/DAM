@@ -4,13 +4,15 @@
 
 Un **fichero** es un archivo que contendrá un conjunto de caracteres o bytes que se almacenarán en el dispositivo en una ruta y con un nombre concretos.
 
-Es el archivo que usará nuestro programa para almacenar, leer, escribir o gestionar información sobre el proceso que se esté ejecutando. Existen diferentes tipos de ficheros, como, por ejemplo:
+Es el archivo que usará nuestro programa para almacenar, leer, escribir o gestionar información sobre el proceso que se esté ejecutando.
+
+Existen diferentes tipos de ficheros, como, por ejemplo:
 
 - **Fichero estándar**: es un archivo que contiene todo tipo de datos: caracteres, imagen, audio, vídeo, etcétera. Normalmente son ficheros que contienen información de cualquier tipo.
 - **Directorios o carpetas**: son ficheros que albergan más archivos en su interior. Su principal utilidad es mantener un orden o jerarquía en nuestros sistemas.
 - **Ficheros especiales**: son todos esos ficheros que usa nuestro sistema operativo y que se utilizan para controlar los dispositivos o periféricos de nuestro ordenador.
 
-En este tema profundizaremos en el tipo de ficheros estándar y en los directorios. Como explicaremos más adelante, este tipo de ficheros nos permitirán realizar diferentes acciones para tratar los ficheros y para mantener un orden y jerarquía con las carpetas.
+En este tema profundizaremos en el tipo de ficheros estándar y en los directorios. Este tipo de ficheros nos permitirán realizar diferentes acciones para tratar los ficheros y para mantener un orden y jerarquía con las carpetas.
 
 Podemos destacar dos tipos de ficheros de datos:
 - Los **ficheros de bytes**: también conocidos como ficheros binarios, son archivos que usan los programas para leer o escribir información.
