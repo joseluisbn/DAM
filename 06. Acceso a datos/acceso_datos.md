@@ -18,11 +18,9 @@ Podemos destacar dos tipos de ficheros de datos:
 - Los **ficheros de bytes**: también conocidos como ficheros binarios, son archivos que usan los programas para leer o escribir información.
 - Los **ficheros de caracteres**: también conocidos como ficheros de texto, nos permitirán leer o escribir la información que contengan.
 
-Un fichero se caracteriza por estar formado por la ruta en la que está almacenado, el nombre y una extensión, siguiendo este orden. Además, tenemos que tener en cuenta que no podrán existir ficheros con el mismo nombre, ruta y extensión. Para que sean
-únicos, el nombre o la extensión en la misma ruta deben ser distintos.
+Un fichero se caracteriza por estar formado por la ruta en la que está almacenado, el nombre y una extensión, en este orden. Además, tenemos que tener en cuenta que no podrán existir ficheros con el mismo nombre, ruta y extensión. Para que sean únicos, el nombre o la extensión en la misma ruta deben ser distintos.
 
-Para tener acceso a un fichero determinado, se utiliza una ruta (o también la podemos nombrar path) que indica la ubicación de ese fichero en nuestro sistema. La ruta está compuesta por diferentes niveles jerárquicos (carpetas) separado por un símbolo barra
-/, Aunque en Windows, para separar los niveles jerárquicos, se utiliza la contrabarra o \. En cambio, en Unix el separador será /. Eclipse admite tanto / como \ cuando definimos la ruta.
+Para tener acceso a un fichero determinado, se utiliza una ruta (o también la podemos nombrar path) que indica la ubicación de ese fichero en nuestro sistema. La ruta está compuesta por diferentes niveles jerárquicos (carpetas) separado por un símbolo barra /, Aunque en Windows, para separar los niveles jerárquicos, se utiliza la contrabarra o \. En cambio, en Unix el separador será /. Eclipse admite tanto / como \ cuando definimos la ruta.
 
 Si queremos definir la ruta independientemente del sistema operativo, podemos realizarlo de este modo:
 
