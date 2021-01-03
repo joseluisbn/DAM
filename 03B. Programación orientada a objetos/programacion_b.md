@@ -46,7 +46,7 @@ Definimos los **objetos** como un conjunto de datos (características o atributo
 
 Debemos señalar también que estos objetos son casos específicos de unas entidades denominadas clases, en las que se pueden definir las características que tienen en común estos objetos. Los objetos podríamos definirlos como un contenedor de datos, mientras que una clase actúa como un molde en la construcción de objetos.
 
-A continuación, vamos a ver un ejemplo relacionado con la vida cotidiana en el que aclararemos todos estos conceptos:
+Vamos a ver un ejemplo relacionado con la vida cotidiana en el que aclararemos todos estos conceptos:
 
 - Podemos declarar un objeto coche.
 - Sus atributos pueden ser, entre otros: color, marca, modelo.
