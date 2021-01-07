@@ -18,7 +18,7 @@ Debemos conocer el tipo de programa que se necesita, sus funcionalidades y la li
 
 El sistema informático se compone de una parte central que procesa la información, que conocemos como ordenador, y unos dispositivos que actúan como periféricos que facilitan la entrada y la salida de información.
 
-Para que un ordenador funcione de forma correcta debe estar formado por dos tipos de elementos: los componentes lógicos o programas (software) y, por otro lado, los componentes físicos y electrónicos (hardware).
+Para que un ordenador funcione de forma correcta debe estar formado por dos tipos de elementos: los componentes lógicos o programas (software) y los componentes físicos y electrónicos (hardware).
 
 En el caso de los **componentes físicos** (hardware) podemos encontrar diferentes tipos, dependiendo del rendimiento que necesitemos para nuestro equipo. Aunque en este caso, comentaremos los fundamentales.
 
