@@ -51,7 +51,7 @@ En la siguiente figura se puede observar cómo la capa de datos lógicos de la a
 
 ---
 
-Como almacén principal de los datos, la mayoría de las aplicaciones hacen uso de una base de datos relacional. Para poder recuperar los datos de la base de datos, se utiliza un conjunto de datos conocido como DataReader. Estos datos se envían a través de las diferentes capas y niveles de la aplicación para que finalmente puedan ser utilizados por uno de sus componentes.
+Como almacén principal de los datos, la mayoría de las aplicaciones hacen uso de una base de datos relacional. Para poder recuperar los datos de la base de datos, se utiliza un conjunto de datos conocido como *DataReader*. Estos datos se envían a través de las diferentes capas y niveles de la aplicación para que finalmente puedan ser utilizados por uno de sus componentes.
 
 Indistintamente del almacén de datos que se utilice, el servicio o la aplicación para obtener el acceso a los datos utilizará componentes lógicos de acceso a datos. Estos componentes ofrecen una interfaz sencilla de programación para recuperar y realizar operaciones para insertar, eliminar, recuperar y actualizar los datos.
 
