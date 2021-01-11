@@ -220,17 +220,17 @@ El uso de los comentarios es muy útil y, por tanto, aconsejamos a los programad
 
 ### 3. Programación estructurada
 
-La programación estructurada es la manera que tenemos de escribir o diseñar un programa de una forma clara y concisa. Vamos a hacerlo siempre siguiendo tres estructuras básicas: secuencial, condicional e iterativa.
+La **programación estructurada** es la manera que tenemos de escribir o diseñar un programa de una forma clara y concisa. Vamos a hacerlo siempre siguiendo tres estructuras básicas: **secuencial**, **condicional** e **iterativa**.
 
 A finales de los años setenta surgió una nueva forma de desarrollar los programas que, además de conseguir el correcto funcionamiento de estos, también facilitó su comprensión gracias a la forma en la que estaban escritos. Estos programas resultaron ser más fiables y eficientes.
 
-En esta época fue cuando Edsger Dijkstra comprobó que todo programa se puede escribir utilizando únicamente tres instrucciones de control:
+En esta época fue cuando **Edsger Dijkstra** comprobó que todo programa se puede escribir utilizando únicamente tres instrucciones de control:
 
-- Secuencia de instrucciones.
-- Instrucción condicional.
-- Iteración o bucle de instrucciones.
+- **Secuencia de instrucciones**.
+- **Instrucción condicional**.
+- **Iteración o bucle de instrucciones**.
 
-Utilizando estas tres estructuras, se pueden crear programas informáticos, a pesar de que los lenguajes ofrecen un repertorio de instrucciones bastante mayor. 
+Utilizando estas tres estructuras (Teorema de Dijkstra), se pueden crear programas informáticos, a pesar de que los lenguajes ofrecen un repertorio de instrucciones bastante mayor. 
 
 #### 3.1. Fundamentos de programación
 
@@ -244,32 +244,32 @@ El programa se encarga de transformar la entrada en salida:
 
 Por su parte, el algoritmo es la secuencia de los pasos y las distintas operaciones que debe realizar el programa para conseguir resolver un problema planteado. Dicho programa debe implementar el algoritmo en un lenguaje de programación especificado previamente.
 
-En resumen, podemos señalar que la programación es una etapa en todo el proceso de desarrollo que existe a la hora de resolver un problema.
+En resumen, podemos señalar que **la programación es una etapa en todo el proceso de desarrollo que existe a la hora de resolver un problema**.
 
 #### 3.2. Introducción a la algoritmia
 
 Las personas estamos acostumbradas a obedecer una serie de órdenes secuenciales y lógicas. Lo mismo pasa con los ordenadores, que realizan diferentes tareas siguiendo una serie de pasos lógicos, ya que están programados (mediante algoritmos) para solucionar distintos problemas en un lenguaje de programación determinado.
 
-La algoritmia es un conjunto ordenado y finito de operaciones que permite encontrar la solución a un problema cualquiera.
+La **algoritmia** es un conjunto ordenado y finito de operaciones que permite encontrar la solución a un problema cualquiera.
 
 Es fundamental que logremos desarrollar y utilizar nuestra mente en forma de algoritmo, ya que, como la vida misma, la programación consiste en buscar la solución óptima para un problema determinado. Todo esto se consigue mediante el diseño, creación e implementación de un algoritmo. 
 
-#### 3.3. Ciclo de vida
+#### 3.3. Diseño de algoritmos
+
+***Insertar diagrama***
 
 La imagen representa el ciclo de vida de un programa informático, de manera que las flechas indican el orden de realización de cada etapa. 
 
-- Análisis de requisitos: a partir de las necesidades del usuario o del programa planteado, se decide qué es lo que hay que hacer para llegar a conseguir una solución óptima, y se genera un documento de requisitos. El contenido de comunicación de esta etapa es muy intenso, ya que el objetivo es eliminar la ambigüedad en la medida de lo posible.
-- Diseño de la arquitectura: se hace un estudio para ver los distintos componentes que van a formar parte de nuestro programa (módulos, subsistemas, etc.) y se genera un documento de diseño. Esta fase se va a revisar todas las veces que sea necesario hasta que estemos seguros de cuál va a ser la mejor solución.
-- Etapa de implementación o codificación: en esta etapa vamos a pasar a codificar las aplicaciones que hemos elegido en la etapa anterior, empleando el lenguaje de programación con el que estemos trabajando. El resultado que vamos a obtener va a ser el código fuente.
-- Pruebas de integración: hay que realizar ensayos del funcionamiento, combinando todos los módulos de la aplicación. Así, haciendo funcionar la aplicación completa, comprobamos que cumple lo establecido en el diseño.
-- Pruebas de validación: el último paso de la integración se basa en realizar nuevas pruebas de la aplicación en su conjunto. El objetivo es cerciorarse de que se cumple lo establecido en el documento de requisitos y que cubre las necesidades de los usuarios que ya habíamos previsto.
-- Fase de mantenimiento: revisar todo el proceso anterior e ir
-actualizando o modificando los cambios oportunos en las etapas
-anteriores.
+- **Análisis de requisitos**: a partir de las necesidades del usuario o del programa planteado, se decide qué es lo que hay que hacer para llegar a conseguir una solución óptima, y se genera un documento de requisitos. El contenido de comunicación de esta etapa es muy intenso, ya que el objetivo es eliminar la ambigüedad en la medida de lo posible.
+- **Diseño de la arquitectura**: se hace un estudio para ver los distintos componentes que van a formar parte de nuestro programa (módulos, subsistemas, etc.) y se genera un documento de diseño. Esta fase se va a revisar todas las veces que sea necesario hasta que estemos seguros de cuál va a ser la mejor solución.
+- **Etapa de implementación o codificación**: en esta etapa vamos a pasar a codificar las aplicaciones que hemos elegido en la etapa anterior, empleando el lenguaje de programación con el que estemos trabajando. El resultado que vamos a obtener va a ser el código fuente.
+- **Pruebas de integración**: hay que realizar ensayos del funcionamiento, combinando todos los módulos de la aplicación. Así, haciendo funcionar la aplicación completa, comprobamos que cumple lo establecido en el diseño.
+- **Pruebas de validación**: el último paso de la integración se basa en realizar nuevas pruebas de la aplicación en su conjunto. El objetivo es cerciorarse de que se cumple lo establecido en el documento de requisitos y que cubre las necesidades de los usuarios que ya habíamos previsto.
+- **Fase de mantenimiento**: revisar todo el proceso anterior e ir actualizando o modificando los cambios oportunos en las etapas anteriores.
 
 #### 3.4. Prueba de programas
 
-Una vez implementado y compilado el código de nuestro algoritmo, debemos ponerlo en marcha y comenzar la etapa de testing, plan de prueba o prueba de programa.
+Una vez implementado y compilado el código de nuestro algoritmo, debemos ponerlo en marcha y comenzar la etapa de *testing*, plan de prueba o prueba de programa.
 
 Se prueba un programa para demostrar la existencia de un defecto: algorítmico, de sintaxis, de precisión, de documentación, de sobrecarga, de capacidad, de rendimiento, de sincronización, de recuperación, de hardware y software y de estándares.
 
@@ -302,6 +302,54 @@ En pseudolenguaje, son los siguientes:
 
 - Tipos simples definidos por el usuario
 - Tipos enumerados: ofrecen la posibilidad de definir nuevos tipos simples. Estos tipos se declaran en el apartado "tipos" de un programa de la siguiente forma:
+
+```c#
+ENUM {Id1, Id2, Id3} IdTipoEnumerado
+public class EnumTest
+{
+ enum Dias { Domingo,Lunes,Martes,Miercoles,Jueves,Viernes,Sabado };
+ static void Main()
+ {
+ int x = (int)Dias.Domingo;
+ int y = (int)Dias.Viernes;
+ Console.WriteLine("Domingo = {0}", x);
+ Console.WriteLine("Viernes = {0}", y);
+ }
+}
+/* Salida:
+ Domingo = 0
+ Viernes = 5
+*/
+```
+
+- Tipos compuestos o estructurados: se crean mediante la unión de varios tipos (simples o compuestos)
+
+ - Vectores: se utilizan para agrupar distintas variables de un mismo tipo con un nombre único. También son llamados *arrays unidimensionales*, es de decir, de una dimensión. Esa anotación también nos dice la cantidad de indicadores de posición que necesitamos para acceder a un elemento de la tabla. En este caso solo necesitamos una posición.
+
+```
+<tipo> [] <nombre> = new <tipo> [<tamaño>];
+```
+ Por ejemplo:
+ 
+ ```c#
+ int [] v = new int [10];
+ ```
+ Nos estamos declarando 10 enteros en un vector al que hemos llamado *v*.
+ 
+ Para poder acceder a cada uno de ellos lo haremos de la siguiente forma, siempre recordando que la primera posición de todo array es el 0:
+ 
+ - Matrices: unión de varios vectores de cualquier tipo simple (enteros, reales, etc.). También la podemos ver como un *array bidimensional*, por tanto, esos datos nos indican que necesitamos dos indicadores de posición para acceder al elemento.
+ 
+```
+Tipo [,] Nombre= new Tipo [filas, columnas];
+```
+
+Por ejemplo:
+
+```c#
+int [,] matriz = new bool[2,3];
+```
+ En este caso, estamos declarando una matriz denominada *matriz*, de tipo entero, que consta de 2 filas y 3 columnas.
 
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
