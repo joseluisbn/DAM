@@ -76,6 +76,11 @@ Podemos definir un programa como una secuencia de instrucciones separadas por pu
 
 Si implementamos un programa en C# debe tener, como mínimo, la parte del programa principal:
 
+```c#
+void main(){
+// Bloque de implementación
+}
+```
 
 ### 3. Programación estructurada
 
