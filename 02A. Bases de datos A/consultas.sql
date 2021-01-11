@@ -1,1 +1,1 @@
-
+CREATE DATABASE nombre_bd;
