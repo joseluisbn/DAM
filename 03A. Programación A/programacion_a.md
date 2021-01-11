@@ -82,6 +82,26 @@ void main(){
 }
 ```
 
+Toda clase que vaya a ser ejecutada debe contener la función **Main**. Una función es un trozo de código al que se le domina con un nombre, de forma que cada vez que queramos ejecutar ese código solo tendremos que indicar el nombre de la función.
+
+La función main no tiene ningún argumento y no devuelve parámetro. Las “{}” delimitan el bloque en C#. Todos los programas van a tener una función *main()* que se va a ejecutar al principio.
+
+Es conveniente ir añadiendo comentarios a nuestro programa sobre los pasos que se van realizando. Los comentarios van con “//” si el comentario ocupa una sola línea y “/* */” si el comentario ocupa diferentes líneas.
+
+A continuación, vamos a ver cómo sería un programa básico en C# que imprima una frase por pantalla:
+
+```c#
+/*Programa que muestre por pantalla la frase Buenas tardes*/
+// Nombre del archivo BuenasTardes.cs
+public class Hello1
+{
+ public static void Main()
+ {
+ System.Console.WriteLine("Buenas Tardes");
+ }
+}
+```
+
 ### 3. Programación estructurada
 
 La programación estructurada es la manera que tenemos de escribir o diseñar un programa de una forma clara y concisa. Vamos a hacerlo siempre siguiendo tres estructuras básicas: secuencial, condicional e iterativa.
