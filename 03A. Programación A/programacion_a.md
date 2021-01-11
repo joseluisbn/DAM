@@ -407,6 +407,43 @@ Cuando queramos depurar errores tenemos la opción, en cualquier momento de nues
 - **Errores en tiempo de ejecución**: aparecen mientras se ejecuta el programa, normalmente cuando se pretende realizar una operación que no se lleva a ninguna solución. Como, por ejemplo, cuando se pretende dividir por cero.
 - **Errores lógicos**: impiden que se lleve a cabo lo que se había previsto. El código se puede compilar y ejecutar sin problemas, pero, en el caso de que compile, devuelve algo que no era la solución que se esperaba. Como inicialmente el programa cuando se ejecuta no da error, estos errores son los más difíciles de corregir, ya que debemos encontrar el fallo en un programa que funciona, aunque de una forma distinta a la que debería.
 
+#### 3.11. Documentación de programas
+
+Una vez que finaliza nuestro proceso de compilación y ejecución, debemos hacer una memoria para que quede registrado todo el desarrollo que hemos llevado a cabo, los fallos que ha presentado y cómo hemos conseguido solventarlos.
+
+El diseño de los archivos que vamos a entregar puede venir condicionado por un gran número de factores que deben estar resueltos ya que lo que entreguemos, debe funcionar.
+
+Visual Studio es un proyecto que debe estar asociado al principal. Puede existir más de un proyecto de desarrollo y cada proyecto puede ser utilizado para entregar más de una aplicación.
+
+Permite configurar los archivos que se deben entregar y, además, ejecuta y genera un *wizard* de instalación. También ofrece la posibilidad de configurar directorios de destino, el registro de Windows y el escritorio de usuario.
+
+#### 3.12. Entornos de desarrollo de programas
+
+Una vez que diseñamos un programa podemos denominar entorno de desarrollo integrado al entorno de programación que hemos utilizado para su realización: editor de código, compilador, depurador e interfaz gráfica (GUI).
+
+Los IDE son utilizados por distintos lenguajes de programación como: C++, PHP, Python, Java, C#, Visual Basic, etc. En algunos casos, funcionan como sistemas en tiempo de ejecución, en los que se permite el uso de un lenguaje de programación de forma interactiva sin necesidad de utilizar archivos de texto.
+
+A modo de ejemplo, podemos señalar algunos entornos integrados de desarrollo como: Eclipse, Netbeans, JDeveloper de Oracle, Visual C++, etc.
+
+Los IDE deben cumplir con una serie de características para su correcto funcionamiento, como, por ejemplo:
+- Multi-plataforma.
+- Actúan como soporte para diferentes lenguajes de programación.
+- Reconocen sintaxis.
+- Integrados con sistemas de control de diferentes versiones.
+- Depurador.
+- Debe permitir importar-exportar proyectos.
+- Diferentes idiomas.
+- Manual de ayuda para el usuario.
+
+Las diferentes ventajas que ofrecen los IDE son:
+- Tienen una baja curva de aprendizaje.
+- Uso óptimo para usuarios que no son expertos.
+- Formateo de código.
+- Uso de funciones para renombrar funciones y variables.
+- Creación de proyectos.
+- Herramientas para extraer partes de código.
+- Errores y *warnings*.
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
