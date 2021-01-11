@@ -189,14 +189,34 @@ Para poder operar con las diferentes variables, utilizaremos una serie de operac
 
 2.5. Conversiones de tipos de clase
 
-Como hemos visto anteriormente, un programa consta de numerosas variables de diferentes tipos, que suelen declararse al comienzo de este. Sin embargo, conforme vamos avanzando en el programa y realizando operaciones o almacenando resultados, es posible que tengamos que ir adaptando las variables a los nuevos tipos de datos que estemos utilizando. Esta conversión recibe el nombre de casting.
+Como hemos visto anteriormente, un programa consta de numerosas variables de diferentes tipos, que suelen declararse al comienzo de este. Sin embargo, conforme vamos avanzando en el programa y realizando operaciones o almacenando resultados, es posible que tengamos que ir adaptando las variables a los nuevos tipos de datos que estemos utilizando. Esta conversión recibe el nombre de **casting**.
 
 ```c#
 double resultado;
-int numero1 = 3, numero 2 = 9;
+int numero1 = 3, numero2 = 9;
 resultado = numero1;
 numero2 = (int)resultado;
 ```
+
+En este fragmento de código declaramos una variable denominada “resultado” de tipo “double” y otras dos de tipo entero: “numero1” y “numero2”. Les asignamos respectivamente, los valores 1 y 4.
+
+Al decir que “resultado=numero1” estamos realizando una operación de asignación de un valor entero a una variable “double”. No se produce error porque el programa interpreta la variable “resultado1=3.0”.
+
+En la última línea, si no tuviéramos el paréntesis “(int)” asignaríamos un valor “double” a una variable entera, y, por tanto, el compilador no nos dejaría, ya que el tipo de datos “double” es decimal, y el tipo de datos “int” es entero, por tanto, desperdiciaríamos la parte decimal de la variable. Para solventar este problema hacemos uso del “casting”, es decir, conversión de tipo. Por tanto ponemos entre paréntesis el tipo de datos al que queremos convertir el valor, para que tenga el mismo tipo que la variable destino. En este caso es entero.
+
+Con esto estamos diciendo que el valor de resultado va a ser un número entero, pero nuestra variable resultado seguirá siendo de tipo “double”.
+
+#### 2.6. Comentarios al código
+
+A lo largo de esta unidad formativa nos estamos introduciendo en la creación por parte de un programador de código fuente con una finalidad concreta. No debemos pasar por alto el hecho de que, además de realizar programas, lo debemos de hacer de la forma más óptima y ordenada posible.
+
+En el ámbito de la organización entra en escena el concepto de los comentarios. Herramienta disponible en el compilador, para que el programador pueda hacer anotaciones en el propio código sin que sea procesado por el compilador. Estas anotaciones deben de esclarecer el propio código y ayudar a entender las sentencias del programa.
+
+En el lenguaje de programación C# está permitido hacer dos tipos de comentarios:
+- **Comentarios de una línea**: son frases cortas y, por tanto, solo pueden ocupar una línea del código. Debemos de escribir “//” antes de comenzar con dichas anotaciones.
+- **Comentarios multiline o multi-líneas**: se utilizan para hacer una explicación mucho más detallada del código en cuestión. También podemos hacer uso de este tipo de comentarios cuando deseamos que una parte de código no sea procesada por el compilador. En este caso, debemos de englobar el texto entre los caracteres “/*” y “*/”.
+
+El uso de los comentarios es muy útil y, por tanto, aconsejamos a los programadores a que implementen programas con tantos comentarios como sea posible para documentar el código.
 
 ### 3. Programación estructurada
 
