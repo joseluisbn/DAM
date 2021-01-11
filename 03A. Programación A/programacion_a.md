@@ -27,13 +27,13 @@ Características de los diagramas de flujo:
 - A la hora de escribir texto en las formas, este debe ser escueto y legible
 - Todos los símbolos de decisión deben tener más de una línea de salida, es decir, deben indicar qué camino seguir en función de la decisión tomada.
 
-El proceso de programación comunica un usuario y una máquina. Para que se pueda realizar esta comunicación debemos de tener:
+El **proceso de programación** comunica un usuario y una máquina. Para que se pueda realizar esta comunicación debemos de tener:
 
-- Los dos agentes principales, receptor y emisor (usuario y máquina).
-- Canal: para asemejar el ejemplo con el que estamos explicando el proceso de programación, podemos decir que nuestro canal es el teclado.
-- Lenguaje: aquí es donde viene la dificultad, ya que los agentes hablan un lenguaje completamente diferente. Para que la comunicación sea fluida debemos de acercar los lenguajes y, tanto la máquina como el usuario, hacer forzar el entendimiento. 
+- Los dos agentes principales, **receptor** y **emisor** (usuario y máquina).
+- **Canal**: para asemejar el ejemplo con el que estamos explicando el proceso de programación, podemos decir que nuestro canal es el teclado.
+- **Lenguaje**: aquí es donde viene la dificultad, ya que los agentes hablan un lenguaje completamente diferente. Para que la comunicación sea fluida debemos de acercar los lenguajes y, tanto la máquina como el usuario, hacer forzar el entendimiento. 
 
-Para solventar el problema de la comunicación, aparecen lenguajes de programación de dos tipos: alto nivel y bajo nivel. Los lenguajes de alto nivel están más cerca del lenguaje que habla el usuario, mientras que los lenguajes de bajo nivel están más cerca de las estructuras del lenguaje de la máquina.
+Para solventar el problema de la comunicación, aparecen lenguajes de programación de dos tipos: **alto nivel** y **bajo nivel**. Los lenguajes de alto nivel están más cerca del lenguaje que habla el usuario, mientras que los lenguajes de bajo nivel están más cerca de las estructuras del lenguaje de la máquina.
 
 ---
 
