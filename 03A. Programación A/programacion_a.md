@@ -102,6 +102,61 @@ public class Hello1
 }
 ```
 
+La primera parte, con los símbolos ”/*” y “*/” es un comentario donde se explica lo que hay que hacer en el ejercicio. A continuación, se declara la clase “Hello1”.
+
+Una **clase** consta de **métodos** (funciones) y datos de características comunes.
+
+Dentro de la función Main(), tenemos el operador “System.Console.WriteLine”, que muestra por pantalla el mensaje “Buenas Tardes”.
+
+Las operaciones de E/S se realizan de forma diferente según el lenguaje de programación que se utilice. En C necesita funciones declaradas en “stdio.h”, mientras que en C++ utiliza “stream”, que es el que se refiere al flujo de la información mediante “E/S”.
+
+#### 2.2. Variables. Usos y tipos
+
+Las **variables** podemos definirlas como un espacio de memoria identificada por un nombre, que puede ir variando a lo largo de un programa. Cuando hablamos de variables nos referimos al símbolo que vamos a utilizar para identificar un elemento de un conjunto determinado.
+
+A la hora de desarrollar un programa, las variables se utilizan para almacenar unos datos determinados. Se pueden nombrar a lo largo de todo el programa.
+
+Las variables tienen como ámbito de trabajo el bloque donde han sido definidas. Se definen al comienzo del bloque y, al salir de él, se destruyen.
+
+Cada variable va a almacenar un tipo de dato como:
+
+***Insertar tabla***
+
+Para definir una variable necesitamos conocer primero el tipo de datos que va a almacenar y, a continuación, el nombre que le vamos a asignar. Es recomendable que este nombre tenga relación con el ejercicio que estemos desarrollando.
+
+Para identificar a una variable, y que tenga un identificador válido por el compilador, debemos de seguir una serie de normas:
+
+- Debe comenzar por un carácter (letra o “_”)
+- Debe de estar formada por caracteres del alfabeto (no podemos usar “ñ” ni palabras acentuadas), de dígitos (del 0 al 9) y se puede utilizar subrayado (_).
+- No debe comenzar con un dígito.
+- Distingue entre mayúsculas y minúsculas.
+- No puede llevar espacios en blanco.
+
+Debe cumplir la siguiente sentencia:
+
+ *[cualificador] <tipo> <nombre_variable>;*
+ 
+ Y en C# lo pondríamos de la siguiente forma:
+ 
+ ```c#
+ int num
+ ```
+
+En este caso estamos definiendo una variable de tipo entero denominada “num”. A las variables también se le puede asignar un valor:
+
+ ```c#
+ int num = 5;
+ ```
+
+Definimos una variable de tipo entero, denominada “num” y le asignamos el valor de 5.
+
+Cuando definimos una variable, es importante que sepamos cuánto espacio nos va a ocupar para intentar seleccionar qué tipo de variable es la más adecuada.
+
+Podemos encontrar dos tipos de variables diferentes: globales y locales.
+- Local: si está definida dentro de un bloque.
+- Global: si está definida fuera de un bloque, pero se puede acceder a ella.
+
+
 ### 3. Programación estructurada
 
 La programación estructurada es la manera que tenemos de escribir o diseñar un programa de una forma clara y concisa. Vamos a hacerlo siempre siguiendo tres estructuras básicas: secuencial, condicional e iterativa.
