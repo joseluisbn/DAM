@@ -351,6 +351,62 @@ int [,] matriz = new bool[2,3];
 ```
  En este caso, estamos declarando una matriz denominada *matriz*, de tipo entero, que consta de 2 filas y 3 columnas.
 
+#### 3.6. Estructuras de selección
+
+- Bloque mínimo
+- Si / Si no
+- Si / Sino si
+- Si anidados
+
+#### 3.7. Estructuras de repetición
+
+- mientras
+- hacer mientras
+- para
+
+#### 3.8. Estructuras de salto
+
+- Break
+- Continue
+- Return
+
+#### 3.9. Tratamiento de cadenas
+
+Para la representación de cadenas de caracteres se utiliza el tipo de datos string. En programas como C y C++ no existe este tipo de datos, por lo que se suele representar mediante el uso de un array de caracteres.
+
+En C# la representación del tipo de datos string sería de la siguiente forma:
+
+***Código***
+
+Siempre que queramos escribir en nuestro código combinaciones alfanuméricas, irán entre comillas dobles (“”), ya que el compilador las va a tomar como un tipo string.
+
+Estas variables string se pueden inicializar a partir de una tabla de caracteres creados previamente.
+
+***Código***
+
+La palabra *new* crea un objeto tipo string al que pasamos el parámetro letras como una tabla de caracteres.
+
+A continuación, vamos a ver los printipales métodos de los que dispone string:
+
+***Insertar tabla***
+
+#### 3.10. Depuración de errores
+
+Una vez que llegamos a la etapa de depuración de nuestro programa, nuestro objetivo será descubrir todos los errores que existan e intentar solucionarlos de la
+mejor forma posible.
+
+Tenemos tres tipos de errores diferentes que podemos encontrar:
+- Compilación: errores en el código.
+- Tiempo de ejecución: los que producen un fallo a la hora de ejecutar el
+programa.
+- Lógicos: los que no dejan que el programa ni compile ni se ejecute. Estos pueden devolver resultados erróneos o diferentes a los esperados.
+
+Cuando queramos depurar errores tenemos la opción, en cualquier momento de nuestro programa, de poner un punto de interrupción en una determinada línea de código. Para ello, presionamos F9. Si queremos ejecutar la aplicación en el depurador Visual Studio podemos hacerlo presionando F5. La aplicación se detiene en la línea, y podremos examinar cuánto valen las variables para ir realizando un seguimiento de las mismas, podemos comprobar cuándo finalizan los bucles, entre otras cosas. Podemos añadir puntos de interrupción adicionales tecleando F10 (paso a paso).
+
+- **Errores de compilación**: estos errores impiden la ejecución de un programa. Mediante F5 ejecutamos un programa. Inicialmente se compila el programa, y, si el compilador Visual Basic encuentra cualquier cosa que no entiende, lanza un error de compilación. Casi todos los errores que ocasiona el compilador se producen mientras escribimos el código.
+- **Errores en tiempo de ejecución**: aparecen mientras se ejecuta el programa, normalmente cuando se pretende realizar una operación que no se lleva a ninguna solución. Como, por ejemplo, cuando se pretende dividir por cero.
+- **Errores lógicos**: impiden que se lleve a cabo lo que se había previsto. El código se puede compilar y ejecutar sin problemas, pero, en el caso de que compile, devuelve algo que no era la solución que se esperaba. Como inicialmente el programa cuando se ejecuta no da error, estos errores son los más difíciles de corregir, ya que debemos encontrar el fallo en un programa que funciona, aunque de una forma distinta a la que debería.
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
@@ -398,3 +454,5 @@ A la hora de trabajar con ficheros debemos tener en cuenta:
 ### 1.3. Diseño y modulación de las operaciones sobre ficheros
 #### 1.3.1. Fundamentos de los flujos
 #### 1.3.2. Clases de flujos
+
+### Bibliografía
