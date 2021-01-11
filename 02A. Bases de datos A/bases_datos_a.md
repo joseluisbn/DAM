@@ -22,13 +22,58 @@ A comienzos de la década ya existe una presencia bastante amplia en la utilizac
 
 #### Actualidad
 
-
-
 ### 1.2. Ventajas e inconvenientes de las BBDD
 ### 1.3. Almacenamiento de la información
 ### 1.4. Sistemas gestores de BBDD
 ### 1.5. Arquitectura ANSI/X3/SPARC. Estándar y niveles
 ### 1.6. Modelos de BBDD. Tipos
 ### 1.7. BBDD centralizadas y distribuidas
+
+## UF2: Lenguajes SQL: DML y DDL
+
+### 1. Lenguajes de las BBDD. SQL
+
+El lenguaje de programación SQL es el lenguaje fundamental de los SGBD relacionales. Una de las características principales de este lenguaje es su aspecto declarativo en vez de imperativo., es decir, el programador debe indicar qué hacer y no cómo hacerlo.
+
+Este lenguaje pretende ser lo más natural posible y, por esta razón, se le considera
+de cuarta generación.
+
+Los elementos que componen el lenguaje SQL son los siguientes:
+
+- DML (Data Manipulation Language): es el lenguaje que manipula los datos ya creados. Modifica los registros o tuplas de la BDD.
+- DDL (Data Definition Language): permite la creación de la BDD y de las tablas que la componen.
+- DCL (Data Control Language): administra a los usuarios de las BDD, concediendo o denegando los permisos oportunos.
+- TCL (Transaction Control Language): lenguaje que controla el procesamiento de las transacciones de las BDD.
+
+A continuación, para terminar este apartado de introducción al SQL, vamos a nombrar las normas básicas para tener en cuenta para diseñar instrucciones en SQL:
+- No se distingue entre mayúsculas y minúsculas.
+- La instrucción en SQL debe terminar con el carácter “;” (punto y coma). Esto se debe a que el compilador está diseñado para que vaya decodificando la instrucción hasta que se encuentre con este carácter que delimita el fin del comando.
+- Antes de finalizar la instrucción, cualquier comando puede ir seguido por: un espacio en blanco o un salto de línea.
+- Se puede tabular la instrucción para clarificar la orden deseada.
+
+#### 1.1 Herramientas para gestionar los datos en un SGBDR corporativo
+
+En este tema vamos a desarrollar los distintos lenguajes que pueden intervenir a la hora de detallar el proceso de implantación de una base de datos en un determinado sistema informático.
+
+Existen múltiples herramientas a la hora de crear y manipular una determinada base de datos si disponemos de alguna interfaz gráfica que ayude al DBA (Database Administrator). Esta también debe ser capaz de enviar diferentes comandos de administración de forma automática sin necesidad de profundizar con más detalle sobre su sintaxis.
+
+**PhpMyAdmin de MySQL**
+
+Es una interfaz basada en diferentes páginas web disponibles para MySQL.
+
+Tiene disponibles diferentes opciones que nos permiten visualizar cualquier gestión que realicemos en la BBD como crear, modificar o borrar tablas. Además, permite también importar/exportar información, estadísticas, copias de seguridad, etc.
+
+**Oracle Enterprise Manager y Grid Control**
+
+Dispone de dos herramientas gráficas con su correspondiente interfaz web. Estas están montadas en un servidor web de Oracle:
+- Enterprise Manager: Permite manipular cualquier función básica correspondiente a una base de datos. Esta herramienta ya viene incorporada en el software de Oracle.
+- Grid Control: Gestiona diferentes bases de datos en distintos servidores y ofrece posibilidad de poder consultar el estado y rendimiento de cualquiera de ellas. Se debe instalar a parte del software de Oracle.
+
+**DB2 Data Studio**
+
+Ofrece la posibilidad de manipular y modificar los objetos de los permisos de una base de datos. Facilita la construcción de consultas SQL. Permite crear Servicios web para poder distribuir datos de consulta.
+
+#### 1.2. Lenguaje de definición de datos (DDL)
+
 
 ## Bibliografía
