@@ -62,6 +62,21 @@ En este capítulo nos vamos a centrar en el lenguaje de programación C# porque:
 - Utiliza el recolector de basura.
 - Permite la unificación de tipos.
 
+### 2. Estructura de un programa informático
+
+En el lenguaje de programación C# podemos tener una aplicación formada por uno o varios ficheros con su código fuente correspondiente, teniendo en cuenta que solo uno de ellos va a ser el principal.
+
+Para todas las pruebas que realizaremos vamos a utilizar el programa Visual Studio. Con este programa vamos a ir generando los diferentes proyectos. Cada vez que creemos un proyecto nuevo, el programa va a generar solo un fichero de código fuente, que es el que va a dar lugar al ejecutable que necesita la aplicación.
+
+Este fichero que se genera debe tener la extensión *.cs*, ya que es la extensión utilizada por los ficheros en C#.
+
+#### 2.1 Bloques de un programa informático
+
+Podemos definir un programa como una secuencia de instrucciones separadas por punto y coma, que se van a ir agrupando en diferentes bloques mediante llaves.
+
+Si implementamos un programa en C# debe tener, como mínimo, la parte del programa principal:
+
+
 ### 3. Programación estructurada
 
 La programación estructurada es la manera que tenemos de escribir o diseñar un programa de una forma clara y concisa. Vamos a hacerlo siempre siguiendo tres estructuras básicas: secuencial, condicional e iterativa.
