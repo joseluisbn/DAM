@@ -181,6 +181,23 @@ class Calendar1
 }
 ```
 
+#### 2.4. Operadores del lenguaje de programación
+
+Para poder operar con las diferentes variables, utilizaremos una serie de operaciones que detallamos en las siguientes tablas:
+
+***Insertar tablas***
+
+2.5. Conversiones de tipos de clase
+
+Como hemos visto anteriormente, un programa consta de numerosas variables de diferentes tipos, que suelen declararse al comienzo de este. Sin embargo, conforme vamos avanzando en el programa y realizando operaciones o almacenando resultados, es posible que tengamos que ir adaptando las variables a los nuevos tipos de datos que estemos utilizando. Esta conversión recibe el nombre de casting.
+
+```c#
+double resultado;
+int numero1 = 3, numero 2 = 9;
+resultado = numero1;
+numero2 = (int)resultado;
+```
+
 ### 3. Programación estructurada
 
 La programación estructurada es la manera que tenemos de escribir o diseñar un programa de una forma clara y concisa. Vamos a hacerlo siempre siguiendo tres estructuras básicas: secuencial, condicional e iterativa.
