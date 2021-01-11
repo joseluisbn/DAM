@@ -153,9 +153,33 @@ Definimos una variable de tipo entero, denominada “num” y le asignamos el va
 Cuando definimos una variable, es importante que sepamos cuánto espacio nos va a ocupar para intentar seleccionar qué tipo de variable es la más adecuada.
 
 Podemos encontrar dos tipos de variables diferentes: globales y locales.
-- Local: si está definida dentro de un bloque.
-- Global: si está definida fuera de un bloque, pero se puede acceder a ella.
+- **Local**: si está definida dentro de un bloque.
+- **Global**: si está definida fuera de un bloque, pero se puede acceder a ella.
 
+#### 2.3. Constantes. Tipos y utilidades
+
+En el apartado anterior hemos hablado de las variables como espacio de memoria donde se almacenan datos que pueden variar a lo largo del programa. Ahora trabajaremos con los espacios de memoria donde no se puede alterar su contenido a lo largo del programa, las constantes.
+
+Son muy parecidas a las variables como hemos indicado anteriormente, aunque añadiendo la palabra “const”. Se definen de la siguiente forma:
+
+```
+const <tipo> <nombre de la variable>
+```
+
+Por ejemplo:
+
+```c#
+const int numero
+```
+
+Declaramos una constante de tipo entero que denominamos *num*. A continuación, declararemos una constante llamada "dias_semana", con el valor de 7, ya que todas las semanas tienen 7 días.
+
+```c#
+class Calendar1
+{
+ public const int dias_semanas = 7;
+}
+```
 
 ### 3. Programación estructurada
 
