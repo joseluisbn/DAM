@@ -1191,6 +1191,95 @@ Para que este proceso funcione de manera correcta, los índices se encuentran or
 - **Ficheros binarios**: los datos se almacenan de forma binaria (como su nombre indica) y, por tanto, de la misma forma que se guarda en memoria. El dato se encripta en 0 y 1, de esta menara se hace mucho más eficiente su almacenamiento. Se necesita un visualizar en concreto para poder tratar su contenido.
 
 ### 1.2. Operaciones sobre ficheros secuenciales
+
+Las tres operaciones básicas que tenemos cuando trabajamos con ficheros son:
+
+- Apertura
+- Lectura/escritura
+- Cierre
+
+**Apertura**
+
+Lo primero que debemos hacer siempre es abrir el fichero para la operación que vayamos a realizar sobre él. Cuando abrimos el fichero estamos relacionando un objeto de nuestro programa con un archivo.
+
+Los diferentes modos en los que se puede abrir un fichero son los siguientes:
+- Lectura: solamente va a realizar operaciones de lectura en el fichero.
+- Escritura: realiza operaciones de escritura en el fichero. Si ya existía, lo sobrescribe.
+- Añadir: permite realizar la operación de escritura en un fichero que ya existía añadiéndole a lo anterior lo que se quiera escribir sin necesidad de eliminarlo.
+- Lectura/Escritura: permite operaciones de lectura/escritura sobre el fichero.
+
+Lectura/ Escritura
+
+Antes de realizar la operación de lectura o escritura debemos asegurarnos de que el puntero se encuentra en la posición correcta para realizarlo. Éste indicará dónde se va a comenzar a leer. Si estuviéramos al final del fichero debe indicar que la operación no se puede realizar.
+
+Las operaciones de lectura/escritura se pueden hacer de dos formas diferentes: para ficheros secuenciales o aleatorios. Vamos a verlo detenidamente con el siguiente ejemplo:
+
+Lectura secuencial:
+
+```c#
+//Declaración de la variable del fichero
+fichero f1;
+//Abrimos el fichero para leerlo
+f1.abrir(lectura);
+Mientras no final de fichero hacer
+f1. leer(registro);
+operaciones con registro leído;
+finMientras
+//Cerramos el fichero
+f1.cerrar();
+```
+
+Lectura aleatoria
+
+```c#
+//Declaración de la variable del fichero
+fichero f1;
+//Abrimos el fichero para leerlo
+f1.abrir(lectura);
+Mientras condición del programa hacer //No es necesario estructura repetitiva en
+ //todos los casos
+f1. leer(registro);
+operaciones con registro leído;
+finMientras
+//Cerramos el fichero
+f1.cerrar();
+```
+
+Escritura secuencial
+
+```c#
+//Declaración de la variable del fichero
+fichero f1;
+//Abrimos el fichero para leerlo
+f1.abrir(escritura);
+Mientras tengo información el fichro hacer
+Configurar registros a partir de unos datos
+f1. escribir(registro);
+finMientras
+//Cerramos el fichero
+f1.cerrar();
+```
+
+Escritura aleatoria
+
+```c#
+//Declaración de la variable del fichero
+fichero f1;
+//Abrimos el fichero para leerlo
+f1.abrir(escritura);
+Mientras se deseen escribir datos hacer
+Posicionar el puntero del fichero en la posición deseada
+f1. escribir(registro);
+operaciones con registro leído;
+finMientras
+//Cerramos el fichero
+f1.cerrar();
+```
+
+**Cierre**
+
+Cuando cerramos el fichero este queda liberado y termina el proceso de almacenamiento de información
+
 ### 1.3. Diseño y modulación de las operaciones sobre ficheros
 #### 1.3.1. Fundamentos de los flujos
 #### 1.3.2. Clases de flujos
