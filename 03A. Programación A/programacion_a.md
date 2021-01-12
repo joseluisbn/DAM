@@ -567,6 +567,25 @@ Vemos paso a paso el significado de cada parte de la función:
  - **Parámetros de entrada**: una lista de las variables que recibirá la función en el momento de su llamada. Es posible que una función no requiera parámetros, en ese caso, no escribiremos nada aquí.
  - ***Return***: en caso de que la función sea de cualquier tipo diferente de void, es obligatorio que devuelvan un parámetro del tipo adecuado. Utiliza la palabra reservada *return*.
 
+Veamos cómo quedaría utilizando el mismo ejemplo que propusimos en el apartado:
+
+***Insertar esquema***
+
+Mediante el uso de parámetros se permita la comunicación de las diferentes funciones con el código.
+
+En la mayoría de los lenguajes de programación se distinguen dos tipos de parámetros diferentes:
+
+- Por valor o copia.
+- Por referencia.
+
+**Paso de parámetros por valor**
+
+Cuando ejecutamos una función que tiene parámetros pasados por valor, se realiza una copia del parámetro que se ha pasado, es decir, que todas las modificaciones y/o cambios que se realicen se están haciendo en esta copia que se ha creado. El original no se modifica de manera que no se altera su valor en la función.
+
+**Paso de parámetros por referencia**
+
+Sin embargo, cuando ejecutamos una función que tiene parámetros pasados por referencia, todas aquellas modificaciones que se realicen en la función van a afectar a sus parámetros, ya que se trabaja con los originales.
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
