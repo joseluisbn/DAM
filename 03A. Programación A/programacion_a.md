@@ -1325,5 +1325,49 @@ Se puede abrir un fichero de varias formas posibles. Cada una conlleva a unas op
 
 **Ficheros binarios**
  
+Para acceder de una forma más cómoda y sin ninguna limitación de tamaño de datos, dentro de ***System.IO*** podemos utilizar dos operaciones: ***BinaryReader*** y ***BinaryWriter*** (encapsuladas en *FileStreams*), que proporcionan unos cuantos de métodos para facilitar las operaciones de lectura y escritura de cualquier objeto en ficheros.
+
+```c#
+BinaryReader(Stream flujo)
+BinaryWriter(Stream flujo)
+```
+
+Podemos poner un ejemplo para escribir en un fichero binario llamado "datos.dat" usando UTF8 al codificar los caracteres:
+
+```c#
+FileStream f = new FileStream(“datos.dat”, FileMode.Create);
+ BinaryWriter f_Binario = new BinaryWriter(f, Encoding.UTF8));
+ f_Binario.Write(“Este mensaje se escribirá en UTF8 dentro de datos.dat”);
+ ```
+ 
+ De forma análoga podemos leer un dato de un fichero binario llamado "datos.dat":
+ 
+ ```c#
+ FileStream f = new FileStream(“datos.dat”, FileMode.Open);
+ BinaryReader f_Binario = new BinaryReader(f, Encoding.UTF8));
+ Console.WriteLine(“Leido de datos.dat: {0}“, f_Binario.ReadString());
+```
+
+**Ficheros de texto**
+
+Para el tratamiento con los ficheros de texto vamos a utilizar la clase *StreamWriter*.
+
+Principalmente dos métodos para escribir y leer caracteres de texto en un fichero.
+
+- ***WriteLine***: escribe una cadena de caracteres agregando el marcador de fin de línea.
+
+```c#
+using System.IO; // importación de la clase System.IO
+private void escribir_fichero(object sender, EventArgse)
+ {
+// escribe varias líneas de texto en el archivo
+StreamWriter flujoSalida = File.CreateText("datos.txt");
+//Creación y apertura del flujo de salida para el fichero “datos.txt”
+flujoSalida.WriteLine("Este archivo");
+flujoSalida.WriteLine("contiene tres");
+flujoSalida.WriteLine("líneas de texto.");
+flujoSalida.Close(); // Cierre del fichero
+ }
+ ```
 
 ### Bibliografía
