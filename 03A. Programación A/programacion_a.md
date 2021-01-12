@@ -1159,6 +1159,37 @@ A la hora de trabajar con ficheros debemos tener en cuenta:
 
 **Rutas de ficheros y directorios**:
 
+En el apartado anterior hemos visto la relación entre fichero y directorio. Para la identificación inequívoca de este fichero habrá que nombrar el camino que nos lleva hasta él. A este camino lo denominamos **ruta**.
+
+Dependiendo de cómo empecemos la ruta de directorio para nombrar el archivo, podemos tener dos tipos de rutas bien diferenciadas:
+
+- **Ruta absoluta** o **completa**: se le indica el camino de directorio desde el comienzo. Si es en el sistema operativo Linux o MacOS, empezará por la raíz (/), en caso contrario si el sistema operativo es Windows debe de empezar por el nombre de la unidad en cuestión.
+- **Ruta relativa**: se le indica el camino de directorio desde la posición actual. Por tanto, la ruta no empezaría con el carácter raíz o la letra de la unidad.
+
+**Tipos de ficheros**
+
+Según su acceso: según la forma de organizar la información, podemos distinguir entre tres tipos diferentes de ficheros:
+
+- **Secuencial**: en los ficheros secuenciales los registros se van almacenando en posiciones consecutivas de manera que cada vez que queramos acceder a ellos tendremos que empezar desde el primero e ir recorriéndolos de uno en uno. Solo se puede realizar una operación de lectura o escritura a la vez. Por ejemplo, si estamos leyendo el fichero, no podemos realizar ninguna operación de escritura sobre él hasta que termine de ser leído y viceversa.
+- **Aleatorio o directo**: en los ficheros aleatorios o directos podemos acceder a un registro concreto del mismo indicando una posición perteneciente a un conjunto de posiciones posibles. Debido a que los registros están organizados, estos pueden ser leídos o escritos en cualquier orden, ya que se accede a cada uno a través de su posición. Cuando queremos realizar una operación, basta con colocar el puntero que se maneja el fichero justo antes de éste.
+
+**Insertar diagrama**
+
+Para leer el registro 4 colocamos el puntero de lectura/escritura justo antes de su posición.
+
+ - **Secuencial indexado**: los ficheros indexados poseen un campo clave para ser identificados. Permiten el acceso secuencial y aleatorios a un fichero de la siguiente forma:
+   - Primero busca de forma secuencial el campo clave.
+   - Una vez lo encuentra, el acceso al fichero es directo, ya que solo tenemos que acceder a la posición indicada por el campo clave.
+   
+Para que este proceso funcione de manera correcta, los índices se encuentran ordenados permitiendo de esta forma un acceso más rápido.
+
+**Insertar diagrama**
+
+**Estructura de un fichero indexado**
+
+- **Ficheros de texto**.
+- **Ficheros binarios**: los datos se almacenan de forma binaria (como su nombre indica) y, por tanto, de la misma forma que se guarda en memoria. El dato se encripta en 0 y 1, de esta menara se hace mucho más eficiente su almacenamiento. Se necesita un visualizar en concreto para poder tratar su contenido.
+
 ### 1.2. Operaciones sobre ficheros secuenciales
 ### 1.3. Diseño y modulación de las operaciones sobre ficheros
 #### 1.3.1. Fundamentos de los flujos
