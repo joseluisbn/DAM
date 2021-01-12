@@ -586,6 +586,131 @@ Cuando ejecutamos una función que tiene parámetros pasados por valor, se reali
 
 Sin embargo, cuando ejecutamos una función que tiene parámetros pasados por referencia, todas aquellas modificaciones que se realicen en la función van a afectar a sus parámetros, ya que se trabaja con los originales.
 
+#### 1.6. Ámbito de las llamadas a funciones
+
+Una función puede ser llamada por un programa cada vez que sea necesario. Al ser llamada, se ejecuta el código que se encuentra, delimitado entre llaves, en su interior.
+
+Cuando la función finaliza (termina de ejecutarse), el programa continúa en la siguiente sentencia en la que fue llamada.
+
+A la hora de trabajar con funciones, es recomendable que utilicemos una sola función para cada tarea específica y, por supuesto, que funcione correctamente. Podremos ir creando nuevas funciones cada vez que las vayamos necesitando y, una vez que las tengamos implementadas, en nuestra función principal (main) iremos llamándolas según sus prioridades de ejecución.
+
+Podemos dividir las funciones en cuatro tipos básicos:
+- Las que solo ejecutan código.
+- Las que reciben parámetros.
+- Las que devuelven valores.
+- Las que reciben parámetros y valores.
+
+Las funciones se utilizan para no repetir tanto código dentro de un mismo programa. Se escribe el código necesario para realizar algo y, cada vez que sea necesario repetir esa parte de código, será suficiente con que llamemos a la función y así evitamos repetir varias veces lo mismo.
+
+**Las que únicamente ejecutan código**
+
+A continuación, vamos a ver el diagrama de flujo de las operaciones básicas que se pueden implementar en una función_
+
+**Insertar diagrama**
+
+Cada una de las operaciones va a tener su propia función. Cuando trabajamos con funciones no es necesario que programemos todo a la vez, iremos implementando nuestro código poco a poco, así irá creciendo nuestro programa.
+
+Comenzaremos nuestro programa desde el *main* y tal y como aparece en el diagrama de flujo.
+
+```c#
+using System;
+using System.Collections.Generic;
+using System.Text;
+namespace AplicacionBase
+{
+class Program
+{
+// Esta es la funcion principal del programa
+// Aqui inicia la aplicacion
+static void Main(string[] args)
+{
+// Variables necesarias
+int opcion = 0;
+string valor = “”;
+// Mostramos el menu
+Console.WriteLine(“1-Suma”);
+Console.WriteLine(“2-Resta”);
+Console.WriteLine(“3-Multiplicacion”);
+Console.WriteLine(“4-Dividir”);
+// Pedimos la opcion
+Console.WriteLine(“Cual es tu opcion:”);
+valor = Console.ReadLine();
+opcion = Convert.ToInt32(valor);
+// Comprobamos la suma
+if (opcion == 1)
+{
+}
+// Implementamos la resta
+if (opcion == 2)
+{
+}
+// Implementamos la multiplicacion
+if (opcion == 3)
+{
+}
+// Realizamos la division
+if (opcion == 4)
+{
+}
+}
+}
+}
+```
+
+La función main tiene la lógica principal del programa en cuestión. Los bloques de código están vacíos de momento, y lo iremos completando según avancemos.
+
+Comenzaremos con la función suma. Esta función no va a recibir ningún parámetro ni tampoco va a devolver ningún valor. Llevará en su interior todo el código, por lo que pedirá los valores de los operandos y mostrará el resultado de la operación.
+
+Veamos primero su diagrama de flujo para pasar a implementarlo posteriormente:
+
+**Insertar diagrama**
+
+Por lo que la función va a quedar de la siguiente manera:
+
+```c#
+static void suma()
+{
+//variables que necesitamos
+float num1=0;
+float num2=0;
+float res=0;
+string numero=””;
+//Pedimos valores para los datos por teclado
+Console. WriteLine (“Introduzca el valor del primer número”);
+numero=Console.ReadLine();
+num1=Convert.ToSingle(numero);
+Console. WriteLine (“Introduzca el valor del segundo número”);
+numero=Console.ReadLine();
+num2=Convert.ToSingle(numero);
+//Calculamos la suma de los dos números y lo almacenamos el resultado en la //variable
+res
+res=num1+num2;
+//Mostramos el resultado
+Console.WriteLine(“El resultado es {0}”,res);
+//Delvolvemos el resultado
+return res;
+}
+```
+
+Sobre la función podemos observar que se llama suma, que como no devuelve ningún valor, es de tipo void, y que no recibe parámetros de entrada por eso los paréntesis están vacíos.
+
+```c#
+static void suma()
+```
+
+Recordemos también que las variables que se declaran dentro de una función son variables locales, y solo podrán utilizarse dentro de la función en la que son declaradas.
+
+Asignamos a la función el nombre de suma porque tiene relación con lo que se va a hacer y, de esta forma, es más sencillo a la hora de hacer un seguimiento de nuestro programa.
+
+Una vez que la función ya está realizada no ocurre ningún cambio en nuestro programa y no es porque no esté bien realizada. Es simplemente porque el programa principal todavía no la ha llamado. Así que nos vamos a nuestro main y en la primera opción (que es la de sumar), realizamos la llamada a la función.
+
+```c#
+if (opción==1)
+{
+suma();
+}
+```
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
