@@ -1281,7 +1281,49 @@ f1.cerrar();
 Cuando cerramos el fichero este queda liberado y termina el proceso de almacenamiento de información
 
 ### 1.3. Diseño y modulación de las operaciones sobre ficheros
+
 #### 1.3.1. Fundamentos de los flujos
+
+Los flujos (también llamado Stream) de datos son las estructuras o pasarelas que tenemos para acceder a los datos de un fichero, de una forma consistente y fiable, desde un código fuente en un cualquier lenguaje de programación.
+
+Dicho acceso se hace como un secuencia o sucesión de elementos que pueden entrar o salir del programa. Dependiendo de la operación que vayamos a realizar con los datos, podemos tener varios tipos de flujos: De Entrada, de Salida o de Entrada / Salida.
+
+En el flujo de Entrada de datos (Lectura) solo podemos realizar la operación de lectura de un fichero, es decir, existe una comunicación unilateral desde el fichero al programa.
+
+En el flujo de Salida (Escritura) también es en sentido unidireccional, ya que solo podemos realizar la operación de escritura en el fichero. 
+
+En el flujo o stream de Entrada / Salida es cuando podemos tanto leer como escribir en el fichero. Es tipo de stream lo vamos a definir al principio de trabajar con ficheros y no se podrá cambiar una vez abierto.
+
+Se pueden distinguir dos tipos de flujos:
+- **Flujos base**: son aquellos que operan más a nivel máquina, como, por ejemplo: porción de memoria, espacio de disco o conexión de red.
+- **Flujos intermedios**: son aquellos flujos que trabajan por encima de los anteriores. Se puede combinar con el flujo bases de manera que éste pueda verse beneficiado por todas las funcionalidades que ofrezcan el flujo base. Algunos ejemplos podrían ser los flujos que proporcionan encriptación de datos o los buffers de almacenamiento intermedio.
+
 #### 1.3.2. Clases de flujos
+
+**Insertar diagrama**
+
+En este apartado utilizaremos las clases de C# pertenecientes a los dos tipos de ficheros: binarios y de textos.
+
+**Clase *fileStream***
+
+Es la clase del flujo, base de las operaciones de lectura y escritura de un fichero. Lo primero que debemos de detallar es el constructor FileStream para indicar los siguientes parámetros:
+
+- El nombre del archivo que vamos a abrir.
+- El modo en el que vamos a abrir el fichero (*FileMode*). En esta ocasión se indeica si debemos de crear el fichero o no. Se explica en el siguiente punto.
+- El modo en el que accedemos al fichero (*FileAccess*):
+ - **Read**: acceso para leer el archivo.
+ - **Write**: acceso de escritura al archivo.
+ - **ReadWrite**: acceso de lectura y escritura al archivo.
+ - Los **modos de apertura** (*FileMode*).
+
+Se puede abrir un fichero de varias formas posibles. Cada una conlleva a unas operaciones que el fichero realiza de antemano:
+
+- Append: modo de añadir. Abre el fichero para añadir a partir de lo ya escrito o bien lo crea vacío si no existiera el fichero.
+- Create: dicho modo crea un fichero en blanco. Si ya existiera, borraría su contenido y lo dejaría en blanco.
+- Open: solo abre un fichero ya existente, en caso contrario se produce un fallo en el programa.
+- OpenOrCreate: abre un fichero en caso de que existe previamente en la carpeta o lo crea en caso contrario.
+
+**Ficheros binarios**
+ 
 
 ### Bibliografía
