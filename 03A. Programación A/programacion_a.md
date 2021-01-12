@@ -544,6 +544,19 @@ return notaMedia;
 
 Comprobar que en C# los programas se dividen en subprogramas denominadas **funciones**. Estas funcionan de forma similar a una caja negra, es decir, el programa principal solo debe conocerlas para llamarlas por su nombre, los parámetros que reciben (las variables que debemos enviar) y lo que devuelven como resultado. Por ejemplo, nuestra función “calcularMedia” recibe un array de notas y devuelve un entero con la media.
 
+#### 1.5. Llamadas a funciones. Tipos y funcionamiento
+
+En C# podemos encontrar dos niveles diferentes a la hora de implementar la modularidad en funciones y clases.
+
+En este caso, vamos a centrarnos en las funciones, ya que las clases las veremos más adelante. Las funciones se pueden definir como un conjunto de instrucciones (delimitadas por llaves) que tienen un nombre y son de un tipo específico.
+
+```c#
+Modificadores Tipo NombreFuncion (Parámetros de entrada ){
+Código de la función
+Return expresión ; //En caso de que devuelva algo.
+}
+```
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
