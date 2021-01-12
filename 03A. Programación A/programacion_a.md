@@ -557,6 +557,16 @@ Return expresión ; //En caso de que devuelva algo.
 }
 ```
 
+Vemos paso a paso el significado de cada parte de la función:
+
+- **Modificadores**: conjunto de palabras reservadas que modifican o aplican propiedades sobre la función. Las más comunes con los modificadores de acceso: *Public*, *Private*, *Protected*, *Internal*.
+
+- **Tipos y funcionamiento**
+ - **Tipo**: las funciones, al igual que ocurría con las variables, poseen un tipo, es decir, el dato que devuelven es de un tipo determinado. Se puede dar el caso en el que una función no devuelva nada. En este caso, decimos que la función es de tipo *void* (vacío).
+ - **NombreFunción**: es el identificador de la función, lo usaremos para referenciarla, del mismo modo que usábamos los nombres de las variables.
+ - **Parámetros de entrada**: una lista de las variables que recibirá la función en el momento de su llamada. Es posible que una función no requiera parámetros, en ese caso, no escribiremos nada aquí.
+ - ***Return***: en caso de que la función sea de cualquier tipo diferente de void, es obligatorio que devuelvan un parámetro del tipo adecuado. Utiliza la palabra reservada *return*.
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
