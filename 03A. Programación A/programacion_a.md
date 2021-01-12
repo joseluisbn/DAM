@@ -468,6 +468,81 @@ A continuación, vamos a desarrollar cuáles son las ventajas e inconvenientes m
 - Separación de módulos.
 - Memoria y tiempo de ejecución
 
+#### 1.3. Análisis descendente (*top down*)
+
+El **diseño descendente** es una técnica que permite diseñar la solución de un problema con base en la modularización o segmentación, dándole un enfoque de arriba hacia abajo (*top down design*). Esta solución se divide en módulos que se estructuran e integran jerárquicamente.
+
+#### 1.4. Modulación de programas. Subprogramas
+
+Podemos denominar los módulos como subprogramas y, estos, como las diferentes partes del problema que puede resolverse de forma independiente. Los módulos, al ser independientes unos de otros, permiten que podamos centrarnos en una de sus partes (sin tener en cuenta el resto). También ofrecen la posibilidad de que se puedan utilizar las soluciones obtenidas en otras partes del programa.
+
+Cada módulo codificado dentro del programa como subprograma se puede definir como una parte del código independiente, que realiza una tarea asignada.
+
+A continuación, vamos a ver a modo de ejemplo un programa que devuelva la nota media de un alumno:
+
+```c#
+//Declaramos el array de enteros que almacenará las notas del alumno
+int [] notas = new int [ 5 ];
+/*Mediante un bucle for recorremos el array almacenando
+* en su interior notas que le pedimos al usuario por teclado
+*/
+for ( int i = 0 ; i < notas . Length ; i ++) {
+Console . Write ( "Introduce la nota en la posición " + ( i + 1 )+ ": " );
+notas [ i ]= Convert . ToInt32 ( Console . ReadLine ());
+}
+//Declaramos la variable en la que almacenaremos la media
+int notaMedia = 0;
+/* Mediante una nueva estructura for, vamos recorriendo el
+* array y vamos acumulándolas notas
+*/
+for ( int i = 0 ; i < notas . Length ; i ++)
+{
+notaMedia += notas [ i ];
+}
+//Finalmente dividimos el sumatorio por el número de notas
+notaMedia /= notas . Length;
+//Mostramos por pantalla la media obtenida.
+Console . WriteLine ( "Su nota media es " + notaMedia );
+Console . ReadKey ();
+```
+
+Si observamos bien el código podemos comprobar que existen dos partes bien diferenciadas, por un lado, tenemos la lectura de las notas que el alumno debe introducir, y, por otro lado, el cálculo de la media.
+
+Se puede comprobar perfectamente que nuestro programa podría estar formado por dos módulos independientes de la siguiente manera:
+
+**Función Main**
+
+Todos los programas desarrollados en C# tienen una función principal denominada “main()”, que se ejecuta al iniciar el programa. Esta función se encarga de gestionar el flujo de ejecución llamando a los diferentes módulos si es necesario.
+
+```c#
+static void Main ( string [] args)
+{
+int [] notas = new int [ 5 ];
+for ( int i = 0 ; i < notas . Length ; i ++) {
+Console . Write ( "Introduce la nota en la posición " + ( i + 1 )+ ": " );
+notas [ i ]= Convert . ToInt32 ( Console . ReadLine ());
+}
+Console . WriteLine ( "Su nota media es " + calcularMedia ( notas ));
+Console . ReadKey ();
+}
+```
+
+**Función calcularMedia()**
+
+Esta función nos la creamos nosotros porque pensamos que sería conveniente desarrollar el programa mediante diseño modular. Esta función recibe las notas introducidas por los alumnos y devuelve la nota media de las mismas.
+
+```c#
+public int calcularMedia ( int [] newarray ){
+int notaMedia = 0;
+for ( int i = 0 ; i < newarray . Length ; i ++){
+notaMedia += newarray [ i ];
+}
+notaMedia /= newarray . Length;
+return notaMedia;
+}
+```
+
+Comprobar que en C# los programas se dividen en subprogramas denominadas **funciones**. Estas funcionan de forma similar a una caja negra, es decir, el programa principal solo debe conocerlas para llamarlas por su nombre, los parámetros que reciben (las variables que debemos enviar) y lo que devuelven como resultado. Por ejemplo, nuestra función “calcularMedia” recibe un array de notas y devuelve un entero con la media.
 
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
