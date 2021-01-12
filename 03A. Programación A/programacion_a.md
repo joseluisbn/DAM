@@ -711,6 +711,136 @@ suma();
 }
 ```
 
+**Las que devuelven valores**
+
+Cuando se llama a una función, estas deben tener un código que realice alguna operación para que puedan devolver un valor como resultado. Puede ser llamada desde la función main o desde cualquier otra función.
+
+Como la función tiene que devolver un valor, debemos indicar de qué tipo va a ser ese valor devuelto, y para hacerlo utilizará la palabra reservada *return*, como, por ejemplo:
+
+```
+int función()
+{
+int variable;
+…
+…
+return variable;
+}
+```
+
+Cuando el programa encuentra la palabra return la función ha concluido, es decir, ha finalizado.
+
+A la hora de llamar a nuestra función, debemos almacenar en una variable del mismo tipo que devuelva, la llamada a dicha función tal que así:
+
+```c#
+int num;
+num=función();
+```
+
+Sin embargo, en la función main vamoa a recibir un valor, pero, ¿qué hacemos con él?
+
+El diagrama de flujo nos quedaría de la siguiente forma:
+
+**Insertar diagrama**
+
+Por lo que nuestra función sería:
+
+```c#
+static float resta()
+{
+//variables que necesitamos
+float num1=0;
+float num2=0;
+float res=0;
+string numero=””;
+//Pedimos valores para los datos por teclado
+Console. WriteLine (“Introduzca el valor del primer número”);
+numero=Console.ReadLine();
+num1=Convert.ToSingle(numero);
+Console. WriteLine (“Introduzca el valor del segundo número”);
+numero=Console.ReadLine();
+num2=Convert.ToSingle(numero);
+//Calculamos la resta de los dos números y almacenamos el resultado en la //variable res
+res=num1-num2;
+//Mostramos el resultado
+Console.WriteLine(“El resultado es {0}”,res);
+//Devolvemos el resultado
+return res;
+}
+```
+
+La función resta es de tipo float, por lo que al final hemos puesto un return que devuelve el resultado (variable res) de la resta que también es de tipo float. Además, debemos añadir la parte de código que se corresponde con la segunda opción que es la resta.
+
+```c#
+//código para hacer la resta
+if (opción==2)
+{
+//variable donde vamos a almacenar el resultado
+float res=0;
+//llamamos a la función resta
+res=resta();
+//mostramos el resultado para ver si es correcto
+Console.WriteLine(“El resultado de la resta es {0}”,res);
+}
+```
+
+**Las que reciben valores**
+
+En los apartados anteriores hemos trabajado pidiendo los valores directamente al usuario, mientras que, en este caso, se le pasan al programa los valores en vez de pedirlos. Estos parámetros pueden ser: entero, flotante, cadena o, incluso, pueden ser tipos de datos definidos por la persona que realiza el programa.
+
+Es importante señalar que los parámetros deben llevar su tipo y su nombre. Mediante el nombre podemos acceder a los datos que tiene (van a trabajar como variables locales a la función). La llamada a la función es bastante sencilla, solo se pone el nombre de la función y entre paréntesis aquellos datos que se pasan como parámetros.
+
+Para verlo de forma práctica, vamos a hacer el caso de la multiplicación de dos números. Esta función va a recibir dos parámetros desde la función main, a continuación va a hacer el cálculo y, por último, mostrará su resultado.
+
+El diagrama de flujo correspondiente a la función multiplicación sería de la siguiente forma:
+
+**Insertar diagrama**
+
+El código que le corresponde a este flujo sería el siguiente:
+
+```c#
+static void Multiplicación(float num1, float num2)
+{
+//variables necesarias
+float res;
+//calculamos el valor
+res=num1*num2;
+//mostramos el resultado
+Console.WriteLine(“El resultado es {0}”,res);
+}
+```
+
+Podemos comprobar que la función tiene dos parámetros de tipo flotante, que reciben el nombre de num1 y num2. Es escriben separados mediante una coma, y su contenido va a ser los que se le pasen en la llamada.
+
+Por tanto, en la función main añadimos en otro if la oción de la multiplicación, quedando de la siguiente forma:
+
+```c#
+if (opción==3)
+{
+//declaramos las variables
+float num1=0;
+float num2=0;
+string numero=””;
+//pedimos los valores
+Console.WriteLine(“Introduzca valor del primer número”);
+Numero=Console.ReadLine();
+num1=Convert.ToSingle(numero);
+Console.WriteLine(“Introduzca valor del segundo número”);
+Numero=Console.ReadLine();
+num2=Convert.ToSingle(numero);
+//Llamamos a la función
+Multiplicación(num1,num2);
+}
+```
+
+Dentro del if creamos dos variables flotantes, y pedimos al usuario los valores con los que se va a trabajar. Estos van a quedar guardados en las variables n1 y n2. A continuación, llamamos a la función que como se le pasan dos parámetros, en la llamada, también debe tener una copia del calor que contiene n1 y otra vez de n2. Y ya puede llevarse la función a cabo.
+
+También podemos ponerle el valor asignándoselo directamente en la llamada, como por ejemplo:
+
+```c#
+//Llamada a la función asignándole un valor
+Multiplicación(n1,4.0f);
+```
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
