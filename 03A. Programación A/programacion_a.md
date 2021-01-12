@@ -955,6 +955,167 @@ Uno de los motivos por lo que es recomendable utilizar el lenguaje de programaci
 - Soporte XML.
 - Simplificación en administración y componentes gracias a un mecanismo muy cuidado de versiones.
 
+1.9. Uso de librerías
+
+El concepto de **librería** se podría dar como conjunto de métodos relacionados con el mismo objetivo, para poder ser reutilizado cada vez que cualquier programador lo desee. Para la realización de este módulo, en los ejercicios prácticos, vamos a ir utilizando las librerías Math, para cualquier operación matemática, y la librería Random.
+
+Vamos a explicar algunos ejemplos:
+
+A.- En este primer ejemplo vamos a calcular la potencia de base 10 y exponente 2.
+
+Para ello debemos mirar cuáles son los métodos que están implementados en la librería “Math” y podemos comprobar que existe un método llamada “POW” que realiza las operaciones exponenciales. 
+
+```c#
+Using System; // para la utilización de dicha librería debemos de importar System
+double calculo = Math.Pow(10, 2);
+```
+
+B.- Para el siguiente ejercicio vamos a poder comprobar el funcionamiento de varios ejemplos de Random con distintos intervalos.
+
+```c#
+using System;
+public class Example
+{
+ public static void Main()
+ {
+ Random rnd = new Random();
+// Declaración e inicialización de la variable aleatoria
+ Console.WriteLine("\n20 random integers from -100 to 100:");
+ for (int ctr = 1; ctr <= 20; ctr++)
+ {
+ Console.Write("{0,6}", rnd.Next(-100, 101));
+/* El método Next es el que calcula el numero aleatorio, indicando el rango menor y el intervalo de
+números que queremos calcular en este caso desde -100 con un intervalor 101 números, contando
+con el número inicial. */
+
+ if (ctr % 5 == 0) Console.WriteLine();
+ }
+ Console.WriteLine("\n20 random integers from 1000 to 10000:");
+ for (int ctr = 1; ctr <= 20; ctr++)
+ {
+ Console.Write("{0,8}", rnd.Next(1000, 10001));
+ if (ctr % 5 == 0) Console.WriteLine();
+ }
+ Console.WriteLine("\n20 random integers from 1 to 10:");
+ for (int ctr = 1; ctr <= 20; ctr++)
+ {
+ Console.Write("{0,6}", rnd.Next(1, 11));
+ if (ctr % 5 == 0) Console.WriteLine();
+ }
+ }
+}
+// The example displays output similar to the following:
+// 20 random integers from -100 to 100:
+// 5 -5 - 20 94 -86
+// -3 -16 -45 -19 47
+// -67 -93 40 82 68
+// -60 -55 67 -51 -11
+//
+// 20 random integers from 1000 to 10000:
+// 4857 9897 4405 6606 1277
+// 9238 9113 5151 8710 1187
+// 2728 9746 1719 3837 3736
+// 8191 6819 4923 2416 3028
+//
+// 20 random integers from 1 to 10:
+// 4 4 5 9 9
+// 5 1 2 3 5
+// 5 4 5 10 5
+// 7 7 7 10 5
+```
+
+#### 1.10. Introducción al concepto de recursividad
+
+Cuando trabajamos con funciones podemos definir la recursividad como la llamada de una función a sí misma hasta que cumpla una determinada condición de salida.
+
+Sintaxis:
+
+```c#
+modificador tipo_devuelto nombre_función(tipo par1, tipo par2, …, tipo parn)
+{
+nombre_funcion(var1, …, var2)
+…
+}
+```
+Podemos diferenciar entre dos tipos de recursividad
+- **Directa**: cuando la función hace la llamada a sí misma desde un punto específico de su código (entre las llaves que la delimitan).
+- **Indirecta**: cuando la función hace la llamada a otra función y es ésta quien llama a la primera.
+
+Los problemas que presenta la recursividad suelen tener una estructura similar, necesitan de:
+- Un caso base que permita la finalización del programa.
+- Casos recursivos, que son los que se van a encargar de que la función vuelva a ejecutarse, pero acercándose cada vez más al caso base.
+
+Vamos a ver un ejemplo para poner en práctica todos estos conceptos.
+
+**Factorial de un número**
+:
+Debemos saber qué es el factorial de un número. Por ejemplo:
+“3!=3*2*1
+4!=4*3*2*1
+5!=5*4*3*2*1”
+
+Si queremos realizar en C# una función que calcule el factorial de un número podríamos definirla de la siguiente forma:
+
+```c#
+int factorial(int n)
+```
+
+**¿Cuál podría ser el caso base?**
+
+Debemos encontrar uno que finalice el programa. En este caso siempre tenemos que buscar el caso más pequeño que existe. En este caso, el “1!=1”. “factorial(1)=1;”
+
+**Pensemos ahora en el caso recursivo**:
+
+Debemos encontrar uno que sirva para todos los números. Debe ir haciéndose cada vez más pequeño hasta que consiga llegar al caso base que es el factorial de 1.
+
+Si nos fijamos en el ejemplo que hemos puesto:
+“3!=3*2*1
+4!=4*3*2*1
+5!=5*4*3*2*1”
+
+Podemos apreciar lo siguiente:
+“3!=3*2*1
+4!=4*3!
+5!=5*4!
+….”
+
+Vemos que en todos los casos sucede lo mismo, se multiplica el número por el número “–1” factorial. Por lo que ya tenemos el caso recursivo.
+
+“factorial(n)=n*factorial(n-1)”
+
+Por lo que nos quedaría de la siguiente forma:
+
+- **Caso base* → “Si n=1, factorial(1) devuelve 1;”
+- **Caso genérico** → “Si n>1, factorial(n) = n*factorial(n-1);”
+
+Si hacemos una función:
+
+Función factorial (entero n) retorna entero:
+
+```c#
+{
+si n>1 entonces
+//caso recursivo
+devuelve n*factorial(n-1);
+Sino
+//caso genérico
+devuelve 1;
+FinSi;
+}
+```
+
+Si lo traducimos al lenguaje de programación C#:
+
+```c#
+static int factorial(int n)
+{
+if (n>1)
+return n*factorial(n-1);
+else
+return 1;
+}
+```
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
