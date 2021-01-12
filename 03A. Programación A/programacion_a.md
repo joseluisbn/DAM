@@ -841,6 +841,69 @@ También podemos ponerle el valor asignándoselo directamente en la llamada, com
 Multiplicación(n1,4.0f);
 ```
 
+**Las que reciben parámetros y devuelven un valor**
+
+En este caso, las funciones van a recibir parámetros y, además, también van a devolver un valor. Como hemos visto ya en las funciones anteriores, los parámetros se van a declarar dentro de los paréntesis, y van a ser utilizados como si fueran variables. Debemos indicar el tipo que van a recibir, seguido del nombre de la función y los parámetros irán entre paréntesis.
+
+Como la función devuelve un valor debemos indicar su tipo cuando la declaramos y no olvidemos poner el return al final del método.
+
+En este caso, vamos a implementar la función division, que va a recibir dos valores flotantes: va a comprobar que la división se puede realizar, es decir, que no se divide por cero, y nos va a devolver el número que devuelve tras realizar la operación.
+
+```c#
+static int Division(float num1, float num2)
+{
+//variables necesarias
+float res=0;
+//nos aseguramos de que no se divida por cero
+if(num2==0
+{
+Console.WriteLine(“No se puede dividir entre el valor cero”);
+res=0.0f;
+}
+else
+{
+res=num1/num2;
+}
+return res;
+}
+```
+
+Como una función solo puede hacer un return, guardamos el valor del resultado en res si entramos en la primera condición o si vamos a utilizar la segunda. Almacenamos el valor correspondiente en la variable res y, al final, hacemos un return con el valor que devuelve.
+
+Es importante contemplar la divición por cero. En caso de que se pretenta dividir este valor, devulveremos "0.0f" porque es un tipo float.
+
+Si son valores distintos de cero, realizamos la división normal de un número(num1) entre otro número (num2).
+
+En el método main debemos añadir a nuestro código lo siguiente:
+
+```c#
+//Si vamos a elegir la opción de dividir
+if(opción==4)
+{
+//variables necesarias
+float num1=0.0f;
+float num2=0.0f;
+float res=0.0f;
+string numero=””;
+//pedimos los valores
+Console.WriteLine(“Introduzca valor del primer número”);
+numero=Console.ReadLine();
+num1=Convert.ToSingle(numero);
+Console.WriteLine(“Introduzca valor del segundo número”);
+numero=Console.ReadLine();
+num2=Convert.ToSingle(numero);
+//Llamamos a la función
+res=Division(num1,num2);
+//Mostramos el valor del resultado
+Console.WriteLine(“El resultado es {0}”,res);
+}
+```
+
+Al igual que en los ejemplos anteriores, primero declaramos las variables que vamos a necesitar para nuestro programa, pedimos los valores y, finalmente, hacemos la llamada de la función. Como en este caso la función devuelve un valor, lo asignamos a la variable res, que es la que vamos a utilizar para almacenar el resultado, y en el main lo mostramos.
+
+El conjunto de todas estas operaciones formaría nuestro programa.
+
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
