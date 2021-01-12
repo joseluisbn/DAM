@@ -446,6 +446,29 @@ Las diferentes ventajas que ofrecen los IDE son:
 
 ## UF2: Diseño modular
 
+### 1. Programación modular
+
+Hasta ahora hemos estudiado el desarrollo de un programa como un ente único compuesto por líneas que se ejecutan de forma secuencial, sin embargo, un acercamiento más próximo a la realidad sería el paradigma conocido como programación modular.
+
+#### 1.1. Concepto
+
+La **programación modular** consiste en dividir el problema original en diversos subproblemas, que se pueden resolver por separado, para, después, recomponer los resultados y obtener la solución al problema.
+
+#### 1.2. Ventajas e inconvenientes
+
+A continuación, vamos a desarrollar cuáles son las ventajas e inconvenientes más importantes a la hora de trabajar con diseño modular.
+
+**Ventajas:**
+- Facilita el mantenimiento, la modificación y la documentación.
+- Escritura y testing.
+- Reutilización de módulos.
+- Independencia de fallos.
+
+**Inconvenientes:**
+- Separación de módulos.
+- Memoria y tiempo de ejecución
+
+
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
 
@@ -453,7 +476,7 @@ Todo lo que llevamos visto hasta aquí ha sido mediante variables, estructuras d
 
 Una vez que llegamos al tema de los ficheros, cambia un poco la forma de trabajar que traíamos, de manera que vamos a utilizar nuevas estructuras o métodos que van a permitir que la información no se volatilice, es decir, que no se borre cuando terminemos el proceso de ejecución.
 
-### 1.1. Definición y tipos de ficheros
+#### 1.1. Definición y tipos de ficheros
 
 Podemos ver los **ficheros** como una parte de un dispositivo no volátil a la que se le asigna un nombre, y que puede contener una cantidad de datos que va a estar limitada, o por la cantidad de espacio del que disponga el dispositivo o por las características del sistema operativo. Entendemos por dispositivos no volátiles aquellos que no pierden la información que poseen cuando apagamos nuestro ordenador.
 
