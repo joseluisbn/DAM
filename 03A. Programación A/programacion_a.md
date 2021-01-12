@@ -903,6 +903,57 @@ Al igual que en los ejemplos anteriores, primero declaramos las variables que va
 
 El conjunto de todas estas operaciones formaría nuestro programa.
 
+#### 1.7. Prueba, depuración y comentarios de programas
+
+Una vez que tenemos terminado nuestro programa con su código ya implementado, es el momento de probarlo para comprobar que no tiene fallos y, sobre todo, que su funcionamiento es el correcto. En muchos casos no existen errores, pero el programa cuando se ejecuta no realiza la tarea que debería.
+
+Por eso es muy conveniente que nuestro programa tenga comentarios al menos en todo lo importante que realiza. De esta manera, nos será más fácil manejarnos por él.
+
+Podemos encontrarnos errores en nuestro código, tanto sintácticos como semánticos, que pueden ir apareciendo sin esperarlo. La mayoría de los lenguajes de programación disponen de una serie de herramientas que nos van a servir para tratar estos errores y conseguir solucionarlos.
+
+Por ejemplo, el programa Visual Studio, cuenta con un menú “depurar”, que permite acceder a las herramientas de las que dispone el depurador. En C#, además tiene unas técnicas propias para controlar diferentes situaciones en las que se produzcan errores en tiempo de ejecución.
+
+Cuando ponemos una aplicación en “modo depuración”, Visual Studio tiene la posibilidad de visualizar, línea a línea, nuestro código para analizarlo de forma más detallada. En este modo podemos, entre otras funciones:
+- Hacer consultas y realizar cualquier modificación de las variables.
+- Parar la ejecución, editar código y continuar ejecutando.
+- Detener la ejecución en una posición determinada.
+- Ejecutar línea a línea.
+
+Cuando ejecutamos un programa, podemos dividir el proceso en varias partes:
+- Compilación.
+- Vinculación.
+- Ejecución.
+
+Veamos cómo funcionan cada una de estas etapas:
+
+**Compilación**
+
+Mientras vamos escribiendo un determinado programa, el entorno de desarrollo de C# va haciendo comprobaciones exhaustivas para exponer los errores que podrían persistir en el código. Estos errores aparecen subrayados conforme escribimos las distintas instrucciones, y son denominados errores de compilación. Algunos ejemplos serían la falta de un punto y coma, una variable no declarada, etc.
+
+Una vez que estos errores se corrigen, podríamos decir que el programa se va a compilar de una manera limpia, y va a pasar a ejecutarse, aunque no sabemos todavía si va a realizar la función exacta para la que ha sido diseñado.
+
+**Vinculación**
+
+Debemos señalar que todos los programas hacen uso de bibliotecas y, además, algunos utilizan clases diseñadas por el programador. Las clases se vinculan cuando el programa comienza a ejecutarse, aunque son los IDE los que comprueban el programa a medida que se va escribiendo para intentar garantizar que todos los métodos que se invoquen existan, y que coincidan con su tipo y parámetros.
+
+**Ejecución**
+
+Una vez que conseguimos llegar a la fase de ejecución, significa que nuestro programa ya no tiene errores, pero todavía no sabemos si va a funcionar o no.
+
+Algunos errores se detectan de forma automática pero otros son más complicados de detectar. Estos pueden producir cambios inesperados, por lo que debemos comenzar con un proceso de depuración en el que vamos a ir comprobando, paso a paso, cómo va a ir funcionando nuestro programa hasta que demos con el error.
+
+## 1.8. Concepto de librerías
+
+Cuando hablamos de **librerías** nos referimos a un conjunto de funciones que están preparadas para ejecutarse, por lo que facilita el trabajo del encargado de desarrollar el programa.
+
+Cuando compilamos nuestro programa solamente se comprueba que se ha llamado de manera correcta las funciones que pertenecen a las diferentes librerías que nos ofrece el compilador, aunque el código de estas funciones todavía no se ha insertado en el programa. Va a ser el enlazador o linkador el que realice esta inserción y, por tanto, el encargado de completar el código máquina con la finalidad de obtener el programa ejecutable.
+
+Una vez que hemos obtenido el código fuente debemos comprobar que no se producen errores en tiempo de ejecución. Si los hubiera, debemos depurar el programa. Encontrar cuál es la causa que produce un error en tiempo de ejecución, a veces, es una tarea complicada, por lo que los EID (Entornos Integrados de Desarrollo) nos proporcionan una herramienta denominada “depurador” que nos facilita la tarea.
+
+Uno de los motivos por lo que es recomendable utilizar el lenguaje de programación C# es que éste permite la interoperación con otros lenguajes, siempre que éstos tengan:
+- Acceso a las diferentes librerías a través de COM+ y servicios .NET.
+- Soporte XML.
+- Simplificación en administración y componentes gracias a un mecanismo muy cuidado de versiones.
 
 ## UF3: Fundamentos de gestión de ficheros
 ### 1.0. Gestión de ficheros
