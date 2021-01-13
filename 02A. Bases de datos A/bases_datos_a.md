@@ -250,7 +250,7 @@ CREATE TABLE nombre_tabla(
   columna1 tipodato
   columna2 tipodato
   {RESTRICCIONES}
-  );
+);
 ```
 
 Por ejemplo:
@@ -260,7 +260,7 @@ CREATE TABLE empleado(
   id INT PRIMARY KEY,
   nombre VARCHAR(80) NOT NULL,
   departamento VARCHAR(40)
- );
+);
  ```
  
  - PRIMARY KEY indicanda que este atributo es la clave primaria de la tabla.
@@ -278,6 +278,28 @@ Se puede ver el listado completo de los tipos de datos en MySQL en la siguiente 
 
 **Modificación de tablas**
 
+Para modificar una tabla se usa ALTER TABLE. Así, podemos añadir, modificar o elimiar las columnas de una tabla, así como habilitar o deshabilitar restricciones.
+
+```sql
+ALTER TABLE nombre_tabla(
+  ADD (columna)
+  MODIFY/CHANGE (colum [….])
+  DROP COLUMN (colum…..)
+  ADD CONSTRAINT restricción
+  DROP CONSTRAINT restricción
+  DISABLE CONSTRAINT restricción
+  ENABLE CONSTRAINT restricción
+);
+```
+
+Algunas opciones para esta sentencia son:
+
+- **ADD**: Añade una columna. Si la columna no tiene restricción NOT NULL, se añadirá sin más. Si tiene esa restricción, se le añade, se le asigna un valor y se le asigna la restricción.
+- **MODIFY/CHANGE**: Puede modificar la longitud de la columnam y aumentar o disminuir el valor de los decimales del campo.
+- **DROP**: elimina una columna. No se pueden eliminar todos los campos de una tabla, así como borrar las claves primarias referenciadas por una clave ajena de otra tabla.
+
+***Añadir ejemplos***
+
 **Borrado de tablas**
 
 Para borrar una tabla se emplea la siguiente sintaxis:
@@ -289,5 +311,16 @@ DROP TABLE nombreBD;
 Al eliminar una tabla, también desaparece todo su contenido. Si añadimos la cláusula de eliminación en cascada (*Cascade Constraint*) también se eliminarán las restricciones de integridad referencial que afecten a la clave principal de la tabla que se va a borrar.
 
 Hay que tener un cuidado extremo, ya que esta operación es **irreversible**. Antes de llevarla a cabo, debemos asegurarnos de que no habrá ningún problema.
+
+#### 5.4. Lenguaje de manipulación de datos (DML)
+
+El lenguage de manipulación de datos (DML) nos permite insertar, modificar, eliminar y consultar la información en una base de datos.
+
+Se agrupan en cuatro tipos:
+
+- SELECT
+- INSERT
+- UPDATE
+- DELETE
 
 ## Bibliografía
