@@ -40,10 +40,10 @@ de cuarta generación.
 
 Los elementos que componen el lenguaje SQL son los siguientes:
 
-- DML (Data Manipulation Language): es el lenguaje que manipula los datos ya creados. Modifica los registros o tuplas de la BDD.
-- DDL (Data Definition Language): permite la creación de la BDD y de las tablas que la componen.
-- DCL (Data Control Language): administra a los usuarios de las BDD, concediendo o denegando los permisos oportunos.
-- TCL (Transaction Control Language): lenguaje que controla el procesamiento de las transacciones de las BDD.
+- **DML** (*Data Manipulation Language*): es el lenguaje que manipula los datos ya creados. Modifica los registros o tuplas de la BDD.
+- **DDL** (*Data Definition Language*): permite la creación de la BDD y de las tablas que la componen.
+- **DCL** (*Data Control Language*): administra a los usuarios de las BDD, concediendo o denegando los permisos oportunos.
+- **TCL** (*Transaction Control Language*): lenguaje que controla el procesamiento de las transacciones de las BDD.
 
 A continuación, para terminar este apartado de introducción al SQL, vamos a nombrar las normas básicas para tener en cuenta para diseñar instrucciones en SQL:
 - No se distingue entre mayúsculas y minúsculas.
