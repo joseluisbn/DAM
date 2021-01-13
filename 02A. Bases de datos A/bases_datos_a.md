@@ -123,6 +123,10 @@ La cardinalidad nos indicará si un libro tiene uno o varios autores, y al revé
 
 **Insertar diagramas de ejemplo con sus explicaciones**
 
+**Participaciones**
+
+Las **participaciones** son las cardinalidades particulares de cada lado de la entidad. Indican el mínimo y el máximo de relaciones que puede tener una entidad con otra.
+
 ## UF2: Lenguajes SQL: DML y DDL
 
 ### 1. Lenguajes de las BBDD. SQL
