@@ -144,14 +144,31 @@ Las participaciones posibles son:
 | **(0,n)** |Mínimo cero, máximo n (indefinido)|
 | **(1,n)** |Mínimo uno, máximo n (indefinido)|
 
+La notación que utilizamos para expresar la participación de in diagrama entidad-relación consiste en cologar la participación al lado de la entidad, sobre la línea de la relación.
+
+**Entidades fuertes y débiles**
+
+Una **entidad fuerte** tiene existencia por sí misma, es decir, está dotada de significado propio. Se representa:
+
+**Insertar diagrama**
+
+En una **entidad débil** los atributos no la identifican completamente. Su participación está ligada a una relación fuerte que le ayuda a identificarla.
+
+**Insertar diagrama y ejemplo de entidad fuerte y débil**
+
+Las entidades débiles tienen identificador, representadas con una línea subrayada discontinua. Necesitará su identificador junto a la clave primera de su entidad fuerte para poder distinguir de manera unívoca cada instancia.
+
+**Tipos de correspondencias en las relaciones: binaria, reflexiva y otros**
+
+#### 2.5. Modelo entidad-relación extendido 
+
 ## UF2: Lenguajes SQL: DML y DDL
 
 ### 1. Lenguajes de las BBDD. SQL
 
-El lenguaje de programación SQL es el lenguaje fundamental de los SGBD relacionales. Una de las características principales de este lenguaje es su aspecto declarativo en vez de imperativo., es decir, el programador debe indicar qué hacer y no cómo hacerlo.
+El lenguaje de programación **SQL** es el lenguaje fundamental de los SGBD relacionales. Una de las características principales de este lenguaje es su aspecto declarativo en vez de imperativo., es decir, el programador debe indicar qué hacer y no cómo hacerlo.
 
-Este lenguaje pretende ser lo más natural posible y, por esta razón, se le considera
-de cuarta generación.
+Este lenguaje pretende ser lo más natural posible y, por esta razón, se le considera de cuarta generación.
 
 Los elementos que componen el lenguaje SQL son los siguientes:
 
@@ -165,6 +182,20 @@ A continuación, para terminar este apartado de introducción al SQL, vamos a no
 - La instrucción en SQL debe terminar con el carácter “;” (punto y coma). Esto se debe a que el compilador está diseñado para que vaya decodificando la instrucción hasta que se encuentre con este carácter que delimita el fin del comando.
 - Antes de finalizar la instrucción, cualquier comando puede ir seguido por: un espacio en blanco o un salto de línea.
 - Se puede tabular la instrucción para clarificar la orden deseada.
+
+**Tipos de lenguages para gestionar los datos en un SGBDR corporativo
+
+Vamos a enumerar algunos de los tipos de lenguajes que se utilizan en la gestión y desarrollo de una base de datos en un SGBDR corporativo. Por esta razón, lenguajes *freeware*, como SQLite, quedarán fuera de esta categoría.
+
+**Oracle**
+
+**PL/SQL** (*Procedural Language / Structured Query Language*) es el lenguaje procedural usado en Oracle RDBMS (*Relational Data Base Management System*). Al igual que la mayoría de lenguajes de bases de datos, este está basado en SQL y además posee algunas características adicionales sobre el control de excepciones, el manejo de las variables o en las estructuras de control de flujo.
+
+Los lenguajes procedurales son propios de la programación estructurada y usan las llamadas **rutinas**, las cuales tienen un conjunto de sentencias.
+
+**Microsoft**
+
+*SQL Server* es un SGBDR de Microsoft. El lenguaje empleado en SQL Server es **T-SQL** (*Transact-SQL*). Al igual que el lenguaje de Oracle, este también deriva del SQL estándar, pero añade la opción de trabajar con procedimientos.
 
 #### 1.1 Herramientas para gestionar los datos en un SGBDR corporativo
 
