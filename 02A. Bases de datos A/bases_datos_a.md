@@ -164,7 +164,7 @@ Las entidades débiles tienen identificador, representadas con una línea subray
 
 ## UF2: Lenguajes SQL: DML y DDL
 
-### 1. Lenguajes de las BBDD. SQL
+### 5. Lenguajes de las BBDD. SQL
 
 El lenguaje de programación **SQL** es el lenguaje fundamental de los SGBD relacionales. Una de las características principales de este lenguaje es su aspecto declarativo en vez de imperativo., es decir, el programador debe indicar qué hacer y no cómo hacerlo.
 
@@ -183,7 +183,7 @@ A continuación, para terminar este apartado de introducción al SQL, vamos a no
 - Antes de finalizar la instrucción, cualquier comando puede ir seguido por: un espacio en blanco o un salto de línea.
 - Se puede tabular la instrucción para clarificar la orden deseada.
 
-**Tipos de lenguages para gestionar los datos en un SGBDR corporativo
+#### 5.1. Tipos de lenguages para gestionar los datos en un SGBDR corporativo
 
 Vamos a enumerar algunos de los tipos de lenguajes que se utilizan en la gestión y desarrollo de una base de datos en un SGBDR corporativo. Por esta razón, lenguajes *freeware*, como SQLite, quedarán fuera de esta categoría.
 
@@ -219,7 +219,38 @@ Dispone de dos herramientas gráficas con su correspondiente interfaz web. Estas
 
 Ofrece la posibilidad de manipular y modificar los objetos de los permisos de una base de datos. Facilita la construcción de consultas SQL. Permite crear Servicios web para poder distribuir datos de consulta.
 
-#### 1.2. Lenguaje de definición de datos (DDL)
+#### 5.3. Lenguaje de definición de datos (DDL)
 
+El **Lenguage de definición de datos (DDL) es un lenguaje de programación para definir estructuras de datos. Define el continente (no el contenido). Se encarga de definir, modificar y eliminar las estructuras básicas de la base de datos, tales como tablas, vístas, índices, etc.
+
+Analizaremos varias sentencias SQL, que agruparemos en tres tipos: CREATE, ALTER y DROP.
+
+**Crear BD**
+
+Para crear una base de datos utilizaremos la sentencia "CREATE DATABASE":
+
+```sql
+CREATE DATABASE nombreBD;
+´´´
+
+Una vez creada la base, estará vacía, es decir, no tendrá ninguna tabla.
+
+**Creación de tablas**
+
+Una vez generada la base de datos, entramos en ella con el comando USE:
+
+```sql
+USE nombreBD;
+´´´
+
+Ya dentro, crearemos las tablas correspondientes, teniendo en cuenta la siguiente estructura:
+
+```sql
+CREATE TABLE nombre_tabla(
+  columna1 tipodato
+  columna2 tipodato
+  {RESTRICCIONES}
+  );
+```
 
 ## Bibliografía
