@@ -55,6 +55,56 @@ Por lo tanto, se pueden definir tres tipos de modelos de una base de datos:
 - **Modelo lógico**: especificación de todas las tablas.
 - **Modelo físico**: archivo SQL que determina en el sistema informático la BBDD.
 
+#### 2.1. Concepto de entidad-relación
+
+Como mencionamos anteriormente, el modelo entidad-relación es un arquetipo conceptual que representa un problema planteado a través de entidades y relaciones.
+
+Se debe diferenciar entre modelo entidad-relación y el diagrama entidad-relación. El modelo entidad-relación es el modelado abstracto de la base de datos, en el que utiliza el diagrama como herramienta para representarse y las restricciones para matizar el diagrama y completar el modelado conceptual de la base. Simplificando, podría decirse que el modelo entidad-relación consiste fundamentalmente en un diagrama y unas restricciones asociadas.
+
+**Insertar diagrama**
+
+#### 2.2. Entidad. Representación gráfica, atributos y tipos de claves
+
+Se definen las **entidades** como la representación de aquellos elementos (físicos o abstractos) de los que se desea almacenar la información.
+
+Se pueden representar gráficamente mediante un rectángulo que contiene en su interior el nombre del elemento al que representan. Este nombre debe ser único, es decir, no puede aparecer repetido en nuestro diagrama.
+
+**Insertar diagrama**
+
+Cuando hablamos de **atributos** de una entidad, hacemos referencia a las propiedades o características que tiene una instancia en particular de esa entidad. Por ejemplo, en el caso de un libro, su título, el autor o la fecha de publicación. Por ejemplo:
+
+**Insertar diagrama**
+
+Un atributo o conjunto de ellos pueden conformar una **clave primaria**, que permite identificar de manera única un registro de una tabla. Este concepto se abordará posteriormente. Su representación en un diagrama sería:
+
+**Insertar diagrama**
+
+Un atributo es **multivaluado** cuando para la misma instancia de una entidad, el atributo posee varios datos posibles. En tal caso, se representa con una doble circunferencia.
+
+**Insertar diagrama**
+
+Una instancia de una entidad es un valor concreto. Por ejemplo, de la entidad empleado podríamos tener varias instancias y cada una sería un empleado concreto (Por ejemplo, el empleado "Julián Hernández", "Julia Blanco", etc.).
+
+Un atributo es **derivado** o calculado cuando se puede deducir de otro u otros atributos. Se representa con una circunferencia discontinua. Por ejemplo, podemos conocer la antigüedad de un empleado si disponemos de su fecha de alta y la fecha actual.
+
+**Insertar diagrama**
+
+#### 2.3. Relación. Representación gráfica, atributos, grado y cardinalidad
+
+La **relación** sirve para escenificar las conexiones entre las diferentes entidades, dándoles un significado semántico más completo.
+
+La palabra escogida para identificar la relación suele ser un verbo e indica la relación existente entre dichas entidades. Este puede estar en infinitivo o en una forma verbal, generalmente en presente.
+
+Se representa gráficamente mediante un rombo:
+
+**Insertar diagrama**
+
+Por ejemplo, supongamos que estamos haciendo una BBDD de una empresa para el departamento de RRHH. Podíamos tener las entidades empleado y departamento y la relación pertenece (o trabaja). Así, representaríamos en el diagrama entidad-relación la realidad de que los empleados pertenecen a departamentos de esta manera:
+
+**Insertar diagrama**
+
+
+
 ## UF2: Lenguajes SQL: DML y DDL
 
 ### 1. Lenguajes de las BBDD. SQL
