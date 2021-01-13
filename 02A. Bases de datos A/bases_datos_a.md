@@ -127,6 +127,23 @@ La cardinalidad nos indicará si un libro tiene uno o varios autores, y al revé
 
 Las **participaciones** son las cardinalidades particulares de cada lado de la entidad. Indican el mínimo y el máximo de relaciones que puede tener una entidad con otra.
 
+Por ejemplo:
+
+Un alumno debe estudiar al menos una asignatura y como máximo muchas (1,n). Por otro lado, una asignatura puede no ser estudiada por ningún alumno, como mínimo, y por muchos como máximo (0,n).
+
+**Insertar diagrama explicando la orientación de las cardinalidades**
+
+La cardinalidad general de la relación vendrá dada por los máximos de las dos entidades implicadas. Para el caso del ejemplo, esta será N,M, ya que, por convenio, la segunda N se transforma en una M, teniendo un significado invariable.
+
+Las participaciones posibles son:
+
+| Participación | Descripción |
+|:------:|--------|
+| **(0,1** |Mínimo cero, máximo uno.|
+| **(1,1)** |Obliga a la participación|
+| **(0,n)** |Mínimo cero, máximo n (indefinido)|
+| **(1,n)** |Mínimo uno, máximo n (indefinido)|
+
 ## UF2: Lenguajes SQL: DML y DDL
 
 ### 1. Lenguajes de las BBDD. SQL
