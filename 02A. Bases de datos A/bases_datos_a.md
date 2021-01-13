@@ -43,11 +43,11 @@ Este modelo nos ayuda a la creación de una base de datos. Se realiza tras la re
 
 Para contextualizar el modelo entidad-relación dentro de una base de datos, vamos a describir las fases que precisa una base de datos para su completa formación.
 
-#. Recopilar información.
-#. Realizar el modelo entidad-relación:
-#. Paso del modelo entidad-relación al modelo relacional:
-#. Normalización:
-#. Codificación:
+1. Recopilar información.
+2. Realizar el modelo entidad-relación:
+3. Paso del modelo entidad-relación al modelo relacional:
+4. Normalización:
+5. Codificación:
 
 ## UF2: Lenguajes SQL: DML y DDL
 
