@@ -43,11 +43,17 @@ Este modelo nos ayuda a la creación de una base de datos. Se realiza tras la re
 
 Para contextualizar el modelo entidad-relación dentro de una base de datos, vamos a describir las fases que precisa una base de datos para su completa formación.
 
-1. Recopilar información.
-2. Realizar el modelo entidad-relación:
-3. Paso del modelo entidad-relación al modelo relacional:
-4. Normalización:
-5. Codificación:
+1. **Recopilar información**: Consiste en recabar toda la información posible de la base de datos que deseamos diseñar. ESta información puede ser dada por el cliente o por el mismo desarrollador, dependiendo del caso.
+2. **Realizar el modelo entidad-relación**: tras la recopilación de información se realiza el diseño del modelo entidad-relación. Para ello, se refleja toda la información recogida en el diagrama entidad-relación y en las restricciones asociadas al diagrama. Este modelo corresponde al modelo conceptual.
+3. **Paso del modelo entidad-relación al modelo relacional**: una vez que tenemos listo el modelo entidad-relación, realizamos la conversión de este al modelo relacional. Para ello usaremos unas reglas determinadas. El modelo relacional es el modelo lógico.
+4. **Normalización**: en esta fase retocamos el modelo relacional para hacerlo más eficiente de cara a su codificación.
+5. **Codificación**: en esta fase trasladamos el modelo lógico que hemos diseñado a una máquina física, como un servidor. Para ello tendremos que elegir el hardware más pertinente y también el software más adecuado, es decir, el SGBD. Una vez hayamos elegido estos dos elementos, pasaremos a codificar en un lenguaje de bases de datos (SQL) el modelo lógico anteriormente creado. Esta fase pertenece al modelo físico.
+
+Por lo tanto, se pueden definir tres tipos de modelos de una base de datos:
+
+- **Modelo conceptual**: representación estructurada de la realidad en entidades y relaciones.
+- **Modelo lógico**: especificación de todas las tablas.
+- **Modelo físico**: archivo SQL que determina en el sistema informático la BBDD.
 
 ## UF2: Lenguajes SQL: DML y DDL
 
