@@ -118,7 +118,7 @@ La cardinalidad nos indicará si un libro tiene uno o varios autores, y al revé
 | Cardinalidad | Descripción |
 |:------:|--------|
 | **1:1 (uno a uno)** |Este caso ocurre cuando las instancias de dos entidades están relacionanda, como máximo, con solo una instancia de otra entidad. Es decir, que no habrá una instancia de una entidad que pueda relacionarse con dos o más instancias de la otra entidad, sino solo con una, como mucho.|
-| **1:N** (uno a muchos)** |Es un caso asimétrico. Ocurre cuando una entidad puede tener una instancia que se relacione con muchas instancias de la otra entidad, pero no al revés, pues cada instancia de esa otra entidad solo podrá relacionarse, como máximo, con una instancia de la primera entidad y no con varias.|
+| **1:N (uno a muchos)** |Es un caso asimétrico. Ocurre cuando una entidad puede tener una instancia que se relacione con muchas instancias de la otra entidad, pero no al revés, pues cada instancia de esa otra entidad solo podrá relacionarse, como máximo, con una instancia de la primera entidad y no con varias.|
 | **N:M M (muchos a muchos)**  |Es una situación simétrica. Cada instancia de cualquier entidad puede relacionarse con dos o más instancias de la otra entidad.|
 
 **Insertar diagramas de ejemplo con sus explicaciones**
