@@ -103,6 +103,18 @@ Por ejemplo, supongamos que estamos haciendo una BBDD de una empresa para el dep
 
 **Insertar diagrama**
 
+#### 2.4. Diagrama entidad-relación
+
+Vamos a abordar los diferentes conceptos o funcionalidades que presentan los diagramas entidad-relación.
+
+**Cardinalidad**
+
+La **cardinalidad** indica la participación que existe entre las entidades, es decir, el número de instancias de una entidad respecto a otra con la que está relacionada y viceversa.
+
+**Insertar diagrama**
+
+La cardinalidad nos indicará si un libro tiene uno o varios autores, y al revés. Nos indicará si un libro puede ser escrito por un autor o por muchos de ellos. Las cardinalidades posibles son:
+
 
 
 ## UF2: Lenguajes SQL: DML y DDL
