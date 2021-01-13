@@ -259,7 +259,7 @@ Por ejemplo:
 CREATE TABLE empleado(
   id INT PRIMARY KEY,
   nombre VARCHAR(80) NOT NULL,
-  departamento ,VARCHAR(40)
+  departamento VARCHAR(40)
  );
  ```
  
@@ -276,6 +276,18 @@ Se puede ver el listado completo de los tipos de datos en MySQL en la siguiente 
 
 **Añadir tabla con algunas variantes de tipos de datos entre MySQL y Oracle**
 
+**Modificación de tablas**
+
 **Borrado de tablas**
+
+Para borrar una tabla se emplea la siguiente sintaxis:
+
+```sql
+DROP TABLE nombreBD;
+```
+
+Al eliminar una tabla, también desaparece todo su contenido. Si añadimos la cláusula de eliminación en cascada (*Cascade Constraint*) también se eliminarán las restricciones de integridad referencial que afecten a la clave principal de la tabla que se va a borrar.
+
+Hay que tener un cuidado extremo, ya que esta operación es **irreversible**. Antes de llevarla a cabo, debemos asegurarnos de que no habrá ningún problema.
 
 ## Bibliografía
