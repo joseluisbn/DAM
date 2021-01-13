@@ -231,7 +231,7 @@ Para crear una base de datos utilizaremos la sentencia "CREATE DATABASE":
 
 ```sql
 CREATE DATABASE nombreBD;
-´´´
+```
 
 Una vez creada la base, estará vacía, es decir, no tendrá ninguna tabla.
 
@@ -241,7 +241,7 @@ Una vez generada la base de datos, entramos en ella con el comando USE:
 
 ```sql
 USE nombreBD;
-´´´
+```
 
 Ya dentro, crearemos las tablas correspondientes, teniendo en cuenta la siguiente estructura:
 
