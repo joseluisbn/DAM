@@ -454,23 +454,33 @@ Hasta ahora hemos estudiado el desarrollo de un programa como un ente único com
 
 La **programación modular** consiste en dividir el problema original en diversos subproblemas, que se pueden resolver por separado, para, después, recomponer los resultados y obtener la solución al problema.
 
+Un subproblema se denomina **módulo** y es una parte del problema que se puede resolver de manera independiente.
+
 #### 1.2. Ventajas e inconvenientes
 
 A continuación, vamos a desarrollar cuáles son las ventajas e inconvenientes más importantes a la hora de trabajar con diseño modular.
 
 **Ventajas:**
 - Facilita el mantenimiento, la modificación y la documentación.
-- Escritura y testing.
+- Escritura y *testing*.
 - Reutilización de módulos.
 - Independencia de fallos.
 
 **Inconvenientes:**
-- Separación de módulos.
-- Memoria y tiempo de ejecución
+- Separación de módulos (¿Cuándo hay que dividir nuestro problema?).
+- Memoria y tiempo de ejecución.
 
 #### 1.3. Análisis descendente (*top down*)
 
 El **diseño descendente** es una técnica que permite diseñar la solución de un problema con base en la modularización o segmentación, dándole un enfoque de arriba hacia abajo (*top down design*). Esta solución se divide en módulos que se estructuran e integran jerárquicamente.
+
+Este diseño se basa en el principio ***divide y vencerás***:
+
+- Va de lo más general a lo más específico.
+- Se basa en una representación por niveles: el primer nivel resuelve el problema, y los sucesivos van depurando el primero.
+- El programa, por tanto, tendrá una estructura de árbol.
+
+**Introducir diagrama**
 
 #### 1.4. Modulación de programas. Subprogramas
 
