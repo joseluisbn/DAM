@@ -253,4 +253,29 @@ CREATE TABLE nombre_tabla(
   );
 ```
 
+Por ejemplo:
+
+```sql
+CREATE TABLE empleado(
+  id INT PRIMARY KEY,
+  nombre VARCHAR(80) NOT NULL,
+  departamento ,VARCHAR(40)
+ );
+ ```
+ 
+ - PRIMARY KEY indicanda que este atributo es la clave primaria de la tabla.
+ - NOT NULL indica que el atributo debe tener siempre algún valor, es decir, que el registro no puede quedar vacío.
+
+Los nombres de las variables puede cambiar según el tipo de SQL que usemos. En MySQL algunas de ellas son:
+
+**Crear tabla con ejemplos**
+
+Se puede ver el listado completo de los tipos de datos en MySQL en la siguiente web:
+
+- https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+
+**Añadir tabla con algunas variantes de tipos de datos entre MySQL y Oracle**
+
+**Borrado de tablas**
+
 ## Bibliografía
