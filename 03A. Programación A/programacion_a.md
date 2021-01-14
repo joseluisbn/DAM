@@ -956,7 +956,7 @@ Una vez que conseguimos llegar a la fase de ejecución, significa que nuestro pr
 
 Algunos errores se detectan de forma automática pero otros son más complicados de detectar. Estos pueden producir cambios inesperados, por lo que debemos comenzar con un proceso de depuración en el que vamos a ir comprobando, paso a paso, cómo va a ir funcionando nuestro programa hasta que demos con el error.
 
-## 1.8. Concepto de librerías
+#### 1.8. Concepto de librerías
 
 Cuando hablamos de **librerías** nos referimos a un conjunto de funciones que están preparadas para ejecutarse, por lo que facilita el trabajo del encargado de desarrollar el programa.
 
@@ -969,7 +969,7 @@ Uno de los motivos por lo que es recomendable utilizar el lenguaje de programaci
 - Soporte XML.
 - Simplificación en administración y componentes gracias a un mecanismo muy cuidado de versiones.
 
-1.9. Uso de librerías
+#### 1.9. Uso de librerías
 
 El concepto de **librería** se podría dar como conjunto de métodos relacionados con el mismo objetivo, para poder ser reutilizado cada vez que cualquier programador lo desee. Para la realización de este módulo, en los ejercicios prácticos, vamos a ir utilizando las librerías Math, para cualquier operación matemática, y la librería Random.
 
@@ -1099,7 +1099,7 @@ Vemos que en todos los casos sucede lo mismo, se multiplica el número por el n�
 
 Por lo que nos quedaría de la siguiente forma:
 
-- **Caso base* → “Si n=1, factorial(1) devuelve 1;”
+- **Caso base** → “Si n=1, factorial(1) devuelve 1;”
 - **Caso genérico** → “Si n>1, factorial(n) = n*factorial(n-1);”
 
 Si hacemos una función:
