@@ -337,12 +337,27 @@ VALUES (valor1, valor2, valor3);
 Tomaremos como ejemplo una hipotética base de datos de una biblioteca:
 
 ```sql
-CREATE TABLE libro(
+CREATE TABLE libros(
   codigo INT PRIMARY KEY,
   titulo VARCHAR(100) NOT NULL
   autor VARCHAR(80)
 )ENGINE=INNODB;
+```
 
 Como aclaración "ENGINE=INNODB" se añade de manera opcional en MySQL para indicar el moter de almacenamiento que deseamos. Este es adecuado para trabajar con claves foráneas, transacciones o bloqueos, entre otros.
+
+Introduciremos datos:
+
+```sql
+INSERT INTO libros (codigo, titulo, autor)
+VALUES ("1", "El despertar del Leviatán", "James S.A. Corey");
+```
+
+También está la posibilidad de omitir el nombre de las columnas. En cualquier caso, el orden de los valores debe coincidir con el orden de los campos creados en la tabla.
+
+```sql
+INSERT INTO libros
+VALUES (35, "Marte rojo", "Kim Stanley Robinson");
+```
 
 ## Bibliografía
