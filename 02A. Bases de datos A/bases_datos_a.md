@@ -316,11 +316,33 @@ Hay que tener un cuidado extremo, ya que esta operación es **irreversible**. An
 
 El lenguage de manipulación de datos (DML) nos permite insertar, modificar, eliminar y consultar la información en una base de datos.
 
+A través de este lenguaje tenemos la posibilidad de añadir nuevos registros en las tablas, modificar la información de los mismos, consultarlo e incluso borrarlos.
+
 Se agrupan en cuatro tipos:
 
 - SELECT
 - INSERT
 - UPDATE
 - DELETE
+
+##### 5.4.1 Inserción de datos
+
+Una vez que hemos creado la base de datos y las tablas, el siguiente paso es añadir la información, es decir, insertar registros (tuplas) en las tablas.
+
+```sql
+INSERT INTO nombre_tabla (columna1, columna2, columna3);
+VALUES (valor1, valor2, valor3);
+```
+
+Tomaremos como ejemplo una hipotética base de datos de una biblioteca:
+
+```sql
+CREATE TABLE libro(
+  codigo INT PRIMARY KEY,
+  titulo VARCHAR(100) NOT NULL
+  autor VARCHAR(80)
+)ENGINE=INNODB;
+
+Como aclaración "ENGINE=INNODB" se añade de manera opcional en MySQL para indicar el moter de almacenamiento que deseamos. Este es adecuado para trabajar con claves foráneas, transacciones o bloqueos, entre otros.
 
 ## Bibliografía
