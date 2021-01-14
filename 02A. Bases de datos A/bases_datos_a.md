@@ -325,7 +325,7 @@ Se agrupan en cuatro tipos:
 - UPDATE
 - DELETE
 
-##### 5.4.1 Inserción de datos
+##### 5.4.1 Sentencias de inserción
 
 Una vez que hemos creado la base de datos y las tablas, el siguiente paso es añadir la información, es decir, insertar registros (tuplas) en las tablas.
 
@@ -350,7 +350,7 @@ Introduciremos datos:
 
 ```sql
 INSERT INTO libros (codigo, titulo, autor)
-VALUES ("1", "El despertar del Leviatán", "James S.A. Corey");
+VALUES (1, "El despertar del Leviatán", "James S.A. Corey");
 ```
 
 También está la posibilidad de omitir el nombre de las columnas. En cualquier caso, el orden de los valores debe coincidir con el orden de los campos creados en la tabla.
@@ -359,5 +359,41 @@ También está la posibilidad de omitir el nombre de las columnas. En cualquier 
 INSERT INTO libros
 VALUES (35, "Marte rojo", "Kim Stanley Robinson");
 ```
+
+##### Sentencias de modificación
+
+Para modificar el valor o valores de un registro se utiliza UPDATE.
+
+```sql
+UPDATE nombre_tabla
+SET columna1=valor1, columna2=valor2, columna3=valor3
+WHERE condición;
+```
+
+Hay que tener un gran cuidado a la hora de emplear esta sentencia, ya que en la cláusula WHERE tenemos que introducir la condición que deben cumplir los datos para actualizarse. Si omitimos se modificarían todos los registros de la tabla.
+
+Por ejemplo, partiendo de la siguiente tabla:
+
+| id | album | artista |
+|:------:|--------|--------|
+| 1 |El espíritu del vino| Héroes del silencio |
+| 2 |De pata negra| Metallica |
+| 3 |Iowa| Slipknot|
+
+Queremos modificar la tupla con id 2, ya que Metallica no es autora de disco *De pata negra*.
+
+```sql
+UPDATE discos
+SET artista = "Melody"
+WHERE id = 2;
+```
+
+Obtendremos pues una actualización del campo *artista* cuyo id tiene como valor 2. El resultado sería entonces:
+
+| id | album | artista |
+|:------:|--------|--------|
+| 1 |El espíritu del vino| Héroes del silencio |
+| 2 |De pata negra| Melody |
+| 3 |Iowa| Slipknot|
 
 ## Bibliografía
