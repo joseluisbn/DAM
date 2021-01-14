@@ -372,7 +372,7 @@ WHERE condición;
 
 Hay que tener un gran cuidado a la hora de emplear esta sentencia, ya que en la cláusula WHERE tenemos que introducir la condición que deben cumplir los datos para actualizarse. Si omitimos se modificarían todos los registros de la tabla.
 
-Por ejemplo, partiendo de la siguiente tabla:
+Por ejemplo, partiendo de la siguiente tabla (discos):
 
 | id | album | artista |
 |:------:|--------|--------|
