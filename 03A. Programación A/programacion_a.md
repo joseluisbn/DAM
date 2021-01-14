@@ -1350,16 +1350,16 @@ Podemos poner un ejemplo para escribir en un fichero binario llamado "datos.dat"
 
 ```c#
 FileStream f = new FileStream(“datos.dat”, FileMode.Create);
- BinaryWriter f_Binario = new BinaryWriter(f, Encoding.UTF8));
- f_Binario.Write(“Este mensaje se escribirá en UTF8 dentro de datos.dat”);
- ```
+BinaryWriter f_Binario = new BinaryWriter(f, Encoding.UTF8));
+f_Binario.Write(“Este mensaje se escribirá en UTF8 dentro de datos.dat”);
+```
  
- De forma análoga podemos leer un dato de un fichero binario llamado "datos.dat":
+De forma análoga podemos leer un dato de un fichero binario llamado "datos.dat":
  
- ```c#
- FileStream f = new FileStream(“datos.dat”, FileMode.Open);
- BinaryReader f_Binario = new BinaryReader(f, Encoding.UTF8));
- Console.WriteLine(“Leido de datos.dat: {0}“, f_Binario.ReadString());
+```c#
+FileStream f = new FileStream(“datos.dat”, FileMode.Open);
+BinaryReader f_Binario = new BinaryReader(f, Encoding.UTF8));
+Console.WriteLine(“Leido de datos.dat: {0}“, f_Binario.ReadString());
 ```
 
 **Ficheros de texto**
