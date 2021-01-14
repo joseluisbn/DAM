@@ -1318,7 +1318,7 @@ Se pueden distinguir dos tipos de flujos:
 
 En este apartado utilizaremos las clases de C# pertenecientes a los dos tipos de ficheros: binarios y de textos.
 
-**Clase *fileStream***
+**Clase *FileStream***
 
 Es la clase del flujo, base de las operaciones de lectura y escritura de un fichero. Lo primero que debemos de detallar es el constructor FileStream para indicar los siguientes parámetros:
 
