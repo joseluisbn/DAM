@@ -580,6 +580,7 @@ Por ejemplo, partiendo de las tablas:
 ```sql
 marcas (id, nombre_marca)
 modelos (id, nombre_modelo, marca)
+```
 
 El atributo *marca* de la tabla *modelos* es una clave ajena al id de la tabla *marcas* y nos indica la marca a la que pertenece ese modelo.
 
