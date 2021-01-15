@@ -360,7 +360,7 @@ INSERT INTO libros
 VALUES (35, "Marte rojo", "Kim Stanley Robinson");
 ```
 
-##### 5.4.3. Sentencias de modificación
+##### 5.4.2. Sentencias de modificación
 
 Para modificar el valor o valores de un registro se utiliza UPDATE.
 
@@ -396,7 +396,7 @@ Obtendremos pues una actualización del campo *artista* cuyo id tiene como valor
 | 2 |*De pata negra*| Melody |
 | 3 |*Iowa*| Slipknot|
 
-##### Sentencias de eliminación
+##### 5.4.3. Sentencias de eliminación
 
 Se utiliza DELETE FROM para suprimir registros de una tabla que cumplan una determinada condición. Como comentábamos anteriormente, si omitimos u olvidamos la cláusula WHERE se borrarán todas las tuplas de la tabla.
 
@@ -425,9 +425,16 @@ Si olvidásemos la cláusula WHERE, no sólo estaríamos eliminando *Crepúsculo
 También disponemos del comando TRUNCATE, que nos permite eliminar todos los registros de una tabla de manera más eficiente:
 
 ```sql
-TRUNCATE nombre_tabla
+TRUNCATE nombre_tabla;
 ```
 
 ##### 5.4.4. Consultas
+
+Las consultas son unas de las operaciones más utilizadas en las bases de datos. En SQL se realizan con el comando SELECT. Una consulta simple tiene la siguiente estructura:
+
+```sql
+SELECT columna1, columna2
+FROM nombre_tabla;
+```
 
 ## Bibliografía
