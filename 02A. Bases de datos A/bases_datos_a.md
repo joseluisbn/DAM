@@ -119,7 +119,7 @@ La cardinalidad nos indicará si un libro tiene uno o varios autores, y al revé
 |:------:|--------|
 | **1:1 (uno a uno)** |Este caso ocurre cuando las instancias de dos entidades están relacionanda, como máximo, con solo una instancia de otra entidad. Es decir, que no habrá una instancia de una entidad que pueda relacionarse con dos o más instancias de la otra entidad, sino solo con una, como mucho.|
 | **1:N (uno a muchos)** |Es un caso asimétrico. Ocurre cuando una entidad puede tener una instancia que se relacione con muchas instancias de la otra entidad, pero no al revés, pues cada instancia de esa otra entidad solo podrá relacionarse, como máximo, con una instancia de la primera entidad y no con varias.|
-| **N:M M (muchos a muchos)**  |Es una situación simétrica. Cada instancia de cualquier entidad puede relacionarse con dos o más instancias de la otra entidad.|
+| **N:M (muchos a muchos)**  |Es una situación simétrica. Cada instancia de cualquier entidad puede relacionarse con dos o más instancias de la otra entidad.|
 
 **Insertar diagramas de ejemplo con sus explicaciones**
 
@@ -533,5 +533,26 @@ SELECT columna1, columna2, etc.
 FROM nombre_tabla
 WHERE columna IS NULL;
 ```
+##### 5.4.8. Consultas para consultar más de una tabla
+
+```sql
+SELECT tabla1.columna1, tabla2, columna2, etc.
+FROM nombre_tabla1, nombre_tabla2
+WHERE tabla1.campo_clave=tabla2.campo_clave_ajena;
+```
+
+***Insertar ejemplo***
+
+##### 5.4.9. Subconsultas
+
+#### 5.5. Extensiones y otras cláusulas del lenguaje
+
+- UNION
+- INTERSECT
+- INNER JOIN
+- RIGHT JOIN
+- LEFT JOIN
+- DISTINCT
+- HAVING
 
 ## Bibliografía
