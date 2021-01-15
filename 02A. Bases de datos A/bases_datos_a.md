@@ -428,7 +428,7 @@ También disponemos del comando TRUNCATE, que nos permite eliminar todos los reg
 TRUNCATE nombre_tabla;
 ```
 
-##### 5.4.4. Consultas
+##### 5.4.4. Consultas simples
 
 Las consultas son unas de las operaciones más utilizadas en las bases de datos. En SQL se realizan con el comando SELECT. Una consulta simple tiene la siguiente estructura:
 
@@ -463,5 +463,43 @@ SELECT plataforma
 FROM videojuegos;
 ```
 
+##### 5.4.5 Consultas de selección con restricción y ordenación
+
+Con la cláusula WHERE definimos la condición que tienen que cumplir los registros para que se muestren en la consulta.
+
+```sql
+SELECT columna1, columna2, etc
+FROM nombre_tabla
+WHERE condición;
+```
+
+Por ejemplo, si partimos de la tabla videojuegos y queremos mostrar únicamente los títulos de PS4:
+
+```sql
+SELECT titulo, plataforma
+FROM videojuegos
+WHERE plataforma = "PS4";
+```
+
+Con la cláusula ORDER BY podemos ordenar los datos de una consulta. Podemos ordenarlo de manera ascendente (ASC) o descendente (DESC).
+
+```sql
+SELECT columna1, columna2, etc.
+FROM nombre_tabla
+ORDER BY columna1, columna2, ect. ASC;
+```
+
+***Introducir ejemplos***
+
+Podemos combinar la consulta anterior añadiendo una restricción y que sus valores salgan ordenados:
+
+```sql
+SELECT columna1, columna2, etc.
+FROM nombre_tabla
+WHERE condición
+ORDER BY columna1, columna2 DESC
+```
+
+***Introducir ejemplos***
 
 ## Bibliografía
