@@ -502,4 +502,36 @@ ORDER BY columna1, columna2 DESC
 
 ***Introducir ejemplos***
 
+
+##### 5.4.6. Consultas de selección con agrupación
+
+La sentencia GROUP BY se emplea para agrupar por un determinado campo. Se puede usar junto a una función de agregación, aunque no es necesario.
+
+- COUNT: devuelve la cantidad de registros.
+- MAX: devuelve el valor máximo de los registros en el campo seleccionado.
+- MIN: devuelve el valor mínimo de los registros en el campo seleccionado.
+- SUM: devuelve la suma de los registros en el campo seleccionado.
+- AVG: devuelve la media aritmética de los registros en el campo seleccionado.
+
+La sentencia sería:
+
+```sql
+SELECT columna1, funcion_agregacion(nombre_columna)
+FROM nombre_tabla
+WHERE condición
+GROUP BY nombre_columna
+```
+
+***Insertar ejemplo***
+
+##### 5.4.7. Consultas con funcionaes tratando los valores nulos
+
+Un campo con valor NULL no contiene ningún valor, es decir, es nulo. Como no es posible utilizar operadores de comparación con los valores NULL, se utilizan las cláusulas IS NULL o IS NOT NULL.
+
+```sql
+SELECT columna1, columna2, etc.
+FROM nombre_tabla
+WHERE columna IS NULL;
+```
+
 ## Bibliografía
