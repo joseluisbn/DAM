@@ -571,4 +571,12 @@ Una vez diseñada, la optimizaremos siguiendo esta serie de pautas:
 
 #### 6.1. Integridad
 
+La **integridad** se encarga de que los datos que la componen sean lo más correctos posible. Estos datos almacenados deben cumplir una serie de restricciones con el fin de facilitar al usuario el tratamiento de los datos.
+
+En el caso de las claves primarias y ajenas, la integridad puede versi afectada si, por ejemplo borramos un registro de la tabla principal que está relacionado con uno o varios registros en otras tablas secundarias que tengan una clave ajena a la clave principal, provocará un error al detectarse un fallo de integridad.
+
+Por ejemplo:
+
+
+
 ## Bibliografía
