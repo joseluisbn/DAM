@@ -584,4 +584,20 @@ modelos (id, nombre_modelo, marca)
 
 El atributo *marca* de la tabla *modelos* es una clave ajena al id de la tabla *marcas* y nos indica la marca a la que pertenece ese modelo.
 
+| id | nombre_marca |
+|:------:|--------|
+| 11 | SEAT |
+| 12 | Audi |
+| 13 | BMW |
+| 14 | Peugeot |
+
+| id | nombre_modelo | marca |
+|:------:|--------|--------|
+| 11 | Toledo | 11 |
+| 22 | A6 | 12 |
+| 33 | X6 | 13 |
+| 44 | 306 | 14 |
+
+Si borrasemos de la tabla marcas el registro de Audi, en la tabla de modelos nos quedaría un registro el modelo A6, que ya no existe en la tabla de marcas. Esto nos provocaría un fallo de integridad.
+
 ## Bibliografía
