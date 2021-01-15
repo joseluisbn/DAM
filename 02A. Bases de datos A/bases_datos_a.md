@@ -360,7 +360,7 @@ INSERT INTO libros
 VALUES (35, "Marte rojo", "Kim Stanley Robinson");
 ```
 
-##### Sentencias de modificación
+##### 5.4.3. Sentencias de modificación
 
 Para modificar el valor o valores de un registro se utiliza UPDATE.
 
@@ -376,9 +376,9 @@ Por ejemplo, partiendo de la siguiente tabla (discos):
 
 | id | album | artista |
 |:------:|--------|--------|
-| 1 |El espíritu del vino| Héroes del silencio |
-| 2 |De pata negra| Metallica |
-| 3 |Iowa| Slipknot|
+| 1 |*El espíritu del vino*| Héroes del silencio |
+| 2 |*De pata negra*| Metallica |
+| 3 |*Iowa*| Slipknot|
 
 Queremos modificar la tupla con id 2, ya que Metallica no es autora de disco *De pata negra*.
 
@@ -427,5 +427,7 @@ También disponemos del comando TRUNCATE, que nos permite eliminar todos los reg
 ```sql
 TRUNCATE nombre_tabla
 ```
+
+##### 5.4.4. Consultas
 
 ## Bibliografía
