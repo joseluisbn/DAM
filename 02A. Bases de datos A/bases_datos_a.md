@@ -575,8 +575,12 @@ La **integridad** se encarga de que los datos que la componen sean lo más corre
 
 En el caso de las claves primarias y ajenas, la integridad puede versi afectada si, por ejemplo borramos un registro de la tabla principal que está relacionado con uno o varios registros en otras tablas secundarias que tengan una clave ajena a la clave principal, provocará un error al detectarse un fallo de integridad.
 
-Por ejemplo:
+Por ejemplo, partiendo de las tablas:
 
+```sql
+marcas (id, nombre_marca)
+modelos (id, nombre_modelo, marca)
 
+El atributo *marca* de la tabla *modelos* es una clave ajena al id de la tabla *marcas* y nos indica la marca a la que pertenece ese modelo.
 
 ## Bibliografía
