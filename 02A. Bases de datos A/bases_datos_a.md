@@ -555,4 +555,20 @@ WHERE tabla1.campo_clave=tabla2.campo_clave_ajena;
 - DISTINCT
 - HAVING
 
+#### 5.6. Herramientas de la base de datos para optimizar consultas
+
+Cuando vayamos a desarrollar una base de datos es fundamental conocer qué finalidad va a tener, organizar toda la información de la que dispongamos, establecer las relaciones entre las diferentes tablas que sean necesarias y, por último, normalizarla. Así conseguiremos que la información no esté duplicada y podremos desarrollar una metodología eficiente para la información.
+
+Una vez diseñada, la optimizaremos siguiendo esta serie de pautas:
+
+- Eliminar las tablas que hemos creado previamente y que no se utilicen.
+- Optimizar los índices de las tablas para asegurarnos de su correcto funcionamiento.
+- No dejar consultas abiertas, ya que nos ralentizarían el trabajo.
+- Evitar almacenar imágenes en la base de datos. Es recomendable referenciar la ruta.
+- Utilizar nombres simples en claves y campos de las tablas para facilitar el trabajo.
+
+### 6. Estrategias para el control de las transacciones y la concurrencia
+
+#### 6.1. Integridad
+
 ## Bibliografía
