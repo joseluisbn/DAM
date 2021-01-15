@@ -437,4 +437,31 @@ SELECT columna1, columna2
 FROM nombre_tabla;
 ```
 
+La sentencia SELECT FROM posee varias cláusulas posibles que podemos agregar para añadir ciertas restricciones. Por ejemplo, podemos pedir que únicamente muestre los registros de una tabla que cumpliesen una condición o determinados atributos por cada registro.
+
+En la primera parte de la sentencia (SELECT) debemos indicar el nombre de los campos de los que deseamos obtener información. En la parte del FROM introduciremos el nombre de la tabla que interviene en la consulta. Así, los atributos o campos que hayamos indicado en el SELECT deben pertenecer a la tabla que indiquemos en el FROM.
+
+Por ejemplo, en la tabla videojuegos:
+
+| id | titulo | plataforma |
+|:------:|--------|--------|
+| 1 |*God of War*| PS4 |
+| 2 |*Quantum Break*| Xbox One |
+| 3 |*The Last of Us Part II*| PS4|
+| 4 |*Astral Chain*| Nintendo Switch |
+
+Para obtener toda la infomación de la tabla (todos los registros) utilizaríamos la siguiente sentencia:
+
+```sql
+SELECT * FROM videojuegos;
+```
+
+Si quisiéramos mostrar solo las plataformas:
+
+```sql
+SELECT plataforma
+FROM videojuegos;
+```
+
+
 ## Bibliografía
