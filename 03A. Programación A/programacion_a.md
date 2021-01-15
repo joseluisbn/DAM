@@ -570,10 +570,10 @@ Return expresión ; //En caso de que devuelva algo.
 Vemos paso a paso el significado de cada parte de la función:
 
 - **Modificadores**: conjunto de palabras reservadas que modifican o aplican propiedades sobre la función. Las más comunes con los modificadores de acceso: *Public*, *Private*, *Protected*, *Internal*:
-# ***Public***: el acceso no está restringido.
-# ***Private***: el acceso está limitado a la misma clase.
-# ***Protected***: el acceso está limitado a la clase contenedora o a los tipos derivados de la clase contenedora.
-# ***Internal***: el acceso no está restringido, siempre y cuando sea dentro del mismo ensamblado. Un ensamblado es un conjunto de tipos que se compilan para obtener una misma solución. Si no indicamos un modificador, por defecto, nuestros métodos tendrán un nivel de accesibilidad *internal*.
+ - ***Public***: el acceso no está restringido.
+ - ***Private***: el acceso está limitado a la misma clase.
+ - ***Protected***: el acceso está limitado a la clase contenedora o a los tipos derivados de la clase contenedora.
+ - ***Internal***: el acceso no está restringido, siempre y cuando sea dentro del mismo ensamblado. Un ensamblado es un conjunto de tipos que se compilan para obtener una misma solución. Si no indicamos un modificador, por defecto, nuestros métodos tendrán un nivel de accesibilidad *internal*.
 
 - **Tipos y funcionamiento**
  - **Tipo**: las funciones, al igual que ocurría con las variables, poseen un tipo, es decir, el dato que devuelven es de un tipo determinado. Se puede dar el caso en el que una función no devuelva nada. En este caso, decimos que la función es de tipo *void* (vacío).
