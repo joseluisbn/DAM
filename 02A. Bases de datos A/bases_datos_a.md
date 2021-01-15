@@ -497,7 +497,7 @@ Podemos combinar la consulta anterior añadiendo una restricción y que sus valo
 SELECT columna1, columna2, etc.
 FROM nombre_tabla
 WHERE condición
-ORDER BY columna1, columna2 DESC
+ORDER BY columna1, columna2 DESC;
 ```
 
 ***Introducir ejemplos***
@@ -519,7 +519,7 @@ La sentencia sería:
 SELECT columna1, funcion_agregacion(nombre_columna)
 FROM nombre_tabla
 WHERE condición
-GROUP BY nombre_columna
+GROUP BY nombre_columna;
 ```
 
 ***Insertar ejemplo***
