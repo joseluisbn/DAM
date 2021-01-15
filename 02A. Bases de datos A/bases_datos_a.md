@@ -392,8 +392,40 @@ Obtendremos pues una actualización del campo *artista* cuyo id tiene como valor
 
 | id | album | artista |
 |:------:|--------|--------|
-| 1 |El espíritu del vino| Héroes del silencio |
-| 2 |De pata negra| Melody |
-| 3 |Iowa| Slipknot|
+| 1 |*El espíritu del vino*| Héroes del silencio |
+| 2 |*De pata negra*| Melody |
+| 3 |*Iowa*| Slipknot|
+
+##### Sentencias de eliminación
+
+Se utiliza DELETE FROM para suprimir registros de una tabla que cumplan una determinada condición. Como comentábamos anteriormente, si omitimos u olvidamos la cláusula WHERE se borrarán todas las tuplas de la tabla.
+
+```sql
+DELETE FROM nombre_tabla
+WHERE condición;
+```
+
+Por ejemplo, si tenemos la siguiente tabla (libros):
+
+| id | titulo | autor |
+|:------:|--------|--------|
+| 1 |*El problema de los tres cuerpos*| Cixin Liu |
+| 2 |*Arañas de Marte*| Guillem López |
+| 3 |*Crepúsculo*| Stephenie Meyer|
+
+Supongamos que queremos eliminar el registro con id 3, escribiríamos la sentencia:
+
+```sql
+DELETE FROM libros
+WHERE id = 3;
+```
+
+Si olvidásemos la cláusula WHERE, no sólo estaríamos eliminando *Crepúsculo* de nuestra tabla, sino que la eliminaríamos por completo. Existe un videotutorial sobre ello: https://www.youtube.com/watch?v=i_cVJgIz_Cs
+
+También disponemos del comando TRUNCATE, que nos permite eliminar todos los registros de una tabla de manera más eficiente:
+
+```sql
+TRUNCATE nombre_tabla
+```
 
 ## Bibliografía
