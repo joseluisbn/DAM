@@ -675,6 +675,8 @@ Las técnicas que se pueden utilizar para evitar este tipo de problemas son:
 - Técnicas pesimistas.
   - Técnicas de bloqueo (*locks*):
   - Técnicas de marcas de tiempo (*time-stamping*):
-- Técnicas opministas.
+- Técnicas optimistas.
+
+#### 6.8. Recuperación ante errores. Mecanismos para deshacer transacciones
 
 ## Bibliografía
