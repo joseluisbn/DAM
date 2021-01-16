@@ -664,6 +664,17 @@ Existen tres tipos de problemas de concurrencia:
 
 #### 6.7. Control de concurrencia. Técnicas optimistas y pesimistas
 
+Una de los principales problemas que producen las transacciones es que se solicite acceso a un mismo dato desde dos lugares diferentes. En estas circunstancias, se necesita un control de concurrencia para solucionarlo.
 
+El **planificador** es el encargado de realizar diferentes esquemas para que las transacciones no se solapen entre ellas.
+
+Es conveniente que el planificador no realice ningún cambio en el sistema, tanto si las transacciones se ejecutan de forma concurrente o si lo hacen una detrás de otra.
+
+Las técnicas que se pueden utilizar para evitar este tipo de problemas son:
+
+- Técnicas pesimistas.
+  - Técnicas de bloqueo (*locks*):
+  - Técnicas de marcas de tiempo (*time-stamping*):
+- Técnicas opministas.
 
 ## Bibliografía
