@@ -617,5 +617,23 @@ Hay otras reglas de integridad que debemos controlar si nos encontramos con viol
 - **Reglas de integridad de dominios**: si se le asigna un valor a un atributo sin saber la relación que tiene con los demás que forman la base de datos.
 - **Reglas de integridad de relaciones**: cuando se admite una tupla dada para ser insertada o bien cuando se van a relacionar varias tuplas.
 
+#### 6.2. Transacciones
+
+Una **transacción** es un conjunto de diferentes acciones capaces de realizar transformaciones sobre los estados de un sistema conservando su integridad. Puede ser cualquier tipo de operación atómica que se realice con éxito.
+
+Las acciones que se realizan en una transacción, aunque puedan estar relacionadas, son independientes entre ellas. El primer paso de una transacción es su apertura, seguido de la ejecución de las acciones de forma correcta y por último la confirmación y cierre de la transacción.
+
+Si se observa algún tipo de error en ellas, la transacción se deshace. De este modo siempre se tiene en cuenta la integridad de los datos.
+
+***Añadir ejemplo***
+
+#### 6.3. Propiedades de las transacciones. Atomicidad, consistencia, aislamiento y permanencia
+
+Las propiedades de las transacciones son:
+
+- **Atomicidad** (*atomicity*): actúan de forma atómica. Si no se ejecutan todas las sentencias de la transacción con éxito (modificación, agregación o borrado), no se ejecutará ninguna.
+- **Consistencia** (*consistency*): cuando se ejecuta la transacción el sistema debe pasar de un estado consistente a otro que también lo sea, pese a los cambios que se han realizado.
+- **Aislamiento** (*isolation*): cada transacción debe ejecutarse de modo que no afecte al resto de las transacciones. Así nos aseguraremos de que si dos transacciones modifican o tratan de modificar el mismo dato, primero se ejecuta una y después la otra.
+- **Permanencia** (*durability*): todos los cambios que se hayan producido cuando se realiza una transacción no se pierden. sino que permanecen.
 
 ## Bibliografía
