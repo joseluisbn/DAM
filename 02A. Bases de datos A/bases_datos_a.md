@@ -636,4 +636,34 @@ Las propiedades de las transacciones son:
 - **Aislamiento** (*isolation*): cada transacción debe ejecutarse de modo que no afecte al resto de las transacciones. Así nos aseguraremos de que si dos transacciones modifican o tratan de modificar el mismo dato, primero se ejecuta una y después la otra.
 - **Permanencia** (*durability*): todos los cambios que se hayan producido cuando se realiza una transacción no se pierden. sino que permanecen.
 
+#### 6.4. Estados de las transacciones. Activa, parcialmente comprometida, fallida, abortada y comprometida
+
+***Insertar diagrama***
+
+#### 6.5. Sentencias de transacciones
+
+Una transacción empieza con el comando BEGIN o START TRANSACTION y puede acabar en COMMIT (para confirmar la transacción) o ROLLBACK (para deshacer los cambios realizados desde el comienzo de la transacción).
+
+```sql
+START TRANSACTION
+UPDATE nombre_tabla SET columna1 = "datos" WHERE columna2 = "datos";
+COMMIT;
+```
+
+Si en vez de finalizar la transacción con COMMIT la hubiésemos finalizado con ROLLBACK, no se habría producido ningún cambio en la tabla.
+
+6.6. Problemas derivados de la ejecución concurrente de las transacciones
+
+Cuando dos transacciones tratan de acceder al mismo dato simultáneamente, se produce un problema de concurrencia.
+
+Existen tres tipos de problemas de concurrencia:
+
+- Dirty read (lectura sucia): cuando una transacción consulta datos escritos de otra que aún no ha sido confirmada.
+- Non Repeatable Read (lectura irrepetible): cuando una transacción vuelve a hacer una lectura de unos datos que ya había leído y comprueba que han sido modificados en alguna transacción.
+- Phantom Read (lectura fantasma): cuando una transacción realiza una consulta y detecta datos que antes eran inexistentes. Alguna transacción los ha insertado.
+
+#### 6.7. Control de concurrencia. Técnicas optimistas y pesimistas
+
+
+
 ## Bibliografía
