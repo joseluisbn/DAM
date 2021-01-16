@@ -598,6 +598,24 @@ El atributo *marca* de la tabla *modelos* es una clave ajena al id de la tabla *
 | 33 | X6 | 13 |
 | 44 | 306 | 14 |
 
-Si borrasemos de la tabla marcas el registro de Audi, en la tabla de modelos nos quedaría un registro el modelo A6, que ya no existe en la tabla de marcas. Esto nos provocaría un fallo de integridad.
+Si borrásemos de la tabla marcas el registro de Audi, en la tabla de modelos nos quedaría un registro el modelo A6, que ya no existe en la tabla de marcas. Esto nos provocaría un fallo de integridad.
+
+A la hora de diseñar una base de datos podrían existir claves secundarias podría haber claves secundarias que refieran a una clave principal que ya no está. Con el lenguaje DDL se pueden aplicar una serie de opciones que se añaden detrás de la cláusula REFERENCES:
+
+- **ON DELETE SET NULL**: si en la tabla principal se elimina un registro, se asignarán valores nulos a las claves ajenas de otra tabla que estuvieran referenciando al registro de la tabla principal que se ha borrado.
+- **ON UPDATE SET NULL**: si se modifica la clave principal en una tabla principal, se asignarán valores nulos a las claves ajenas de otra tabla que estuvieran referenciando el registro de la tabla principal que se ha modificado.
+- **ON DELETE CASCADE**: si eliminamos un registro en la tabla principal también eliminaremos los registros de otras tablas que tuviesen una clave ajena referenciando al mismo registro de la principal que se ha eliminado.
+- **ON UPDATE CASCADE**: si modificamos un registro en la tabla principal, también modificaremos todos los registros de otras tablas que tuviesen una clave ajena referenciando al mismo registro de la clave principal que se ha modificado.
+- **ON DELETE SET DEFAULT**: si eliminamos un registro en la tabla principal se asignará un valor por defecto en aquellas claves ajenas de otras tablas que estuvieran referenciando el registro de la tabla principal que se acaba de borrar.
+- **ON UPDATE SET DEFAULT**: si modificamos un registro en la tabla principal se asignará un valor por defecto en aquellas claves ajenas de otras tablas que estuvieran referenciando el registro de la tabla principal que se acaba de borrar.
+- **ON DELETE NO ACTION**: impide la eliminación de la clave primaria si esta tuviera claves ajenas referenciándola con esta restricción.
+- **ON UPDATE NO ACTION**: impide la modificación de la clave primaria si esta tuviera claves ajenas referenciándola con esta restricción.
+
+Como aclaración, en MySQL, tanto NO ACTION como RESTRICT son equivalentes.
+
+Hay otras reglas de integridad que debemos controlar si nos encontramos con violaciones de la integridad:
+- **Reglas de integridad de dominios**: si se le asigna un valor a un atributo sin saber la relación que tiene con los demás que forman la base de datos.
+- **Reglas de integridad de relaciones**: cuando se admite una tupla dada para ser insertada o bien cuando se van a relacionar varias tuplas.
+
 
 ## Bibliografía
