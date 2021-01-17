@@ -728,4 +728,27 @@ CREATE [OR REPLACE] [FORCE/NO FORCE] VIEW nombre_vista
 
 ***Añadir ejemplos***
 
+En función de las operaciones de las vistas, se pueden diferenciar dos tipos:
+
+- **Solo lectura**: no se puede modificar la información.
+- **Actualizable**: se pueden realizar acciones de inserción, modificación o eliminación de los datos contenidos en las tablas que usa la vista. Para ello se requiere tener los permisos necesarios.
+
+**Propiedades de las vistas**
+
+- Pueden simplificar la información que hay en una o varias tablas, puesto que muestra un subconjunto de información.
+- Pueden añadir información que no existe en las tablas, como sumas, restas, medias aritméticas, etc.
+- Ocupan muy poco espacio, ya que no almacena la información resultante de la vista, sino que se almacen la estructura de la vista.
+
+**Borrado de una vista**
+
+```sql
+DROP VIEW [IF EXISTS] nombre_vista;
+```
+
+Por ejemplo:
+
+```sql
+DROP VIEW programas_telecinco;
+```
+
 ## Bibliografía
