@@ -753,7 +753,14 @@ DROP VIEW programas_telecinco;
 
 **Tipos de restricciones**
 
-- Restricciones de clave principal:
-- Restricciones de clave externa:
+- Restricciones **de clave principal**: la restricción de clave principal, cuando interviene más de una columna, puede que se encuentre con estos valores duplicados en una misma columna, así que, para cada combinación de valores, debemos definir esta restricción de clave principal.
+  - La restricción de clave principal solo va incluida en una tabla.
+  - La clave principal debe ser menor a dieciséis columnas (longitud máxima).
+  - El índice que genera la restricción de clave principal debe estar entre 1 y 999.
+  - Las columnas generadas con la restricción de clave principal deben ser asignadas con valores nulos.
+- Restricciones **de clave externa**: hacen referencia a una o varias columnas que van a ser utilizadas para crear diferentes vínculos entre las distintas tablas. La intención es que estos puedan ser almacenados en una tabla de clave externa. Para que se cree un vínculo entre dos tablas, una columna de las tablas debe hacer referencia a otra columna que actúa como clave principal de la otra.
+  - Solo admite operacines de DETELE cuando tiene más de 253 referencias de clave.
+  - Cuando una tabla se referencia a sí misma sigue teniendo 253 referencias de clave.
+  - No hay más de 253 referencias posibles.
 
 ## Bibliografía
