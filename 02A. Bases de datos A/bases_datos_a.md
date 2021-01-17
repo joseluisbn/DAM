@@ -679,4 +679,29 @@ Las técnicas que se pueden utilizar para evitar este tipo de problemas son:
 
 #### 6.8. Recuperación ante errores. Mecanismos para deshacer transacciones
 
+Hay varios tipos de errores:
+
+- Fallo informático.
+- Error del sistema o transacción (división entre cero, errores de parámetro, de programación, etc.).
+- Errores locales (datos que no se encuentran en una transacción, saldo infuficiente, etc.).
+- Control de concurrencia (transacciones que no continúan para asegurar la serializabilidad).
+- Fallo del disco (lectura o escritura).
+- Problemas físico.
+
+En esencia, podrían agrugarse esos fallos en dos bloques:
+
+- Los que pierden contenido de la memoria estable, como los discos.
+- Los que pierden contenido de la memoria volátil (memoria principal).
+
+El **mecanismo de recuperación** que tomemos ante cualquier error va a ser encargado de restablecer la base de datos al su estado anterior al fallo. Dicho mecanismo, además, debe reducir el tiempo de uso de la base de datos una vez que haya habido un error.
+
+Hay varios tipos de **estrategias de recuperación**:
+
+- Cuando se daña una parte de la base de datos, se puede restaurar una copia previa al fallo y reconstruir un nuevo estado volviendo a realizar las operaciones que ya están almacenadas.
+- Cuando la base no parece dañada, pero no responde, se pueden realizar las operaciones que nos han conducido a ese estado, siguiendo un orden inverso. Así podremos comprobar qué acción es la que ha causado el error.
+
+### Lenguajes de las BBDD para la creación de su estructura
+
+#### 7.1. Vistas y otras extensiones del lenguaje
+
 ## Bibliografía
