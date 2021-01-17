@@ -751,4 +751,9 @@ Por ejemplo:
 DROP VIEW programas_telecinco;
 ```
 
+**Tipos de restricciones**
+
+- Restricciones de clave principal:
+- Restricciones de clave externa:
+
 ## Bibliografía
