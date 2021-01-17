@@ -882,7 +882,7 @@ return res;
 }
 ```
 
-Como una función solo puede hacer un return, guardamos el valor del resultado en res si entramos en la primera condición o si vamos a utilizar la segunda. Almacenamos el valor correspondiente en la variable res y, al final, hacemos un return con el valor que devuelve.
+Como una función solo puede hacer un *return*, guardamos el valor del resultado en res si entramos en la primera condición o si vamos a utilizar la segunda. Almacenamos el valor correspondiente en la variable res y, al final, hacemos un return con el valor que devuelve.
 
 Es importante contemplar la divición por cero. En caso de que se pretenta dividir este valor, devulveremos "0.0f" porque es un tipo float.
 
