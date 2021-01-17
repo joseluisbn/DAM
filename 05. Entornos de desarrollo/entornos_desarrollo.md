@@ -335,13 +335,13 @@ Deberá colocarse antes de la declaracion de una clase, un campo, un método o c
 
 Las etiquetas de Javadoc van precedidas por @ y las más utilizadas son:
 
-- @author: autor de la clase. Solo para clases.
-- @version: versión de la clase. Solo para clases.
-- @see: referencia a otra clase.
-- @param: descripción del parámetro. Una etiqueta por cada parámetro.
-- @return: descripción de lo que se devuelve. Solo si no es void.
-- @throws: descripción de la excepción que se puede propagar. Habrá una etiqueta throws por cada tipo de excepción.
-- @since: número de la versión de la que existe el método.
+- **@author**: autor de la clase. Solo para clases.
+- **@version**: versión de la clase. Solo para clases.
+- **@see**: referencia a otra clase.
+- **@param**: descripción del parámetro. Una etiqueta por cada parámetro.
+- **@return**: descripción de lo que se devuelve. Solo si no es void.
+- **@throws**: descripción de la excepción que se puede propagar. Habrá una etiqueta throws por cada tipo de excepción.
+- **@since**: número de la versión de la que existe el método.
 
 **Generar la documentación**
 
