@@ -713,10 +713,10 @@ CREATE [OR REPLACE] [FORCE/NO FORCE] VIEW nombre_vista
 [WITH READ ONLY [CONTRAINT restricción]];
 ```
 
-- OR REPLACE: se utiliza si la vista ya existe (la sustituye por la actual).
-- FORCE: crea la vista aunque no disponga de los datos necesarios para realizar la consulta.
-- lista_columnas: listado de columnas que devuelve la consulta.
-- WITH CHECK OPTION: ofrece la posibilidad de añadir (INSERT) o modificar (UPDATE) las filas a visualizar.
-- WITH READ ONLY: vista de solo lectura con opción de asignarle un nombre.
+- **OR REPLACE**: se utiliza si la vista ya existe (la sustituye por la actual).
+- **FORCE**: crea la vista aunque no disponga de los datos necesarios para realizar la consulta.
+- **lista_columnas**: listado de columnas que devuelve la consulta.
+- **WITH CHECK OPTION**: ofrece la posibilidad de añadir (INSERT) o modificar (UPDATE) las filas a visualizar.
+- **WITH READ ONLY**: vista de solo lectura con opción de asignarle un nombre.
 
 ## Bibliografía
