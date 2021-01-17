@@ -9,7 +9,7 @@ namespace FuncionSimple
             int a = 15;
             int b = 54;
 
-            // creamos una variable (aunque no es necesario) para realizar la llamada a la función
+            //Creamos una variable (aunque no es necesario) para realizar la llamada a la función
 
             int final = suma(a, b);
 
