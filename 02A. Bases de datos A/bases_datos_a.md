@@ -762,7 +762,7 @@ DROP VIEW programas_telecinco;
   
 - Restricciones **de clave externa**: hacen referencia a una o varias columnas que van a ser utilizadas para crear diferentes vínculos entre las distintas tablas. La intención es que estos puedan ser almacenados en una tabla de clave externa. Para que se cree un vínculo entre dos tablas, una columna de las tablas debe hacer referencia a otra columna que actúa como clave principal de la otra.
 
-  - Solo admite operacines de DETELE cuando tiene más de 253 referencias de clave.
+  - Solo admite operaciones de DELETE cuando tiene más de 253 referencias de clave.
   - Cuando una tabla se referencia a sí misma sigue teniendo 253 referencias de clave.
   - No hay más de 253 referencias posibles.
 
