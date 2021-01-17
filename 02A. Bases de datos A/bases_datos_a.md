@@ -704,4 +704,13 @@ Hay varios tipos de **estrategias de recuperación**:
 
 #### 7.1. Vistas y otras extensiones del lenguaje
 
+Una **vista** es una consulta preestablecida sobre una o varias tablas. No forman parte del esquema físico de la base de datos, sino que son tablas virtuales. Si una vista ya creada está basada en unas tablas y la información es modificada, la siguiente vez que se invoque esa vista la información también estará actualizada. Esto quiere decir que las vistas no almacenan información de las tablas, sino que guarda la estructura de la propia vista, que es una consulta.
+
+```sql
+CREATE [OR REPLACE] [FORCE/NO FORCE] VIEW nombre_vista
+[lista_columnas] AS sentencia_select
+[WITH CHECK OPTION [CONSTRAINT restricción]]
+[WITH READ ONLY [CONTRAINT restricción]];
+```
+
 ## Bibliografía
