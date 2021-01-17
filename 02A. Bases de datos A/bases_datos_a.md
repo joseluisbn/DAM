@@ -719,4 +719,13 @@ CREATE [OR REPLACE] [FORCE/NO FORCE] VIEW nombre_vista
 - **WITH CHECK OPTION**: ofrece la posibilidad de añadir (INSERT) o modificar (UPDATE) las filas a visualizar.
 - **WITH READ ONLY**: vista de solo lectura con opción de asignarle un nombre.
 
+***Añadir ejemplos***
+
+**Tipos de vistas**
+
+- **Simples**: están formadas por una única tabla y no tienen ninguna función de agrupación. Además, permiten operaciones DML.
+- **Complejas**: están formadas por varias tablas y utilizan funciones de agrupación. No permiten operaciones DML.
+
+***Añadir ejemplos***
+
 ## Bibliografía
