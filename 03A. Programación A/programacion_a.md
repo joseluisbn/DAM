@@ -1040,7 +1040,7 @@ con el número inicial. */
 
 #### 1.10. Introducción al concepto de recursividad
 
-Cuando trabajamos con funciones podemos definir la recursividad como la llamada de una función a sí misma hasta que cumpla una determinada condición de salida.
+Cuando trabajamos con funciones podemos definir la **recursividad** como la llamada de una función a sí misma hasta que cumpla una determinada condición de salida.
 
 Sintaxis:
 
@@ -1051,7 +1051,8 @@ nombre_funcion(var1, …, var2)
 …
 }
 ```
-Podemos diferenciar entre dos tipos de recursividad
+Podemos diferenciar entre dos tipos de recursividad:
+
 - **Directa**: cuando la función hace la llamada a sí misma desde un punto específico de su código (entre las llaves que la delimitan).
 - **Indirecta**: cuando la función hace la llamada a otra función y es ésta quien llama a la primera.
 
@@ -1083,11 +1084,13 @@ Debemos encontrar uno que finalice el programa. En este caso siempre tenemos que
 Debemos encontrar uno que sirva para todos los números. Debe ir haciéndose cada vez más pequeño hasta que consiga llegar al caso base que es el factorial de 1.
 
 Si nos fijamos en el ejemplo que hemos puesto:
+
 “3!=3*2*1
 4!=4*3*2*1
 5!=5*4*3*2*1”
 
 Podemos apreciar lo siguiente:
+
 “3!=3*2*1
 4!=4*3!
 5!=5*4!
