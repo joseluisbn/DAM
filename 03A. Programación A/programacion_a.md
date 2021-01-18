@@ -82,7 +82,7 @@ void main(){
 }
 ```
 
-Toda clase que vaya a ser ejecutada debe contener la función **Main**. Una función es un trozo de código al que se le domina con un nombre, de forma que cada vez que queramos ejecutar ese código solo tendremos que indicar el nombre de la función.
+Toda clase que vaya a ser ejecutada debe contener la función **Main**. Una **función** es un trozo de código al que se le domina con un nombre, de forma que cada vez que queramos ejecutar ese código solo tendremos que indicar el nombre de la función.
 
 La función main no tiene ningún argumento y no devuelve parámetro. Las “{}” delimitan el bloque en C#. Todos los programas van a tener una función *main()* que se va a ejecutar al principio.
 
@@ -150,7 +150,7 @@ En este caso estamos definiendo una variable de tipo entero denominada “num”
 
 Definimos una variable de tipo entero, denominada “num” y le asignamos el valor de 5.
 
-Cuando definimos una variable, es importante que sepamos cuánto espacio nos va a ocupar para intentar seleccionar qué tipo de variable es la más adecuada.
+Cuando definimos una variable, es importante que sepamos cuánto espacio nos va a ocupar para intentar seleccionar qué tipo de variable es el más adecuado.
 
 Podemos encontrar dos tipos de variables diferentes: globales y locales.
 - **Local**: si está definida dentro de un bloque.
