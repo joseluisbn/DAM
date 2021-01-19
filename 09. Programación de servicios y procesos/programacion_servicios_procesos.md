@@ -42,8 +42,8 @@ Para conseguir esta confidencialidad, es necesario transformar el mensaje median
 
 Antes de conocer los distintos algoritmos que existen, es necesario conocer algunos conceptos importantes:
 
-- Texto legible: es el mensaje original.
-- Texto cifrado: es el resultado de aplicar uno de los siguientes algoritmos sobre un texto legible.
+- **Texto legible**: es el mensaje original.
+- **Texto cifrado**: es el resultado de aplicar uno de los siguientes algoritmos sobre un texto legible.
 
 Existen diferentes tipos de algoritmos:
 
