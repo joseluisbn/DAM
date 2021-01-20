@@ -53,4 +53,4 @@ Cifrado en el que se realiza una sustitución de cada letra por otra. El desplaz
 
 **Funciones hash o funciones de una sola vía**
 
-Una función **hash** en una función que, dada cualquier cadena de caracteres, los convierte en otra cadena de longitud fija.
+Una función ***hash*** en una función que, dada cualquier cadena de caracteres, los convierte en otra cadena de longitud fija.
