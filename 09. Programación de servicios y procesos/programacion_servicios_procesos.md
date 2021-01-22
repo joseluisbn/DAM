@@ -62,4 +62,20 @@ Una función ***hash*** en una función que, dada cualquier cadena de caracteres
 - **MD5**: genera resúmenes de 128 bits (32 símbolos hexadecimales). Se utiliza generalmente para proteger al usuario de troyanos o cualquier otro software malicioso. Generalmente, cuando se descarga un software, se utiliza una aplicación externa que, mediante este algorito, genera un *hash* del instalador. Si coincide con el que ofrece el propio desarrollador, este no habrá sido alterado.
 - **SHA-1**: genera resúmenes de 160 bits (40 símbolos hexadecimales). Ya no se considera un algoritmo seguro, aunque se a actualizado a versiones posteriores como SHA-2, con diferentes longitudes en los resúmenes.
 
-**Algoritmos de clave secreta o criptografía simétrica**
+**Algoritmos de clave secreta o criptografía simétrica:**
+
+En esta clase de algoritmos, tanto el emisor como el receptor comparten una única clave. El mensaje se cifra y se descifra con esa clave única.
+
+- **DES**: utiliza una clave de 56 bits, por lo que no se considera seguro. Cifra bloques de datos de 64 bits con la clave de 56, y después de varias iteraciones muestra 64 bits de salida.
+- **Triple DES**: es el mismo algoritmo que DES, pero debido a la necesidad de aumentar su seguridad, se aumentó la clave a 112 bits, aunque sigue cifrando bloques de 64 bits.
+- **AES**: como DES y Triple DES, es un algoritmo cifrador de bloques, en este caso, de 128 bits. La diferencia se encuentra en el tamaño de la clave, que puede ser de 128, 192 y 256 bits.
+
+**Algoritmos de clave pública o de criptografía asimétrica:**
+
+En este tipo de algoritmos se generan dos claves (clave pública y clave privada). El receptor genera estas claves y muestra la clave pública al emisor. El emisor utiliza esta clave para descifrar el mensaje y, posteriormente, el receptor utilizará la clave privada para desencriptarlo.
+
+- **RSA**: la seguridad de este algoritmo radica en el problema de la factorización de números enteros. Tanto la clave pública como la privada se componen de un par de números:
+  - Pública (n, e).
+  - Privada (n, d).
+ 
+Estos números son hallados mediante operaciones a partir de dos números primos, escogidos de forma aleatoria. Hay que tener en cuenta que es imposible conocer d, aunque conozcamos n y e. Este algoritmo es la base de la **firma digital**.
