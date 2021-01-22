@@ -6,7 +6,7 @@
 
 #### 1.1. Prácticas de programación segura
 
-A la hora de desarrollar programas, un código limpio aportará seguridad a la aplicación.
+A la hora de desarrollar programas, un **código limpio** aportará seguridad a la aplicación.
 
 Para ello es preciso:
 
@@ -59,4 +59,7 @@ Una función ***hash*** en una función que, dada cualquier cadena de caracteres
 
 **Algoritmos de función de *Hash*** o funciones de una sola vía:
 
-- **MD5: 
+- **MD5**: genera resúmenes de 128 bits (32 símbolos hexadecimales). Se utiliza generalmente para proteger al usuario de troyanos o cualquier otro software malicioso. Generalmente, cuando se descarga un software, se utiliza una aplicación externa que, mediante este algorito, genera un *hash* del instalador. Si coincide con el que ofrece el propio desarrollador, este no habrá sido alterado.
+- **SHA-1**: genera resúmenes de 160 bits (40 símbolos hexadecimales). Ya no se considera un algoritmo seguro, aunque se a actualizado a versiones posteriores como SHA-2, con diferentes longitudes en los resúmenes.
+
+**Algoritmos de clave secreta o criptografía simétrica**
