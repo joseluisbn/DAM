@@ -85,7 +85,7 @@ Diseñar un componente reutilizable requiere gran esfuerzo y atención, ya que d
 
 Además de los elementos, contenedores y métodos, los eventos son otra de las herramientas básicas para la implementación de las interfaces gráficas. La interactividad y la respuesta ante una entrada del usuario es posible gracias a los eventos y las acciones que se implementan cuando algunos de ellos ocurren.
 
-Un evento es una acción que puede realizar un usuario cuando interactúa sobre un componente de la aplicación.
+Un **evento** es una acción que puede realizar un usuario cuando interactúa sobre un componente de la aplicación.
 
 A la hora de diseñar un programa con eventos, es necesario definirlos junto con las acciones que realizarán al interactuar con cada uno de ellos, esta acción es conocida como administrador de eventos.
 
@@ -109,7 +109,7 @@ While (true) {
  }
  ```
  
-Un escuchador de eventos (event listener) es un mecanismo asíncrono ante ciertas circunstancias que ocurren en clases diferentes a la nuestra. Se utiliza, por ejemplo, para detectar si un botón ha sido pulsado.
+Un **escuchador** de eventos (*event listener*) es un mecanismo asíncrono ante ciertas circunstancias que ocurren en clases diferentes a la nuestra. Se utiliza, por ejemplo, para detectar si un botón ha sido pulsado.
 
 Para usar un escuchador de eventos, se tienen que seguir tres pasos:
 - Implementar la interfaz del escuchador.
@@ -128,9 +128,9 @@ En la siguiente imagen es posible ver la vista de diseño a la que podemos arras
 
 ## 1.6. Clases, propiedades, métodos
 
-Una clase es una plantilla que se utiliza para crear objetos de datos según un modelo predefinido. Las clases son utilizadas para representar entidades o conceptos. Cada clase es un modelo que define un conjunto de variables (el estado) y métodos que permiten operar con dichos datos (comportamiento).
+Una **clase** es una plantilla que se utiliza para crear objetos de datos según un modelo predefinido. Las clases son utilizadas para representar entidades o conceptos. Cada clase es un modelo que define un conjunto de variables (el estado) y métodos que permiten operar con dichos datos (comportamiento).
 
-Un objeto creado a partir de la clase se denomina instancia de la clase.
+Un objeto creado a partir de la clase se denomina **instancia** de la clase.
 
 Las clases nos permiten abstraer los datos y sus operaciones a modo de una caja negra. Una clase puede tener una representación (metaobjeto) que proporciona apoyo en tiempo de ejecución para la manipulación de los metadatos relacionados con la clase.
 
