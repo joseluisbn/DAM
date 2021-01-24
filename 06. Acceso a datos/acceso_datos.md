@@ -35,7 +35,7 @@ Existen dos tipos importantes de rutas que nos serán muy útiles en la gestión
 - **Ruta absoluta**: se conoce como la ruta desde la carpeta padre: *C:\datos\ejemplo.txt*
 - **Ruta relativa**: es aquella que coge como referencia el directorio actual para dar la ruta. La diferencia entre la ruta absoluta y la relativa es que no se indica la carpeta padre u origen y solo se da la guía desde la carpeta actual. Se indica con un punto, una barra y el nombre de los diferentes directorios separados por barras. Teniendo en cuenta que la carpeta actual sea accesoDatos, veamos este ejemplo: *./datos/ejemplo.txt*
 
-La **extensión** del archivo nos permitirá diferenciar qué programa puede utilizar ese fichero. Se considera extensión todo lo que podemos encontrar después del punto que ponemos al final de nombre. Veamos el ejemplo:
+La **extensión** del archivo nos permitirá diferenciar qué programa puede utilizar ese fichero. Se considera extensión todo lo que podemos encontrar después del punto que ponemos al final de nombre. Por ejemplo:
 
 - ejemplo.txt
 - ejemplo.docx
@@ -50,9 +50,9 @@ bytes de los ordenadores y los caracteres en el conjunto de caracteres. Sin la c
 
 W®ûYr|¢Kt8 J¡ÐŸ [êLUC&ÈÙ ÎŠ…™ Éâæj Æ %hªò «  ’ƒF<j    IDATx^Ì½gœUEÒ8
 
-Este sería un ejemplo de mala interpretación de un encoding. Los caracteres no son legibles y no podemos interpretar la información.
+Este sería un ejemplo de mala interpretación de un *encoding*. Los caracteres no son legibles y no podemos interpretar la información.
 
-Se denomina encoding al sistema utilizado para transformar los caracteres que usa cada lenguaje en un símbolo que un ordenador pueda interpretar.
+Se denomina ***encoding*** al sistema utilizado para transformar los caracteres que usa cada lenguaje en un símbolo que un ordenador pueda interpretar.
 
 La codificación de caracteres asigna los caracteres escogidos a bytes específicos en la memoria del ordenador, y luego, para mostrar el texto, lee los bytes nuevamente en caracteres. Principalmente, se basa en crear tablas de equivalencias entre caracteres de
 lenguaje entendible por las personas con su correspondencia al lenguaje que usa un sistema informático.
