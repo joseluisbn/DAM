@@ -30,7 +30,7 @@ Son las distintas interpretaciones que se pueden hacer de un mismo documento. De
 
 **Especialización**
 
-Con la especialización nos referimos a que, con el paso de los años, han ido evolucionando, de tal manera que, podemos hacer uso de los lenguajes de marcas en un gran número de áreas, como pueden ser los gráficos vectoriales, notación científica, interfaces de usuario, etc.
+Con la **especialización** nos referimos a que, con el paso de los años, han ido evolucionando de tal manera que podemos hacer uso de los lenguajes de marcas en un gran número de áreas, como pueden ser los gráficos vectoriales, notación científica, interfaces de usuario, etc.
 
 **Flexibilidad**
 
