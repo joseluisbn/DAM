@@ -40,7 +40,7 @@ La **extensión** del archivo nos permitirá diferenciar qué programa puede uti
 - ejemplo.txt
 - ejemplo.docx
 
-El fichero se guardará según la codificación del dispositivo que estemos usando.
+El fichero se guardará según la **codificación** del dispositivo que estemos usando.
 
 Los archivos que trataremos, en muchas ocasiones, contendrán información de texto o caracteres. Cada lengua utiliza un tipo de carácter distinto de otra, por ejemplo, el ruso utiliza un abecedario diferente que el español, por lo que usará caracteres distintos. Los
 caracteres se almacenan en nuestro ordenador como uno o más bytes.
