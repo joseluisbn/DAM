@@ -26,7 +26,7 @@ Si las empresas van a desarrollar actividades como la generación, manejo y aná
 
 **ERP**
 
-ERP (*Enterprise Resource Planning*): sistema de planificación de recursos empresariales.
+**ERP** (*Enterprise Resource Planning*): sistema de planificación de recursos empresariales.
 
 Este sistema se basa en la planificación, modelado y automatización de un gran número de procesos de una determinada empresa, como pueden ser el área de finanzas, comercial, logística, producción, contabilidad, etc.
 
