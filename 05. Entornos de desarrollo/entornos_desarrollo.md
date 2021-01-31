@@ -14,7 +14,7 @@ Podemos dividir el software en dos categorías: según las tareas que realiza y 
 
 #### 1.1.1. Software basado en el tipo de trabajo que realizan
 
-Según esta clasificación, podemos distinguir tres tipos de software:
+Según esta clasificación, hay tres tipos de software:
 
 - **Software de sistema**: es el que hace que el hardware funcione. Está formado por programas que administran la parte física e interactúa entre los usuarios y el hardware. Algunos ejemplos son los sistemas operativos, los controladores de dispositivos, las herramientas de diagnóstico, etc.
 - **Software de aplicación**: aquí tendremos los programas que realizan tareas específicas para que el ordenador sea útil al usuario. Por ejemplo, los programas ofimáticos, el software médico o el de diseño asistido, etc.
