@@ -2,8 +2,7 @@
 
 ## UF4: Programación orientada a objetos (POO)
 
-Los elementos que componen un programa son siempre similares. En la mayoría de los programas podemos encontrar variables, constantes, sentencias alternativas,
-repetitivas, etc. La principal diferencia la podemos apreciar entre las distintas palabras reservadas y en cómo se van a definir estas en un lenguaje de programación específico.
+Los elementos que componen un programa son siempre similares. En la mayoría podemos encontrar variables, constantes, sentencias alternativas, repetitivas, etc. La principal diferencia la podemos apreciar entre las distintas palabras reservadas y en cómo se van a definir estas en un lenguaje de programación específico.
 
 ### 1.0. Lenguaje de programación Java
 
