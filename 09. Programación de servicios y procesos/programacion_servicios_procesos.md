@@ -75,7 +75,7 @@ En esta clase de algoritmos, tanto el emisor como el receptor comparten una úni
 En este tipo de algoritmos se generan dos claves (clave pública y clave privada). El receptor genera estas claves y muestra la clave pública al emisor. El emisor utiliza esta clave para descifrar el mensaje y, posteriormente, el receptor utilizará la clave privada para desencriptarlo.
 
 - **RSA**: la seguridad de este algoritmo radica en el problema de la factorización de números enteros. Tanto la clave pública como la privada se componen de un par de números:
-  - Pública (n, e).
-  - Privada (n, d).
+  - Pública (*n*, *e*).
+  - Privada (*n*, *d*).
  
-Estos números son hallados mediante operaciones a partir de dos números primos, escogidos de forma aleatoria. Hay que tener en cuenta que es imposible conocer d, aunque conozcamos n y e. Este algoritmo es la base de la **firma digital**.
+Estos números son hallados mediante operaciones a partir de dos números primos, escogidos de forma aleatoria. Hay que tener en cuenta que es imposible conocer *d*, aunque conozcamos *n* y *e*. Este algoritmo es la base de la **firma digital**.
