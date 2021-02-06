@@ -39,7 +39,7 @@ Se compone de dos elementos principales:
 
 El diagrama es el elemento principal en el modelo entidad-relación. Se compone principalmente de entidades, relaciones entre las entidades, atributos y cardinalidades.
 
-Este modelo nos ayuda a la creación de una base de datos. Se realiza tras la recopilación de información sobre la futura BBDD que se desea construir y antes del modelo relacional.
+Este modelo nos ayuda a la creación de una base de datos. Se realiza tras la recopilación de información sobre la BBDD que se desea construir y antes del modelo relacional.
 
 Para contextualizar el modelo entidad-relación dentro de una base de datos, vamos a describir las fases que precisa una base de datos para su completa formación.
 
