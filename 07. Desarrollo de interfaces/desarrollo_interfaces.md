@@ -51,7 +51,7 @@ En la siguiente figura se puede observar cómo la capa de datos lógicos de la a
 
 ---
 
-Como almacén principal de los datos, la mayoría de las aplicaciones hacen uso de una base de datos relacional. Para poder recuperar los datos de la base de datos, se utiliza un conjunto de datos conocido como *DataReader*. Estos datos se envían a través de las diferentes capas y niveles de la aplicación para que finalmente puedan ser utilizados por uno de sus componentes.
+Como almacén principal de los datos, la mayoría de las aplicaciones hacen uso de una base de datos relacional. Para poder recuperar los datos de la base de datos se utiliza un conjunto de datos conocido como *DataReader*. Estos datos se envían a través de las diferentes capas y niveles de la aplicación para que finalmente puedan ser utilizados por uno de sus componentes.
 
 Indistintamente del almacén de datos que se utilice, el servicio o la aplicación para obtener el acceso a los datos utilizará componentes lógicos de acceso a datos. Estos componentes ofrecen una interfaz sencilla de programación para recuperar y realizar operaciones para insertar, eliminar, recuperar y actualizar los datos.
 
@@ -59,7 +59,7 @@ Si una aplicación contiene diferentes componentes lógicos de acceso a datos, p
 
 1.3. Componentes: características y campos de aplicación
 
-La programación orientada a componentes (POC) pertenece a la rama de la ingeniería del software que hace énfasis en la descomposición de sistemas ya conformados en componentes funcionales con interfaces bien definidas usadas para la comunicación entre componentes.
+La **programación orientada a componentes** (POC) pertenece a la rama de la ingeniería del software que hace énfasis en la descomposición de sistemas ya conformados en componentes funcionales con interfaces bien definidas usadas para la comunicación entre componentes.
 
 Se considera que los componentes tienen un nivel de abstracción más elevado que los objetos, por este motivo no comparten estado y la comunicación es a través de mensajes que contienen datos.
 
