@@ -16,7 +16,7 @@ Podemos dividir el software en dos categorías: según las tareas que realiza y 
 
 Según esta clasificación, hay tres tipos de software:
 
-- **Software de sistema**: es el que hace que el hardware funcione. Está formado por programas que administran la parte física e interactúa entre los usuarios y el hardware. Algunos ejemplos son los sistemas operativos, los controladores de dispositivos, las herramientas de diagnóstico, etc.
+- **Software de sistema**: es el que hace que el hardware funcione. Está formado por programas que administran la parte física e interactúa entre los usuarios y el hardware (sistemas operativos, controladores de dispositivos, herramientas de diagnóstico, etc.).
 - **Software de aplicación**: aquí tendremos los programas que realizan tareas específicas para que el ordenador sea útil al usuario. Por ejemplo, los programas ofimáticos, el software médico o el de diseño asistido, etc.
 - **Software de programación o desarrollo**: es el encargado de proporcionar al programador las herramientas necesarias para escribir los programas informáticos y para hacer uso de distintos lenguajes de programación. Entre ellos encontramos los entornos de desarrollo integrado (IDE).
 
