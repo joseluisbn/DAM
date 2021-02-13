@@ -8,7 +8,7 @@ El ordenador está compuesto por dos partes: la parte física, que llamamos hard
 
 En este apartado veremos conceptos básicos para el desarrollo del software.
 
-Además de dar instrucciones al hardware, el software también almacenará los datos necesarios para ejecutar los programas y contendrá los datos almacenados del ordenador.
+Además de dar instrucciones al hardware, el software almacenará los datos necesarios para ejecutar los programas y contendrá los datos almacenados del ordenador.
 
 Podemos dividir el software en dos categorías: según las tareas que realiza y según su método de distribución. Además, si tenemos en cuenta la licencia por la cual se distribuye, se clasifica en: software libre, software propietario y software de dominio público.
 
