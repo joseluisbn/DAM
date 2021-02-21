@@ -27,4 +27,4 @@ Temario y material de apoyo para el CFGS de **Desarrollo de aplicaciones multipl
 
 ### Notas
 
-- Se excluyen del repositorio las materias Formación y orientación laboral (FOL) y Empresa e iniciativa emprendedora (EIE).
+- Se excluyen las materias Formación y orientación laboral (FOL) y Empresa e iniciativa emprendedora (EIE).
