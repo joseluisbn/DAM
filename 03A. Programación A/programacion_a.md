@@ -24,7 +24,7 @@ Características de los diagramas de flujo:
 - Los diagramas de flujo deben escribirse de arriba abajo o de izquierda a derecha
 - Debemos evitar el cruce de líneas, para eso se define la forma de conector. El uso de conectores debe producirse cuando no exista otra opción
 - Todas las líneas de flujo deben estar conectadas a algún objeto
-- A la hora de escribir texto en las formas, este debe ser escueto y legible
+- A la hora de escribir texto en las formas, debe ser escueto y legible
 - Todos los símbolos de decisión deben tener más de una línea de salida, es decir, deben indicar qué camino seguir en función de la decisión tomada.
 
 El **proceso de programación** comunica un usuario y una máquina. Para que se pueda realizar esta comunicación debemos de tener:
