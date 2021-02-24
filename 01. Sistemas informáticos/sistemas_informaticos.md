@@ -2,9 +2,9 @@
 
 ## 1. Instalación software libre y propietario
 
-Entendemos por **sistema informático** aquel sistema que almacena y procesa información interrelacionando el hardware y el software de un ordenador.
+Entendemos por **sistema informático** aquel sistema que almacena y procesa información interrelacionando el *hardware* y el *software* de un ordenador.
 
-El hecho de utilizar un software libre implica que los usuarios podrán modificar, copiar, ejecutar e incluso mejorar dicho programa. Para cubrir las necesidades que se nos plantean en el ámbito de la informática es preciso tener en cuenta algunos factores que podemos resumir en dos:
+El hecho de utilizar un **software libre** implica que los usuarios podrán modificar, copiar, ejecutar e incluso mejorar dicho programa. Para cubrir las necesidades que se nos plantean en el ámbito de la informática es preciso tener en cuenta algunos factores que podemos resumir en dos:
 
 **Conocer en profundidad el hardware**
 
