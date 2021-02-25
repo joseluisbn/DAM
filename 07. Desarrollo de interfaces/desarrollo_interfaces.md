@@ -4,9 +4,9 @@
 
 Existen una serie de aplicaciones en el mercado que se utilizan para llevar a cabo la confección de interfaces. Dichas aplicaciones también reciben el nombre de **IDE** (entorno de desarrollo integrado).
 
-Entre sus principales características se encuentran las de codificación, compilación, depuración y testeo de los diferentes programas.
+Entre sus principales características están las de codificación, compilación, depuración y testeo de los diferentes programas.
 
-Las más importantes son: Visual Studio, NetBeans y Eclipse.
+Algunas de las más importantes son: Visual Studio, NetBeans y Eclipse.
 
 Esta aplicación cuenta con diferentes versiones bajo licencia, aunque también ha desarrollado algunas versiones gratuitas con denominación express.
 
