@@ -10,10 +10,10 @@ A la hora de desarrollar programas, un **código limpio** aportará seguridad a 
 
 Para ello es preciso:
 
-- Estar siempre informado de los diferentes tipos de vulnerabilidades, con lo cual es necesario estar al día en ciberseguridad.
+- Estar siempre informado de los diferentes tipos de vulnerabilidades, por lo que es necesario estar al día en ciberseguridad.
 - Explorar software libre para conocer cómo se trabaja la seguridad en distintas aplicaciones.
 
-Normalmente, toda aplicación recibirá información por parte del usuario, por lo que es importante el tratamiento de la misma. Los datos, al ser una parte muy sensible, es lo que más se suele atacar.
+Normalmente, toda aplicación recibirá información por parte del usuario, así que es importante el tratamiento de la misma. Los datos, al ser una parte muy sensible, es lo que más se suele atacar.
 
 Es necesario verificar siempre que los datos introducidos son válidos, tanto los parámetros, como la información, como los ficheros que se utilizan.
 
